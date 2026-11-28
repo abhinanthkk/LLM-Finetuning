@@ -1,0 +1,308 @@
+{
+ "TGD7-Liquids-unloading-16": [
+  {
+   "type": "definition",
+   "question": "What is smart well technology for plunger lift wells?",
+   "answer": "An automated system that considers well conditions and decides when a plunger lift cycle is needed, so liquids are unloaded at the optimal time.",
+   "evidence": "“Smart” Well Technology is an automated system that takes into account well conditions and determines when a plunger lift cycle needs to be actuated to determine optimally when the liquids should be unloaded"
+  },
+  {
+   "type": "lookup",
+   "question": "What equipment does smart well technology for plunger lifts require?",
+   "answer": "A remote terminal unit with programmable logic controllers, tubing and casing transmitters, gas measuring equipment, a control valve, and a plunger detector.",
+   "evidence": "Remote terminal unit with programmable logic controllers"
+  },
+  {
+   "type": "quantification",
+   "question": "How should Partners estimate methane reductions from smart well technology?",
+   "answer": "Reductions depend on flowing pressure and operations, so Partners should measure baseline emissions before and evaluate emissions after implementation.",
+   "evidence": "Partners employing this option should determine baseline emissions before implementing this option and then evaluate emissions after implementation to determine emission reductions."
+  },
+  {
+   "type": "lookup",
+   "question": "How much does smart well technology cost per well?",
+   "answer": "One Natural Gas STAR partner estimated $5,700 to $18,000 per well, incremental to a plunger lift.",
+   "evidence": "One EPA Natural Gas STAR partner has estimated the cost for smart technology to be $5,700 to $18,000 per well."
+  },
+  {
+   "type": "why",
+   "question": "What economic benefit does smart well technology add to a plunger lift?",
+   "answer": "It maximizes plunger lift effectiveness, giving additional gas production and economic benefit.",
+   "evidence": "This technology enables the user to maximize the effectiveness of a plunger lift. The user therefore sees additional increased gas production and therefore additional economic benefit."
+  }
+ ],
+ "TGD7-Liquids-unloading-17": [
+  {
+   "type": "mitigation",
+   "question": "Which methods can avoid vented liquids unloading altogether?",
+   "answer": "Downhole pumps, gas lift, and wellsite compression can abate venting from manual, intermittent and plunger lift unloading.",
+   "evidence": "Pumps, gas lift, and wellsite compression may be mitigation measures implemented in some wells to abate venting associated with manual, intermittent and plunger lift liquids unloading in which atmospheric venting occurs."
+  },
+  {
+   "type": "comparison",
+   "question": "What advantage do rod pumps have over plunger lifts for gas well liquids?",
+   "answer": "A rod pump works with a lower pressure drop than a plunger lift needs and regardless of gas velocity, extending well life.",
+   "evidence": "A rod pump can remove liquids when there is a lower pressure drop than is needed for a plunger lift to work."
+  },
+  {
+   "type": "lookup",
+   "question": "What is the main requirement for gas lift in horizontal gas wells?",
+   "answer": "A readily available high-pressure wellsite compressor.",
+   "evidence": "The major requirement for gas lift is a readily available high-pressure wellsite compressor."
+  },
+  {
+   "type": "definition",
+   "question": "What is sequential lift for horizontal gas wells?",
+   "answer": "A series of pumps following the horizontal well to pump out liquids; Muskegon Development Company found it better than gas lift for managing liquids and minimizing emissions.",
+   "evidence": "This technology uses a series of pumps that follow the horizontal well and pump liquids from the well."
+  },
+  {
+   "type": "definition",
+   "question": "How does gas lift remove liquids from a horizontal gas well?",
+   "answer": "High-pressure gas sent into the casing increases the pressure differential, so gas returns up the tubing faster and carries liquids out.",
+   "evidence": "Gas lift systems send high-pressure gas into the casing of the well, which increases the pressure differential between the bottom of the well and the wellhead."
+  }
+ ],
+ "TGD7-Liquids-unloading-18": [
+  {
+   "type": "lookup",
+   "question": "How much gas can rod pumps save per well in liquids unloading?",
+   "answer": "In some cases an estimated 770 to 1,600 Mcf/well per year.",
+   "evidence": "In some cases, rod pumps can save an estimated 770 to 1,600 Mcf/well per year."
+  },
+  {
+   "type": "lookup",
+   "question": "What are the costs of a rod pump for gas well liquids unloading?",
+   "answer": "$25,900 to $51,800 to implement, $1,300 to $19,500 per year maintenance, $13,200 well treatment, and $1,000 to $7,300 per year electricity.",
+   "evidence": "The cost for implementing a rod pump is estimated to be $25,900 to $51,800 with a maintenance cost of $1,300 to $19,500 per year, well treatment cost of $13,200, and electricity cost of $1,000 to $7,300 per year."
+  }
+ ],
+ "TGD7-Liquids-unloading-19": [
+  {
+   "type": "quantification",
+   "question": "What hierarchy does the OGMP suggest for mitigated liquids unloading emissions?",
+   "answer": "Direct measurement, then engineering equations, then emission factors.",
+   "evidence": "it is suggested that mitigated emissions be determined using an emissions hierarchy of direct measurement, engineering equations, and emissions factors"
+  },
+  {
+   "type": "quantification",
+   "question": "How are reductions calculated when a manually unloaded well converts to a plunger lift?",
+   "answer": "Estimated manual unloading emissions, assuming the same frequency as plunger cycles, minus estimated plunger lift emissions.",
+   "evidence": "the mitigated emissions are the estimated emissions from manually unloading (presuming the same frequency as plunger lift cycles) minus the mitigated estimated emissions associated with plunger lift operations"
+  },
+  {
+   "type": "why",
+   "question": "Where do reductions from liquids unloading cycle optimization come from?",
+   "answer": "Mainly from reduced frequency and volume of venting.",
+   "evidence": "reductions are primarily due to the reduced frequency and volume of venting"
+  },
+  {
+   "type": "comparison",
+   "question": "What are post-mitigation emissions for wells with pumps, gas lift or wellhead compression?",
+   "answer": "Presumably zero, since these remove liquids and abate the need for vented unloading.",
+   "evidence": "which presumably should be zero since this mitigation measure abates the need for liquids unloading"
+  },
+  {
+   "type": "quantification",
+   "question": "How are mitigated emissions estimated for wells using foaming agents or velocity tubing?",
+   "answer": "Estimated emissions before the mitigation minus estimated emissions after it.",
+   "evidence": "the estimated mitigated emissions are the estimated emissions of the well prior to the mitigation (e.g. foaming agent) minus the estimated emissions after mitigation"
+  }
+ ],
+ "TGD7-Liquids-unloading-20": [
+  {
+   "type": "lookup",
+   "question": "Which data sources are behind the OGMP liquids unloading emission factors?",
+   "answer": "They were developed from available public data: the API and ANGA report, reports to the US Greenhouse Gas Reporting Program, and the UT Study.",
+   "evidence": "Emissions factors for liquids unloading were developed from available public data are summarized in the Tables below."
+  }
+ ],
+ "TGD8-Well-completions-01": [
+  {
+   "type": "definition",
+   "question": "What is hydraulic fracturing in gas well completions?",
+   "answer": "Fracturing reservoir rock with very high pressure water containing a proppant, generally sand, that keeps fractures propped open.",
+   "evidence": "operators fracture the reservoir rock with very high pressure water containing a proppant (generally sand) that keeps the fractures “propped open” after water pressure is reduced"
+  },
+  {
+   "type": "why",
+   "question": "Why do hydraulically fractured well completions release methane?",
+   "answer": "Removing water and excess proppant during completion and clean-up can release significant natural gas.",
+   "evidence": "Removing the water and excess proppant (generally sand) during completion and well clean-up may result in significant releases of natural gas and therefore methane emissions to the atmosphere."
+  },
+  {
+   "type": "why",
+   "question": "Why is completion flowback often sent to a pit or tanks?",
+   "answer": "The normal separator is not designed for the high liquid rates and three-phase flow, so flowback goes to a pit or tanks where gas slugs are vented or flared.",
+   "evidence": "Typically, the gas/liquid separator installed for normal well flow is not designed for these high liquid flow rates and three-phase (gas, liquid, and sand) flow."
+  },
+  {
+   "type": "lookup",
+   "question": "How long can a hydraulically fractured well completion take?",
+   "answer": "Anywhere from several hours to several weeks.",
+   "evidence": "Completions can take anywhere from several hours to several weeks"
+  },
+  {
+   "type": "why",
+   "question": "Why might the fracture process be repeated during a well completion?",
+   "answer": "Production is tested during completion, and fracturing may be repeated to reach desired levels.",
+   "evidence": "it may be necessary to repeat the fracture process to achieve desired production levels from a particular well"
+  }
+ ],
+ "TGD8-Well-completions-02": [
+  {
+   "type": "definition",
+   "question": "How does 40 CFR Part 98.6 define a well completion?",
+   "answer": "The process letting petroleum or gas flow from new wells to expel fluids and test the reservoir, which may vent gas via an open pit or tank.",
+   "evidence": "Well completions means the process that allows for the flow of petroleum or natural gas from newly drilled wells to expel drilling and reservoir fluids and test the reservoir flow characteristics"
+  },
+  {
+   "type": "comparison",
+   "question": "Which well completion steps vent significant gas and which do not?",
+   "answer": "Connecting the wellbore, treating formation or installing tubing do not; high-rate flowback after fracturing may vent large quantities.",
+   "evidence": "This process may also include high-rate flowback of injected gas, water, oil, and proppant used to fracture or re-fracture and prop open new fractures in existing lower permeability gas reservoirs, steps that may vent large quantities of produced gas to the atmosphere."
+  },
+  {
+   "type": "why",
+   "question": "Why do conventional gas wells typically not need hydraulic fracturing?",
+   "answer": "Conventional reservoirs have well-defined permeable, porous formations, though fracturing is sometimes still used.",
+   "evidence": "Conventional wells typically do not require production stimulation due to the well-defined permeable and porous formations in conventional gas reservoirs."
+  }
+ ],
+ "TGD8-Well-completions-03": [
+  {
+   "type": "definition",
+   "question": "What does low methane emissions mean for mitigated well completions?",
+   "answer": "Emissions consistent with expected levels when mitigation functions properly, e.g. flare lit and only non-combustible gas vented.",
+   "evidence": "“Low” methane emissions is defined as being consistent with “expected emissions levels if mitigation option is in place and functioning properly (e.g., flare is not extinguished, only non-combustible gas is vented, etc.).”"
+  },
+  {
+   "type": "lookup",
+   "question": "What malfunctions can raise emissions from mitigated well completions?",
+   "answer": "A blown-out flare, malfunctioning venting, or venting non-combustible gas with too much nitrogen and/or carbon dioxide instead of flaring or producing it.",
+   "evidence": "a flare has blown out, venting system is malfunctioning, only non-combustible gas with too high concentration of nitrogen and/or carbon dioxide is vented rather than flared or produced to a sales line"
+  },
+  {
+   "type": "why",
+   "question": "What does reporting a well completion as mitigated imply?",
+   "answer": "That the Partner has internally confirmed the mitigation technology works properly.",
+   "evidence": "reporting that a source is mitigated implies that this check has been done"
+  }
+ ],
+ "TGD8-Well-completions-04": [
+  {
+   "type": "quantification",
+   "question": "How are annual methane emissions from hydraulically fractured well completions calculated?",
+   "answer": "The measured methane flow rate times the annual number of completions and workovers for the well.",
+   "evidence": "An annual volume of methane emissions is calculated by multiplying the measured methane emissions flow rate by the annual number of completions and workovers for a well."
+  },
+  {
+   "type": "lookup",
+   "question": "Which regulation's method can quantify well completion venting?",
+   "answer": "40 CFR Part 98.233 (g), Subpart W of the Mandatory GHG Reporting Rule.",
+   "evidence": "such as the one shown in 40 CFR Part 98.233 (g) (Subpart W of the Mandatory GHG Reporting Rule)"
+  },
+  {
+   "type": "quantification",
+   "question": "Where is flowback measured during a well completion?",
+   "answer": "At the vent stack of the storage tank or three-phase separator, using a recording flow meter.",
+   "evidence": "If the produced gas is directed to a storage tank or a three-phase separator, Partners can measure the flowback rate at the vent stack of either unit using a recording flow meter."
+  },
+  {
+   "type": "lookup",
+   "question": "Which tools are recommended for measuring well completion flowback?",
+   "answer": "Vane anemometer, hotwire anemometer, turbine meter, and orifice meter.",
+   "evidence": "Recommended measurement tools include the following:"
+  }
+ ],
+ "TGD8-Well-completions-05": [
+  {
+   "type": "why",
+   "question": "Why should total flowback volume be calculated from recorded rates?",
+   "answer": "Because the flowback rate is not consistent throughout the flowback.",
+   "evidence": "Since the flowback rate is not consistent throughout the duration of the flowback, Partners should calculate the total flowback volume from the recorded flowback rates"
+  },
+  {
+   "type": "quantification",
+   "question": "How are energized fracture jobs handled in completion flowback calculations?",
+   "answer": "The CO2 or N2 injected into the reservoir is deducted from the total flowback volume.",
+   "evidence": "deducting any amount of CO2 or N2 injected into the reservoir during the energized fracture job"
+  },
+  {
+   "type": "lookup",
+   "question": "When is the injected gas term set to zero in the well completion equation?",
+   "answer": "If no gas was injected, or the injected gas was CO2.",
+   "evidence": "If the fracture process did not inject gas into the reservoir or the injected gas is CO2, then EnFs,p is 0."
+  },
+  {
+   "type": "quantification",
+   "question": "How is the emission factor approach applied to fractured well completions?",
+   "answer": "Multiply the Table 8.2 emission factor by the number of completions of each type.",
+   "evidence": "Partners can estimate methane emissions from well venting during well completions for hydraulically fractured wells using the emissions factors shown in Table 8.2 at the end of this document. To quantify emissions, Partners should multiply the emission factor with the number of completions of each type."
+  }
+ ],
+ "TGD8-Well-completions-06": [
+  {
+   "type": "definition",
+   "question": "What are reduced emission completions (RECs)?",
+   "answer": "Using specialty flowback equipment to route completion flowback gas to a sales line or flare instead of venting.",
+   "evidence": "Reduced emission completions (RECs) are a successful established methane reduction technology, in which operators use specialty flowback equipment and route completion flowback gas to a sales line or flare rather than venting to the atmosphere."
+  },
+  {
+   "type": "lookup",
+   "question": "Which equipment treats produced gas during an REC?",
+   "answer": "Sand traps, plug catchers, dehydrators, and three-phase separators.",
+   "evidence": "The treatment process includes passing the produced gas through sand traps, plug catchers, dehydrators, and three-phase separators"
+  },
+  {
+   "type": "comparison",
+   "question": "When should an operator build its own REC skid vs. use third parties?",
+   "answer": "Own skid in high-drilling basins; third-party users combine completion scheduling with the annual drilling program.",
+   "evidence": "A gas producer might find it economical for a basin with high drilling activity to build its own REC skid."
+  },
+  {
+   "type": "lookup",
+   "question": "What wells are RECs appropriate for?",
+   "answer": "Only gas wells completed with hydraulic fracturing; sending gas to sales also needs an existing sales line.",
+   "evidence": "The mitigation option for this emission source, namely RECs, is appropriate only for gas wells that undergo well completions using hydraulic fracturing."
+  },
+  {
+   "type": "why",
+   "question": "Why is REC piping configuration critical?",
+   "answer": "High-velocity water and sand can erode holes in steel elbows, creating washouts.",
+   "evidence": "the high-velocity water and sand can erode holes in steel pipe elbows, creating “washouts”"
+  }
+ ],
+ "TGD8-Well-completions-07": [
+  {
+   "type": "lookup",
+   "question": "What methane reduction do RECs achieve vs. venting?",
+   "answer": "Generally greater than 95 percent.",
+   "evidence": "generally achieves greater than 95 percent reduction in methane emissions compared to venting the gas"
+  },
+  {
+   "type": "lookup",
+   "question": "What is the incremental daily cost of an REC and how long does flowback last?",
+   "answer": "$800 to $7,500 per day, for about three to 10 days.",
+   "evidence": "The incremental costs of performing an REC are estimated to be from $800 to $7,500 per day and well completion flowback lasts approximately three to 10 days."
+  },
+  {
+   "type": "comparison",
+   "question": "What explains the low and high ends of REC daily costs?",
+   "answer": "Low ($800/day): suitable equipment already onsite. High ($7,500/day): key equipment brought in temporarily.",
+   "evidence": "The low end of the cost range ($800/day) represents completions and workovers where key pieces of equipment to perform the REC (e.g., a dehydrator or three-phase separator) are already onsite and are of suitable design and capacity to use during flowback. The high end of the cost range ($7,500/day) represents situations where key pieces of equipment to perform the REC are temporarily brought on site and then relocated after the completion or workover."
+  },
+  {
+   "type": "lookup",
+   "question": "What is the total incremental cost per well of an REC?",
+   "answer": "$29,000 at $4,150 per day for seven days, plus $700 for transport, totalling $29,700.",
+   "evidence": "The average incremental cost is $4,150 per day and the average completion lasts seven days. Based on these averages, the overall incremental cost is $29,000 per well for a REC versus an unmitigated completion. Partners should include an additional $700 to account for transporting and placing equipment, giving a total incremental cost of $29,700 per well."
+  },
+  {
+   "type": "why",
+   "question": "Why can REC annual costs equal capital costs?",
+   "answer": "RECs are one-time events per well.",
+   "evidence": "RECs are considered one-time events per well. Therefore, annual costs can be conservatively assumed to be the same as capital costs."
+  }
+ ]
+}

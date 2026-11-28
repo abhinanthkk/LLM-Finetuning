@@ -1,0 +1,298 @@
+{
+ "TGD6-Storage-Tanks-08": [
+  {
+   "type": "why",
+   "question": "When must Partners add an engineering estimate for stuck-open scrubber dump valves to storage tank emissions?",
+   "answer": "Only when they use software or lab analysis rather than direct measurement, because those methods miss dump valve emissions, while vent measurements already include them.",
+   "evidence": "Partners need to do this only if they are not using direct measurement to quantify methane emissions from storage tanks"
+  },
+  {
+   "type": "lookup",
+   "question": "What correction factors apply to storage tank emissions while a dump valve is stuck open?",
+   "answer": "3.87 for crude oil production, 5.37 for gas condensate production, and 1.0 for periods when the dump valve is closed.",
+   "evidence": "CFn = Correction factor for tank emissions for time period Tn for crude oil production is 3.87; for tank emissions for time period Tn for gas condensate production is 5.37; and for time period Tn for periods when the dump valve is closed is 1.0."
+  },
+  {
+   "type": "quantification",
+   "question": "How is the time a separator dump valve was stuck open estimated for storage tank emissions?",
+   "answer": "From maintenance or operations records: when a record shows the valve open improperly, it is assumed open since the start of the year or the previous record showing it closed properly.",
+   "evidence": "Tn is estimated by maintenance or operations records such that when a record shows the valve to be open improperly"
+  },
+  {
+   "type": "definition",
+   "question": "In the stuck-open dump valve equation for storage tanks, what does En represent?",
+   "answer": "En is the storage tank emissions determined by calculation, software or lab analysis, in scf per year.",
+   "evidence": "En = Storage tank emissions as determined via calculation, software, or lab analysis (scf/y)."
+  },
+  {
+   "type": "why",
+   "question": "Why should scrubber dump valve emissions be added when tank emissions are estimated with software or lab analysis?",
+   "answer": "To avoid underestimating storage tank emissions when a scrubber dump valve is confirmed stuck open.",
+   "evidence": "If Partners use software or lab analysis, then they should also use this method to avoid underestimating emissions from storage tanks"
+  }
+ ],
+ "TGD6-Storage-Tanks-09": [
+  {
+   "type": "definition",
+   "question": "How does a vapor recovery unit (VRU) capture storage tank vapors?",
+   "answer": "It draws vapors from a fixed-roof tank at low pressure, typically between 4 ounces and 2 psi (0.0175 and 0.14 kg/cm2) gauge, through a suction scrubber to a wet gas compressor.",
+   "evidence": "A VRU first draws hydrocarbon vapors out of a fixed roof storage tank under low pressure, typically between 4 ounces and 2 psi (0.0175 and 0.14 kg/cm2) gauge pressure, and routes them through a separator (suction scrubber) to a specifically designed wet gas compressor."
+  },
+  {
+   "type": "why",
+   "question": "Why should a VRU suction line slope only downward to the suction scrubber?",
+   "answer": "So that no liquid trap forms that would block the free flow of gas to the compressor.",
+   "evidence": "Proper design includes routing the suction line with only a downward slope to the suction scrubber so that a liquid trap does not occur"
+  },
+  {
+   "type": "lookup",
+   "question": "Where can vapors recovered by a storage tank VRU be sent?",
+   "answer": "To a gas sales line, local fuel, and/or the suction of a production or gas lift compressor.",
+   "evidence": "the vapors are routed to their desired location(s) within the facility: a gas sales line, local fuel, and/or suction of a production or gas lift compressor"
+  },
+  {
+   "type": "comparison",
+   "question": "Why are storage tank vapors recovered by a VRU worth more than pipeline gas?",
+   "answer": "They are rich in propane, butanes and natural gasoline, so they have a higher heat content and are more valuable to gas processing plants.",
+   "evidence": "The recovered vapors are rich in propane, butanes, and natural gasoline and will therefore have higher heat content and a higher value to gas processing plants than pipeline quality natural gas."
+  },
+  {
+   "type": "lookup",
+   "question": "What indicates a good site for a storage tank VRU project?",
+   "answer": "A regular and sufficient quantity of crude oil and/or condensate production and an economic outlet for the recovered products; a source of electricity is also highly desirable.",
+   "evidence": "Two indicators of a potential VRU project are a regular and sufficient quantity of crude oil and/or condensate production and an economic outlet for collected products."
+  }
+ ],
+ "TGD6-Storage-Tanks-10": [
+  {
+   "type": "lookup",
+   "question": "What equipment is included in a standard storage tank VRU?",
+   "answer": "A downward-sloping suction pipeline manifolded to all tanks, a suction scrubber, a compressor (usually electric rotary vane, screw or scroll), a liquid transfer pump, a PLC controller, and discharge piping, instruments, valves and controls.",
+   "evidence": "Compressor (typically electric-driven rotary vane, screw, or scroll compressor)."
+  },
+  {
+   "type": "mitigation",
+   "question": "What is a vapor recovery tower (VRT) used for with a storage tank VRU?",
+   "answer": "It keeps the VRU at steady state despite rapid tank pressure changes during pump-out, by moving gas/oil separation and flash gas generation above the tank.",
+   "evidence": "Partners may consider installing a vapor recovery tower (VRT) to ensure the VRU operates at steady state within its design capacity even with the rapid changes in pressure with liquids flow out of the storage tank(s)."
+  },
+  {
+   "type": "comparison",
+   "question": "Why are wet screw compressors often used in VRUs, and what is the trade-off?",
+   "answer": "Coolant injection lets them reach high compression ratios, up to 20 in a single stage, but the coolant reduces the effective gas volume, so both effects should be modelled.",
+   "evidence": "Wet screw compressors are often chosen for VRU applications for their ability to achieve high compression ratios (up to 20 in a single stage) due to the injection of a significant amount of coolant into the compressor chamber."
+  },
+  {
+   "type": "lookup",
+   "question": "What methane reduction is expected from installing a VRU on a storage tank?",
+   "answer": "95 percent, based on a VRU operating factor of 95 percent with 5 percent yearly downtime for maintenance.",
+   "evidence": "Based on a VRU operating factor of 95 percent (allowing 5 percent yearly downtime of the VRU for maintenance), Partners can expect to reduce methane emissions from a storage tank by 95 percent after implementing this technology."
+  },
+  {
+   "type": "quantification",
+   "question": "How should a storage tank VRU be sized?",
+   "answer": "To handle the maximum vapor volume expected from the tanks; a rule of thumb is double the average daily volume.",
+   "evidence": "Partners should size a VRU to handle the maximum volume of vapors expected from the storage tanks (a rule of thumb is to double the average daily volume)."
+  }
+ ],
+ "TGD6-Storage-Tanks-11": [
+  {
+   "type": "mitigation",
+   "question": "Which other vented gas streams can a storage tank VRU recover to improve project economics?",
+   "answer": "Pneumatic device vents, compressor rod packing vents, glycol dehydrator vents with a vent condenser, and controlled equipment blowdowns.",
+   "evidence": "Examples include pneumatic device vents, compressor rod packing vents, Glycol Dehydrator vent (with a vent condenser), and controlled equipment blowdowns."
+  },
+  {
+   "type": "lookup",
+   "question": "What do VRUs cost for 25 Mcf/day and 500 Mcf/day of storage tank vapors?",
+   "answer": "Approximately $35,000 and $105,000 respectively, including installation.",
+   "evidence": "Estimated VRU and associated installation costs for 25 thousand cubic feet per day (Mcf/day) and 500 Mcf/day throughputs (708 standard cubic meters per/day and 14,158 scm/day) are approximately $35,000 and $105,000, respectively."
+  },
+  {
+   "type": "lookup",
+   "question": "What are the yearly O&M costs for storage tank VRUs?",
+   "answer": "About $7,400 and $16,800 per year for the smaller and larger VRU capacities respectively, mainly for electricity.",
+   "evidence": "Yearly operation (primarily electricity) and maintenance costs (O&M) associated with these VRU capacities are $7,400 and $16,800, respectively."
+  },
+  {
+   "type": "quantification",
+   "question": "How do VRU installation costs relate to equipment cost?",
+   "answer": "Installation typically costs 50 to 100 percent of the VRU equipment cost; the OGMP estimates use 75 percent.",
+   "evidence": "installation costs range between 50 to 100 percent of the initial VRU equipment cost (75 percent was chosen for economic estimates provided here)"
+  },
+  {
+   "type": "why",
+   "question": "When does a storage tank VRU likely need a two-stage compressor?",
+   "answer": "When discharging gas at pressures above 100 psig (7 kg/cm2).",
+   "evidence": "Discharging gas at pressures above 100 psig (7 kg/cm2) will likely involve a twostage compressor."
+  }
+ ],
+ "TGD6-Storage-Tanks-12": [
+  {
+   "type": "why",
+   "question": "What increases the O&M costs of a storage tank VRU?",
+   "answer": "Cold climates cause more wear, acid gas with CO2 and/or H2S causes more corrosion, electricity prices, and paraffinic oil that clogs the VRU.",
+   "evidence": "the quality of the gas (high acid content, CO2 and/or H2S have higher corrosion rates)"
+  },
+  {
+   "type": "why",
+   "question": "Why is the value of recovered storage tank vapors not just the value of methane?",
+   "answer": "Tank vapors contain varying amounts of ethane, propane, butane, pentanes and heavier hydrocarbons, so savings also include high-BTU gas and recovered NGLs.",
+   "evidence": "the value of the recovered gas stream is rarely due to the value of methane alone as most tank vapors contain varying amounts of ethane, propane, butane, pentanes, and other “heavy” hydrocarbons"
+  },
+  {
+   "type": "lookup",
+   "question": "How much more can wet gas from tank vapors sell for under a heating-value contract?",
+   "answer": "Upwards of 2.5 times an equivalent volume of pipeline quality natural gas.",
+   "evidence": "“wet gas” may sell for upwards of 2.5 times an equivalent volume of pipeline quality natural gas"
+  }
+ ],
+ "TGD6-Storage-Tanks-13": [
+  {
+   "type": "lookup",
+   "question": "What is the typical vapor composition of a medium crude oil storage tank?",
+   "answer": "From E&P TANKS, for 30° API crude at atmospheric pressure and 70° F, about 68 percent methane, 10 percent ethane, 8 percent propane, and 3 percent each of butane and isobutene.",
+   "evidence": "for a tank holding a medium crude (30° API) at atmospheric pressure and 70° F (21 °C), the mole composition of vapors is approximately 68 percent methane, 10 percent ethane, 8 percent propane, and 3 percent each butane and isobutene"
+  },
+  {
+   "type": "lookup",
+   "question": "What is the yearly value of gas recovered by storage tank VRUs of 25 and 500 Mcf/day?",
+   "answer": "Approximately $30,000 and $600,000 per year at $7/Mcf of rich tank vapors.",
+   "evidence": "the yearly values of these recovered gas streams are approximately $30,000 and $600,000 at $7/Mcf of rich tank vapors, respectively"
+  },
+  {
+   "type": "lookup",
+   "question": "What is the value of NGLs recoverable from storage tank vapors?",
+   "answer": "About $60,000 per year at 25 Mcf/day and $340,000 per year at 500 Mcf/day for C2 to C4 liquids.",
+   "evidence": "For the same mole composition references above and vapor flow rates of 25 Mcf/day and 500 Mcf/day (708 scm/day and 14,158 scm/day), the approximate values of recoverable NGLs (C2 to C4) are $60,000/year and $340,000/year, respectively."
+  }
+ ],
+ "TGD6-Storage-Tanks-14": [
+  {
+   "type": "definition",
+   "question": "What is the purpose of stabilization towers ahead of crude oil storage?",
+   "answer": "In production they lower oil vapor pressure for loading onto ships and barges or extract more natural gas liquids; in gas processing they separate heavier hydrocarbons from lighter fractions before crude and condensate are transported and stored.",
+   "evidence": "the primary purpose of stabilization towers is to obtain a low oil vapor pressure suitable for loading onto ships and barges or extract more high-value natural gas liquids for gas processing"
+  },
+  {
+   "type": "comparison",
+   "question": "How do stabilization towers compare with VRUs for storage tank methane?",
+   "answer": "They serve a similar purpose, but can also lower crude vapor pressure below atmospheric and remove virtually all methane from the oil or condensate.",
+   "evidence": "Stabilization towers installed ahead of crude oil storage tanks can serve a similar function as vapor recovery units in reducing methane emissions from storage tanks, with the additional feature that they can reduce the crude oil vapor pressure below atmospheric pressure."
+  },
+  {
+   "type": "definition",
+   "question": "How does a crude oil stabilization tower work?",
+   "answer": "Oil enters the top and flows down trays; flashed vapors leave the top and stabilized oil leaves the bottom. A reboiler, and optionally stripping steam, drives off more light hydrocarbons.",
+   "evidence": "Crude oil or condensate enters the top of stabilization towers and flows down a series of trays."
+  },
+  {
+   "type": "lookup",
+   "question": "Are storage tanks fed by stabilization towers considered mitigated under the OGMP?",
+   "answer": "Yes. Stabilization towers are considered mitigated for methane for liquid petroleum product storage tanks.",
+   "evidence": "This technology is considered “mitigated” for methane with regards to liquid petroleum product storage tanks."
+  },
+  {
+   "type": "why",
+   "question": "Why are stabilization towers unlikely to be retrofitted just to cut storage tank methane?",
+   "answer": "They are expensive and installed for specific purposes such as product vapor pressure and NGL recovery.",
+   "evidence": "Because stabilization towers are expensive and installed for the specific purposes listed above, it is not anticipated that Partners will install them as a retrofit for the sole purpose of controlling methane emissions from tanks."
+  }
+ ],
+ "TGD6-Storage-Tanks-15": [
+  {
+   "type": "why",
+   "question": "Why is a flame arrestor essential when routing storage tank vapors to a flare?",
+   "answer": "Air drawn into an atmospheric tank can form explosive mixtures that could flash back from the flare flame and explode the tank.",
+   "evidence": "It is absolutely essential to include a flame arrestor in the flare line near the tank as air drawn into an atmospheric pressure storage tank can form explosive mixtures that could flash-back from the flare flame and explode the tank."
+  },
+  {
+   "type": "lookup",
+   "question": "What methane reduction is expected from flaring storage tank vapors?",
+   "answer": "A 98 percent reduction, assuming a properly operated flare with 98 percent combustion efficiency.",
+   "evidence": "Companies can expect to achieve a 98 percent reduction in methane emissions from routing storage tank vapors to a flare, assuming a properly operated flare (98 percent combustion efficiency)."
+  },
+  {
+   "type": "lookup",
+   "question": "What does a new flare system for storage tank vapors cost?",
+   "answer": "About $24,300 in total capital for the flare, flame arrestor and auto-igniter, plus approximately $1,800/year for pilot fuel and maintenance.",
+   "evidence": "For a new flare system, estimated total capital investment for a new flare and flame arrestor, including an auto-igniter, and associated freighting, design, and installation is estimated to be $24,300. Annual costs are estimated to be approximately $1,800/year for pilot fuel (assuming $3/Mcf) and flare system maintenance."
+  },
+  {
+   "type": "lookup",
+   "question": "What equipment does a new storage tank flare system require?",
+   "answer": "A flare stack, piping from the tanks to the flare, and a flame arrestor.",
+   "evidence": "a new flare system requires installation of the following equipment:"
+  },
+  {
+   "type": "why",
+   "question": "What benefits does flaring storage tank vapors give despite saving no gas?",
+   "answer": "A flare is a safe outlet for over-pressurized equipment and equipment under maintenance, and flaring tank vapors reduces operators' exposure to harmful pollutants.",
+   "evidence": "flaring the tank vapors means that there is less risk of exposure to harmful pollutants for the operators onsite"
+  }
+ ],
+ "TGD7-Liquids-unloading-01": [
+  {
+   "type": "why",
+   "question": "Why do gas wells need liquids unloading?",
+   "answer": "As production declines, gas velocity becomes too low to lift produced liquids, which accumulate in the wellbore and slow or stop gas flow to the sales line.",
+   "evidence": "as flow declines, the gas velocity may be insufficient to lift the produced liquid, and liquid may accumulate in the wellbore"
+  },
+  {
+   "type": "definition",
+   "question": "What are the four flow regimes in a gas well?",
+   "answer": "Mist flow, annular flow, slug flow and bubble flow, in order of decreasing gas velocity.",
+   "evidence": "Four main flow regimes normally occur in a gas well: mist flow, annular flow, slug flow, and bubble flow."
+  },
+  {
+   "type": "comparison",
+   "question": "Why is mist flow ideal in a gas well, and what happens in bubble flow?",
+   "answer": "In mist flow the gas carries liquids as mist. In bubble flow the gas is dispersed in the liquid and moves very slowly, no longer carrying liquids, so they accumulate.",
+   "evidence": "In this phase, the gas is no longer carrying the liquids through the tubing, resulting in accumulation of the liquids."
+  },
+  {
+   "type": "definition",
+   "question": "What happens in annular flow in a gas well?",
+   "answer": "The lighter gas travels up the center of the tubing while the heavier liquids flow along the tubing walls.",
+   "evidence": "In annular flow, the lighter gas travels up the center of the well tubing and the heavier liquids flow along the walls of the tubing."
+  },
+  {
+   "type": "lookup",
+   "question": "Which techniques can remove accumulated liquids from gas wells?",
+   "answer": "Manual unloading, foam agents, velocity tubing or strings, beam or rod pumps, electric submergence pumps, intermittent unloading, gas lift, and wellhead compression.",
+   "evidence": "manual unloading, foam agents, velocity tubing or velocity strings, beam or rod pumps, electric submergence pumps (ESP), intermittent unloading, gas lift, and wellhead compression"
+  }
+ ],
+ "TGD7-Liquids-unloading-02": [
+  {
+   "type": "definition",
+   "question": "What is manual liquids unloading with atmospheric venting?",
+   "answer": "When liquids choke the well, it is disconnected from the sales line and flowed to an atmospheric tank with lower back-pressure, so reservoir pressure lifts the liquid and the entrained gas vents at the tank.",
+   "evidence": "The entrained gas is vented to the atmosphere at the tank."
+  },
+  {
+   "type": "comparison",
+   "question": "How does manual liquids unloading without atmospheric venting differ from unloading with venting?",
+   "answer": "The well is shut in before liquids choke off gas flow, so pressure builds; it is then reopened to the separator, with gas going to sales instead of the atmosphere.",
+   "evidence": "The well is shut-in before liquids choke off gas flow, allowing the reservoir pressure to rise to shut-in pressure. The well is reopened and flow routed to the separator with gas going to sales and liquids to storage."
+  },
+  {
+   "type": "definition",
+   "question": "What is automated liquids unloading?",
+   "answer": "Like manual unloading without venting, but a timing and/or pressure device optimizes intermittent shut-in of the well before liquids choke off gas flow.",
+   "evidence": "a timing and/or pressure device is used to optimize intermittent shut in of the well before liquids choke off gas flow"
+  },
+  {
+   "type": "definition",
+   "question": "How do foaming agents help unload liquids from gas wells?",
+   "answer": "Chemicals foam the liquid and reduce its density, so the gas can carry the liquids to the surface more easily.",
+   "evidence": "Chemicals are added to the well that reduce the liquid density through foaming, which improve the ability of the gas to carry the liquids to the surface."
+  },
+  {
+   "type": "definition",
+   "question": "How does velocity tubing help a gas well unload liquids?",
+   "answer": "Smaller tubing strings replace the single larger production tubing, increasing gas velocity so the gas can carry the liquids out.",
+   "evidence": "Installation of several smaller sized tubing strings in place of the single larger production tubing increases gas flow velocity in each small tube, thus allowing the well’s gas flow to carry the liquids out."
+  }
+ ]
+}

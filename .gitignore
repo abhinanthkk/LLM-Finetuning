@@ -1,0 +1,9 @@
+# secrets: the Gemini key used for QA generation
+.env
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+.hallmark/
+# source PDFs are third-party documents: download them into "OGMP docs/" (see README)
+OGMP docs/

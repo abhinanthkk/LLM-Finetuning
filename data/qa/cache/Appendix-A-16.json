@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "type": "definition",
+    "question": "What is a high volume sampler used for leak quantification during emissions surveys?",
+    "answer": "A high volume sampler is an air suction pump combined with a combustible hydrocarbon concentration measurement system. It is designed to capture the total emissions released from a vent line or leaking component.",
+    "evidence": "High Volume Sampler The High volume sampler is an air suction pump with a combustible hydrocarbon concentration measurement."
+  },
+  {
+    "type": "comparison",
+    "question": "How do hot wire anemometers compare to other insertion devices when taking flow measurements in clean versus dirty gas streams?",
+    "answer": "Hot wire anemometers are less accurate in clean gas streams than other insertion devices. However, they may be the only viable choice when measuring dirty gas streams containing sticky entrained particulates or liquid droplets.",
+    "evidence": "Hot wire anemometers have lower levels of accuracy in clean gas streams compared to other insertion devices but may be the only option in dirty gas streams (i.e., gas streams with liquid droplets, sticky entrained particulates)."
+  },
+  {
+    "type": "why",
+    "question": "Why can dirty gas streams containing liquid droplets or sticky particulates pose a problem for vane anemometers?",
+    "answer": "Liquid droplets or sticky particulates entering the flow stream can disrupt the measurement accuracy or cause permanent damage to an inserted vane anemometer.",
+    "evidence": "Liquid droplets or sticky particulates could interfere with measurement and/or permanently damage a vane anemometer inserted into the flow stream."
+  },
+  {
+    "type": "quantification",
+    "question": "What is the measurable leak rate range for a high volume sampler during emission quantification?",
+    "answer": "A high volume sampler has an operational measurable leak rate ranging from 0.02 to 18 m3/hour (1 to 630 ft3/hour).",
+    "evidence": "This device has a measureable leak rate of 0.02 to 18 m3/hour (1 to 630 ft3/hour)."
+  },
+  {
+    "type": "lookup",
+    "question": "What are the maximum pressure and temperature operating parameters for a thermal flow sensor?",
+    "answer": "A thermal flow sensor can operate at a maximum working pressure of 1.6 MPa (16 bar) above atmospheric pressure. Its operational gas temperature ranges from -10 to 140 °C (14 to 284 °F).",
+    "evidence": "The thermal flow sensor has a maximum working pressure of 1.6 MPa (16 bar) above atmospheric pressure and gas temperature range from -10 to 140 °C (14 to 284 °F)."
+  }
+]
+```

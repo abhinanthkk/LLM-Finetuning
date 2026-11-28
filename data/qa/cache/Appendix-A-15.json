@@ -1,0 +1,32 @@
+[
+  {
+    "type": "definition",
+    "question": "How does a hotwire anemometer operate to measure gas velocity during leak quantification?",
+    "answer": "A hotwire anemometer operates on the principle of heat transfer. An exposed hot wire is placed into the gas stream, and heat is conducted away from the wire by convection proportionally to the gas flow velocity, allowing the device to measure velocity calibrated against the electrical current.",
+    "evidence": "It operates on the principle of heat transfer."
+  },
+  {
+    "type": "quantification",
+    "question": "How is gas flow velocity measured by a hotwire anemometer translated into a volumetric flow rate?",
+    "answer": "Gas flow velocity, which has a measurable range of 0.2 to 200 meters per second (m/s), is converted to volumetric flow rate by multiplying the velocity by the cross-sectional area of the flow in square meters.",
+    "evidence": "The measureable range of gas flow velocity is 0.2 to 200 meters per second (m/s), which can then be translates into a volumetric flow rate by multiplying times the cross-sectional area of the flow in square meters."
+  },
+  {
+    "type": "lookup",
+    "question": "What is the thermal flow sensor measurement uncertainty for a hotwire anemometer at lower flow velocities?",
+    "answer": "When gas flow velocities are less than or equal to 40 m/s, the measurement uncertainty of the thermal flow sensor is 2 percent.",
+    "evidence": "For gas flow velocities less than or equal to 40 m/s, the thermal flow sensor measurement uncertainty is 2 percent."
+  },
+  {
+    "type": "mitigation",
+    "question": "How are operators recommended to calibrate a vane anemometer used for leak quantification?",
+    "answer": "Operators are advised to calibrate a vane anemometer by creating calibration curves following the manufacturer's instruction.",
+    "evidence": "To calibrate a vane anemometer, it is recommended for operators to develop calibration curves by following the manufacturer’s instruction."
+  },
+  {
+    "type": "lookup",
+    "question": "What are the power requirements and battery life of the handheld unit used for leak quantification?",
+    "answer": "The handheld unit runs on a 9 Volt battery or an appropriate plug-in supply, offering a battery operating time of approximately 30 hours.",
+    "evidence": "The handheld unit is powered by a 9 Volt battery (or appropriate plug-in supply) and has a battery operating time of approximately 30 hours."
+  }
+]

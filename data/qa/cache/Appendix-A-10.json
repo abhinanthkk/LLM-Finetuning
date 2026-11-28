@@ -1,0 +1,32 @@
+[
+  {
+    "type": "quantification",
+    "question": "How can hydrocarbon concentrations measured by Organic Vapor Analyzers (OVAs) and Toxic Vapor Analyzers (TVAs) be used to estimate methane mass emission rates?",
+    "answer": "Although the measured hydrocarbon concentrations from OVAs and TVAs are not direct measurements of emission quantities, they can be converted into approximate mass emission rates. This estimation is achieved by applying SOCMI correlation equations to the concentration readings.",
+    "evidence": "However, the concentrations can be converted to an approximate mass emissions rates using SOCMI correlation equations."
+  },
+  {
+    "type": "definition",
+    "question": "How does acoustic leak detection identify internal through-valve leakage in gas piping systems?",
+    "answer": "Acoustic leak detection utilizes portable screening devices to detect the sound signal generated when pressurized gas escapes past an improperly sealed valve plug or gate. Operators place a handheld sensor directly on the equipment to record sound intensity readings, which provide a relative estimate of leak magnitude.",
+    "evidence": "For through valve leaks (which are internal), companies can use portable screening devices that detect the resulting acoustic signal when gas under pressure escapes through a valve plug or gate that is not tightly closed or tightly sealing."
+  },
+  {
+    "type": "why",
+    "question": "Why are acoustic leak detectors effective for inspecting leaking valves associated with elevated vent stacks?",
+    "answer": "Acoustic leak detectors are effective for inspecting valves connected to elevated vent stacks, such as blowdown valves and pressure relief valves, because they can detect leaking gas even when the physical vent location is inaccessible.",
+    "evidence": "Acoustic leak detectors can detect either high or low frequency signals and are useful for detecting leaking valves when the vent is inaccessible (e.g., blowdown valves and pressure relief valves connected to elevated vent stacks)."
+  },
+  {
+    "type": "lookup",
+    "question": "From what distance can operators use ultrasonic leak detectors to locate methane leaks?",
+    "answer": "Operators can direct the handheld probe or scanner of an ultrasonic leak detector toward potential leak sources from distances up to 30 meters (100 feet).",
+    "evidence": "Ultrasonic leak detectors are equipped with a handheld probe or scanner that is pointed at a possible leak source from distances up to 30 meters (100 feet)."
+  },
+  {
+    "type": "lookup",
+    "question": "What is the typical screening rate for component surveys when using Organic Vapor Analyzers (OVAs) or Toxic Vapor Analyzers (TVAs)?",
+    "answer": "When performing leak screening with an OVA or TVA, each instrument can survey approximately 40 components per hour.",
+    "evidence": "Using OVAs and TVAs for leak screening is somewhat slow; each device can survey approximately 40 components per hour."
+  }
+]

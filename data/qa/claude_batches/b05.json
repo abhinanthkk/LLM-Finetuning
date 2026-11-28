@@ -1,0 +1,292 @@
+{
+ "TGD3-Centrifugal-Compressors-05": [
+  {
+   "type": "quantification",
+   "question": "How are annual methane emissions calculated from a direct measurement of a centrifugal compressor seal oil degassing vent?",
+   "answer": "The measured whole-gas flow rate is converted to methane using the methane content of the gas being compressed, and the methane flow rate is multiplied by the compressor's operating hours to get the annual volume.",
+   "evidence": "An annual volume of methane emissions is calculated by multiplying the measured methane emission flow rate by the operating hours of the compressor."
+  },
+  {
+   "type": "why",
+   "question": "Why must Partners trace where the seal oil degassing gas is routed before measuring centrifugal compressor emissions?",
+   "answer": "Each compressor and facility is unique and a compressor may have several degassing vent stacks, so tracing the routing ensures the measurement points are accurately identified.",
+   "evidence": "Prior to measurement, it is important to determine where the gas stream resulting from seal oil degassing is routed to help ensure that the measurement point(s) are accurately identified."
+  },
+  {
+   "type": "comparison",
+   "question": "How can the seal oil vent of a centrifugal compressor be told apart from its lubricating oil vent?",
+   "answer": "By tracing the piping using seal oil and lube oil design drawings, and by observing both vents with an IR leak imaging camera, which readily shows substantially more emissions from the seal oil vent than the lube oil vent.",
+   "evidence": "Observing the two vents with an IR leak imaging camera will readily show substantially more vent emissions from seal oil than lube oil vents."
+  },
+  {
+   "type": "lookup",
+   "question": "Where can the gas degassed from centrifugal compressor wet seals be routed?",
+   "answer": "Possible routes include compressor suction, VRUs, high or low pressure fuel gas, flare, and the atmosphere.",
+   "evidence": "Possible routes for degassed methane from wet seals include compressor suction, VRUs, fuel gas (high or low pressure), flare, and atmosphere."
+  },
+  {
+   "type": "why",
+   "question": "Why should Partners confirm wet seal vents on compressors housed in buildings?",
+   "answer": "Vents are usually routed outside through the roof or side walls, so it may not be clear which vent belongs to which wet seal. Partners should trace the piping from source to end point and observe the vents with an IR camera.",
+   "evidence": "Compressors housed in buildings normally have vents that are routed outside the compressor building through the roof or side walls, so it may not always be clear which vent corresponds with respective wet seals."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-06": [
+  {
+   "type": "lookup",
+   "question": "Which tools are recommended for measuring centrifugal compressor wet seal degassing emissions?",
+   "answer": "Recommended tools include a vane anemometer, hotwire anemometer, turbine meter and hi-flow sampler; Appendix A gives details on each.",
+   "evidence": "Hi-flow sampler. For more details regarding each measurement tool, including applicability and measurement methods, please refer to Appendix A."
+  },
+  {
+   "type": "quantification",
+   "question": "How is the emission factor approach applied to centrifugal compressors with wet seals?",
+   "answer": "Partners apply an emission factor for methane volume per year per compressor, adjusted for the compressor's actual operating factor, meaning the percentage of time in a year it is operating.",
+   "evidence": "Partners apply an emission factor that represents emissions of methane volume per year per compressor, adjusted for the actual operating factor of the compressors"
+  },
+  {
+   "type": "lookup",
+   "question": "At what standard conditions are the OGMP default emission factors for wet seal centrifugal compressors given?",
+   "answer": "At standard conditions of 20°C and 101.325 kPa, in standard cubic meters or standard cubic feet of methane.",
+   "evidence": "Values provided are at Standard Conditions (20°C, 101.325 kPa)."
+  },
+  {
+   "type": "lookup",
+   "question": "What data are the OGMP default wet seal centrifugal compressor emission factors based on?",
+   "answer": "They are based on data from compressors operated outside the United States in the natural gas processing stage.",
+   "evidence": "Emission factors are based upon data from compressors operated outside of the United States and for natural gas processing stage."
+  },
+  {
+   "type": "quantification",
+   "question": "When should Partners use the emission factor method for centrifugal compressor seal emissions?",
+   "answer": "When direct measurement is not possible; they should then use emission factors that best represent their facilities, with their own operating factors.",
+   "evidence": "If direct measurement is not possible, Partners should instead use an emission factor method."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-07": [
+  {
+   "type": "why",
+   "question": "Why does degassing centrifugal compressor seal oil at intermediate pressure reduce emissions?",
+   "answer": "Degassing at intermediate rather than atmospheric pressure lets the pressurized gas be captured and directed to beneficial use instead of being vented.",
+   "evidence": "Degassing the seal oil at intermediate - rather than atmospheric - pressure reduces emissions and allows pressurized gas to be captured and directed to beneficial use."
+  },
+  {
+   "type": "lookup",
+   "question": "At what pressure range is the intermediate seal oil disengagement vessel operated in Mitigation Option A for centrifugal compressors?",
+   "answer": "At an intermediate pressure above fuel gas pressure, about 50 to 250 psig (3.5 to 17.5 kg/cm2), which allows nearly all of the entrained gas to be recovered.",
+   "evidence": "an intermediate pressure above fuel gas pressures, ranging from about 50 to 250 psig (3.5 to 17.5 kg/cm2)) allows nearly all of the gas entrained in the seal oil to be recovered"
+  },
+  {
+   "type": "definition",
+   "question": "How is the pressure of the recovered gas maintained in an intermediate pressure seal oil degassing system?",
+   "answer": "Either with a critical flow restriction orifice together with a liquid level control valve, or with pressure and level control valves.",
+   "evidence": "which is maintained using 1) a critical flow restriction orifice in conjunction with a liquid level control valve or 2) pressure and level control valves"
+  },
+  {
+   "type": "mitigation",
+   "question": "What onsite equipment is needed to use gas recovered from centrifugal compressor seal oil?",
+   "answer": "A fuel gas system or a compressor with the appropriate capacity and suction pressure to receive the separated gas, and possibly a gas demister/filter or knock-out vessel to remove entrained seal oil.",
+   "evidence": "Onsite equipment such as a fuel gas system or a compressor with the appropriate capacity and suction pressure to receive separated gas is needed to accept and use this new gas stream."
+  },
+  {
+   "type": "lookup",
+   "question": "Does installing an intermediate pressure seal oil recovery system require shutting down the centrifugal compressor?",
+   "answer": "It can largely be installed with the compressor online; only the final seal oil piping connections are made during a compressor shutdown.",
+   "evidence": "This technology can be largely installed with the compressor(s) online, with the final seal oil piping connections made during a compressor shutdown."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-08": [
+  {
+   "type": "lookup",
+   "question": "What equipment is installed for a centrifugal compressor wet seal degassing recovery system?",
+   "answer": "One small seal oil/gas disengagement vessel per compressor seal, a gas demister/knock-out vessel that can serve several compressors, piping to route the recovered gas, and pressure and level control instrumentation.",
+   "evidence": "One small seal oil/gas disengagement vessel for each compressor seal."
+  },
+  {
+   "type": "lookup",
+   "question": "How much methane reduction is expected from recovering centrifugal compressor seal degassing emissions at intermediate pressure?",
+   "answer": "An estimated 95 percent, so a mitigated compressor with degassing recovery emits 5 percent of the unmitigated volume.",
+   "evidence": "Partners can reduce their emissions by an estimated 95 percent if degassing emissions are recovered at intermediate pressure and routed for other uses. Therefore, the estimated methane emissions for a “mitigated” centrifugal compressor with degassing recovery will be 5 percent of the unmitigated volume of emissions."
+  },
+  {
+   "type": "lookup",
+   "question": "What is the estimated cost of a wet seal degassing recovery system for one centrifugal compressor?",
+   "answer": "About $33,000 per wet seal compressor, assuming two seals per compressor and two stages of demisting, with minimal O&M costs.",
+   "evidence": "equipment and installation costs for this technology are estimated to be approximately $33,000 per wet seal compressor"
+  },
+  {
+   "type": "comparison",
+   "question": "Why are the economics of wet seal degassing recovery better at stations with several centrifugal compressors?",
+   "answer": "Multiple compressors can be piped to a single gas demister and filtering system. For example, a facility with four compressors costs about $90,000 in total rather than four times the single-compressor cost.",
+   "evidence": "In a facility with four centrifugal compressors, the total installation and equipment cost is approximately $90,000."
+  },
+  {
+   "type": "quantification",
+   "question": "What should the economic analysis of a wet seal degassing recovery system include?",
+   "answer": "The capital and operational costs together with the natural gas savings.",
+   "evidence": "The analysis for installing a wet seal degassing recovery system should consider the capital and operational costs along with the natural gas savings."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-09": [
+  {
+   "type": "lookup",
+   "question": "How much does an individual seal oil/gas disengagement vessel cost for a centrifugal compressor?",
+   "answer": "$9,500 per seal, including purchase, installation, piping, instrumentation and other indirect costs.",
+   "evidence": "An individual seal oil/gas disengagement vessel costs $9,500 per seal."
+  },
+  {
+   "type": "lookup",
+   "question": "What vessel size and design are assumed for the seal oil gas disengagement vessels in the OGMP cost estimate?",
+   "answer": "A 1-foot (30 cm) diameter, 3-foot (91 cm) high carbon steel vessel with a 1,125 psig (79 kg/cm2) design pressure.",
+   "evidence": "the size of the seal oil gas disengagement vessels is 1-foot (30 cm) diameter, 3-foot (91 cm) height with a 1,125 psig (79 kg/cm2) design pressure and carbon steel construction"
+  },
+  {
+   "type": "lookup",
+   "question": "What station layout is assumed in the OGMP cost scenarios for wet seal degassing recovery?",
+   "answer": "Two seals per centrifugal compressor and four centrifugal compressors at the station.",
+   "evidence": "Assumed two seals per centrifugal compressor and four centrifugal compressors at the station."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-10": [
+  {
+   "type": "lookup",
+   "question": "What is the total disengagement vessel cost per centrifugal compressor with two wet seals?",
+   "answer": "$19,000, at $9,500 per seal oil gas disengagement vessel.",
+   "evidence": "The total cost of each seal oil gas disengagement vessel is $9,500; assuming two seals per compressor, the total cost for disengagement vessels per compressor is $19,000."
+  },
+  {
+   "type": "lookup",
+   "question": "How much does a single-stage seal oil gas demister/filter system cost?",
+   "answer": "About $9,000, for both a single compressor and a four-compressor station, with minor differences for extra piping, instrumentation and supports.",
+   "evidence": "The resulting cost for a seal oil single-stage demister/filter system is $9,000"
+  },
+  {
+   "type": "why",
+   "question": "Why might a second high-efficiency demister be needed when recovered seal oil gas is used as turbine fuel?",
+   "answer": "It ensures that trace amounts of seal oil do not foul the turbine fuel injectors when the recovered gas is used as high-pressure turbine fuel.",
+   "evidence": "the recovery system may include a second highefficiency seal oil gas demister/knock-out vessel to ensure any trace amounts of seal oil do not foul the turbine fuel injectors"
+  },
+  {
+   "type": "mitigation",
+   "question": "Where can gas recovered from centrifugal compressor seal oil be sent, and what is the benefit?",
+   "answer": "To the fuel gas line, where it offsets site fuel gas use, or to sales, either through a compressor first or directly to the sales line. The savings come from the value of the recovered gas.",
+   "evidence": "If sent to fuel gas, the recovered gas will offset the facility’s use of site fuel gas."
+  },
+  {
+   "type": "definition",
+   "question": "Can one seal oil gas demister vessel serve several centrifugal compressors?",
+   "answer": "Yes. A demister/knock-out vessel can be designed to receive recovered gas from multiple wet seal compressors, so its design depends on how many are connected.",
+   "evidence": "A seal oil gas demister/knock-out vessel can be designed to receive recovered gas from multiple centrifugal compressors with wet seals."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-11": [
+  {
+   "type": "lookup",
+   "question": "What are the average unmitigated methane emissions from centrifugal compressor wet seal degassing?",
+   "answer": "Based on the Table 3.2 emission factors, the average is 1.35 scm/minute (47.7 scf/minute) per compressor.",
+   "evidence": "Based on the emission factors presented in Table 3.2, the average methane emissions from “unmitigated” centrifugal compressor wet seal degassing is 1.35 scm/minute (47.7 scf/minute) per compressor."
+  },
+  {
+   "type": "quantification",
+   "question": "How much methane is recovered per centrifugal compressor with wet seal degassing recovery?",
+   "answer": "615.6 Mscm (21.7 MMscf) of methane is recovered per compressor, displacing the same volume of fuel gas and/or sales gas.",
+   "evidence": "Therefore, 615.6 Mscm (21.7 MMscf) of methane is recovered per centrifugal compressor and displaces the same volume in fuel gas and/or sales gas."
+  },
+  {
+   "type": "lookup",
+   "question": "What revenue can wet seal degassing recovery generate for centrifugal compressors?",
+   "answer": "About $65,400 per year per compressor, or $261,600 per year for a station with four compressors connected to a degassing recovery system.",
+   "evidence": "revenue from degassing recovery is estimated to be $65,400 per year per centrifugal compressor. A station with four centrifugal compressors connected to a wet seal degassing recovery system could potentially earn revenues of $261,600 per year."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-12": [
+  {
+   "type": "mitigation",
+   "question": "What does Mitigation Option B for centrifugal compressor wet seals involve?",
+   "answer": "Separating gas from the seal oil at atmospheric pressure and routing the degassing vents to a nearby vapor recovery unit (VRU) for beneficial use or flaring.",
+   "evidence": "Partners can reduce their centrifugal compressor wet seal methane emissions by routing seal oil atmospheric degassing vents to a nearby VRU, for posterior beneficial use or flaring."
+  },
+  {
+   "type": "quantification",
+   "question": "How should a VRU be sized when routing centrifugal compressor seal oil vent gas to it?",
+   "answer": "A good rule of thumb is a VRU capacity equal to double the average daily volume of recovered gas; for example, 30 Mscf (0.85 Mscm) per day needs at least 60 Mscf (1.7 Mscm) per day of capacity.",
+   "evidence": "For example, to handle 30 Mscf (0.85 Mscm) per day of gas, a VRU should have a capacity of at least 60 Mscf (1.7 Mscm) per day."
+  },
+  {
+   "type": "why",
+   "question": "Why should a VRU have spare capacity when it also serves hydrocarbon liquid storage tanks?",
+   "answer": "Tank emissions fluctuate as tanks fill and empty, so the VRU needs headroom; the recovered compressor gas can also be significant.",
+   "evidence": "Because VRUs are typically associated with hydrocarbon liquid storage tank emissions, which fluctuate as tanks fill and empty"
+  },
+  {
+   "type": "lookup",
+   "question": "How much methane reduction is expected from routing wet seal degassing vents to a VRU?",
+   "answer": "An estimated 95 percent, so mitigated emissions are 5 percent of the unmitigated volume.",
+   "evidence": "It is estimated that Partners can reduce emissions by 95 percent if degassing emissions are recovered at atmospheric pressure and routed to a nearby VRU. Therefore, the estimated methane emissions for a “mitigated” centrifugal compressor with degassing recovery will be 5 percent of the unmitigated volume of emissions."
+  },
+  {
+   "type": "why",
+   "question": "What should Partners weigh when installing a VRU to capture compressor seal oil vent emissions?",
+   "answer": "The overall greenhouse gas load from the extra electricity needed to run the VRU, compared with the base case of venting the wet seal gas directly.",
+   "evidence": "Partners should also consider the overall greenhouse gas (GHG) emission load associated with the additional electricity requirements to run the VRU against the base case"
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-13": [
+  {
+   "type": "why",
+   "question": "Why is routing seal oil degassing vents to an existing VRU usually inexpensive?",
+   "answer": "There are normally no significant capital costs because the additional piping is minimal, though the higher throughput increases the VRU's electricity costs.",
+   "evidence": "normally there are no significant capital costs to route gas to an existing VRU because the cost of additional piping is minimal"
+  },
+  {
+   "type": "lookup",
+   "question": "What is the annual value of gas recovered by a VRU with 100 Mscf per day of capacity?",
+   "answer": "Approximately $52,000 per year.",
+   "evidence": "For a VRU with 100 Mscf (2.8 Mscm) per day of capacity, the value of the gas recovered annually would be approximately $52,000."
+  },
+  {
+   "type": "quantification",
+   "question": "When is the payback for routing centrifugal compressor seal gas to an existing VRU immediate?",
+   "answer": "When the existing VRU has sufficient capacity and there is a beneficial use for the gas (sale or fuel), the value of the recovered gas offsets the extra electricity costs.",
+   "evidence": "the value of the gas recovered offsets the additional costs and the project payback is immediate"
+  },
+  {
+   "type": "comparison",
+   "question": "How do the economics change if gas recovered from compressor seals by a VRU is only flared?",
+   "answer": "The economics may shift because the gas has no beneficial use, but there is still a significant environmental benefit.",
+   "evidence": "The economics may shift if the recovered gas has no beneficial use and is recovered to be sent to flare."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-14": [
+  {
+   "type": "comparison",
+   "question": "How do dry seals differ from wet seals on centrifugal compressors?",
+   "answer": "Dry seals use no circulating seal oil, so for new compressors they are less expensive to purchase, operate and maintain, and they avoid the seal oil degassing emissions of wet seals.",
+   "evidence": "The mechanical dry seal system does not use any circulating seal oil, and thereby is less expensive to purchase, operate, and maintain for new compressors."
+  },
+  {
+   "type": "definition",
+   "question": "How does a mechanical dry seal on a centrifugal compressor work?",
+   "answer": "Hydrodynamic grooves on the rotating ring pump gas between the rotating and stationary rings. This gas pressure, opposed by springs pushing the rings together, creates a very thin gap through which little gas can leak.",
+   "evidence": "The opposing force of high-pressure gas pumped between the rings and springs pushing the rings together creates a very thin gap between the rings through which little gas can leak."
+  },
+  {
+   "type": "why",
+   "question": "Why do dry seal rings on a centrifugal compressor not wear or need lubrication?",
+   "answer": "While the compressor is operating, the rings are not in contact with each other.",
+   "evidence": "While the compressor is operating, the rings are not in contact with each other, and therefore, do not wear or need lubrication."
+  },
+  {
+   "type": "lookup",
+   "question": "Up to what pressure and temperature are dry seals applicable for centrifugal compressors?",
+   "answer": "Up to 3,000 psig (210 kg/cm2) and 400 degrees Fahrenheit (204 degrees Centigrade).",
+   "evidence": "Dry seals are applicable for centrifugal compressors operating up to 3,000 psig (210 kg/cm2) pressure and 400 degrees Fahrenheit (204 degrees Centigrade)."
+  },
+  {
+   "type": "why",
+   "question": "When do dry seal systems need a purge gas system?",
+   "answer": "Dry seals typically include a purge gas system, especially when compressing highly corrosive or toxic gas such as hydrogen sulfide.",
+   "evidence": "dry seals typically include a purge gas system, especially when compressing highly corrosive or toxic gas such as hydrogen sulfide"
+  }
+ ]
+}

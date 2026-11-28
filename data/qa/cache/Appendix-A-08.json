@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "type": "why",
+    "question": "Why is the Remote Methane Leak Detector (RMLD) useful for detecting methane leaks from hard-to-reach sources or across difficult terrain?",
+    "answer": "The RMLD is particularly suited for detecting leaks from hard-to-reach sources and in difficult terrain because of its 34-meter (110-feet) operating range.",
+    "evidence": "Its 34-meter (110-feet) range makes this device particularly useful for detecting methane leaks originating from hard-to-reach sources and/or throughout difficult terrain."
+  },
+  {
+    "type": "lookup",
+    "question": "What is the detection sensitivity of the Remote Methane Leak Detector (RMLD) at different distance ranges?",
+    "answer": "The RMLD has a sensitivity of 5 ppm-m at distances from 0 to 15 meters (0 to 50 feet). At distances from 15 to 30 meters (50 to 100 feet), its sensitivity is 10 ppm-m and higher.",
+    "evidence": "The RMLD has a measurement range of 0 to 99,999 ppm-m and has a sensitivity of 5 ppm-m at distances from 0 to 15 meters (0 to 50 feet) and 10 ppm-m and higher at distances from 15 to 30 meters (50 to 100 feet)."
+  },
+  {
+    "type": "definition",
+    "question": "Can the measurement output from a Remote Methane Leak Detector (RMLD) be used to determine the exact quantity of gas leakage?",
+    "answer": "No, the output of the RMLD is a nonquantitative, relative measurement of methane present along the beam path. It cannot be converted into an actual rate or quantity of gas leakage.",
+    "evidence": "This is a nonquantitative, relative measure of the amount of methane in the beam path. It cannot be converted to the quantity of gas leakage."
+  },
+  {
+    "type": "lookup",
+    "question": "What are the weight and battery specifications for a Remote Methane Leak Detector (RMLD)?",
+    "answer": "The RMLD device weighs 4.5 kilograms (10 pounds). It relies on a rechargeable internal lithium-ion battery pack that provides a runtime of up to eight hours.",
+    "evidence": "This device weighs 4.5 kilograms (10 pounds) and uses a rechargeable internal lithium-ion battery pack that can run for up to eight hours."
+  },
+  {
+    "type": "quantification",
+    "question": "What distance requirement must be met regarding a background surface for the Remote Methane Leak Detector (RMLD) to operate correctly?",
+    "answer": "For the RMLD to work properly, a background surface must be located within 34 meters (110 feet) of the device so the infrared beam can bounce back to the instrument receiver.",
+    "evidence": "For the RMLD to work properly, it is necessary that there be a background surface within 34 meters (110 feet) from the device for the infrared beam to bounce back to the instrument receiver."
+  }
+]
+```

@@ -1,0 +1,35 @@
+train 2638 examples, val 49
+trainable params: 18,464,768 || all params: 1,562,179,072 || trainable%: 1.1820
+step 0: val loss 2.867 (base model, before training)
+step 50/1650 epoch 0.15: train 2.248 val 2.107 (best 2.107) | 175s, peak GPU 2.49 GiB
+step 100/1650 epoch 0.30: train 2.150 val 1.828 (best 1.828) | 344s, peak GPU 2.64 GiB
+step 150/1650 epoch 0.46: train 1.818 val 1.670 (best 1.670) | 515s, peak GPU 2.77 GiB
+step 200/1650 epoch 0.61: train 1.301 val 1.405 (best 1.405) | 675s, peak GPU 2.77 GiB
+step 250/1650 epoch 0.76: train 1.096 val 1.156 (best 1.156) | 847s, peak GPU 2.77 GiB
+step 300/1650 epoch 0.91: train 1.653 val 0.895 (best 0.895) | 1021s, peak GPU 2.77 GiB
+step 350/1650 epoch 1.06: train 0.469 val 0.771 (best 0.771) | 1196s, peak GPU 2.77 GiB
+step 400/1650 epoch 1.21: train 1.203 val 0.726 (best 0.726) | 1367s, peak GPU 2.77 GiB
+step 450/1650 epoch 1.36: train 1.132 val 0.661 (best 0.661) | 1531s, peak GPU 2.77 GiB
+step 500/1650 epoch 1.51: train 1.140 val 0.556 (best 0.556) | 1704s, peak GPU 2.84 GiB
+step 550/1650 epoch 1.67: train 0.606 val 0.444 (best 0.444) | 1874s, peak GPU 2.84 GiB
+step 600/1650 epoch 1.82: train 0.798 val 0.415 (best 0.415) | 2042s, peak GPU 2.84 GiB
+step 650/1650 epoch 1.97: train 0.647 val 0.323 (best 0.323) | 2213s, peak GPU 2.84 GiB
+step 700/1650 epoch 2.12: train 0.056 val 0.310 (best 0.310) | 2380s, peak GPU 2.84 GiB
+step 750/1650 epoch 2.27: train 0.467 val 0.313 (best 0.310) | 2547s, peak GPU 2.84 GiB
+step 800/1650 epoch 2.42: train 1.191 val 0.280 (best 0.280) | 2723s, peak GPU 2.84 GiB
+step 850/1650 epoch 2.58: train 0.651 val 0.281 (best 0.280) | 2893s, peak GPU 2.84 GiB
+step 900/1650 epoch 2.73: train 0.044 val 0.223 (best 0.223) | 3064s, peak GPU 2.84 GiB
+step 950/1650 epoch 2.88: train 0.795 val 0.189 (best 0.189) | 3228s, peak GPU 2.84 GiB
+step 1000/1650 epoch 3.03: train 0.350 val 0.183 (best 0.183) | 3403s, peak GPU 2.84 GiB
+step 1050/1650 epoch 3.18: train 0.582 val 0.155 (best 0.155) | 3570s, peak GPU 2.84 GiB
+step 1100/1650 epoch 3.33: train 0.171 val 0.160 (best 0.155) | 3743s, peak GPU 2.84 GiB
+step 1150/1650 epoch 3.48: train 0.234 val 0.151 (best 0.151) | 3921s, peak GPU 2.84 GiB
+step 1200/1650 epoch 3.64: train 0.420 val 0.140 (best 0.140) | 4091s, peak GPU 2.84 GiB
+step 1250/1650 epoch 3.79: train 0.382 val 0.122 (best 0.122) | 4258s, peak GPU 2.84 GiB
+step 1300/1650 epoch 3.94: train 0.815 val 0.118 (best 0.118) | 4421s, peak GPU 2.84 GiB
+step 1350/1650 epoch 4.09: train 0.145 val 0.128 (best 0.118) | 4592s, peak GPU 2.84 GiB
+step 1400/1650 epoch 4.24: train 0.165 val 0.128 (best 0.118) | 4760s, peak GPU 2.84 GiB
+step 1450/1650 epoch 4.39: train 0.262 val 0.122 (best 0.118) | 4931s, peak GPU 2.84 GiB
+step 1500/1650 epoch 4.54: train 0.197 val 0.122 (best 0.118) | 5102s, peak GPU 2.84 GiB
+early stop: validation loss has not improved for 4 evaluations
+done: 1500 steps in 5103s; best val loss 0.118 (base 2.867); adapter in outputs_v2/adapter, curves in outputs_v2/loss_curves.png

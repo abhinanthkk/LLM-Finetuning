@@ -1,0 +1,32 @@
+[
+  {
+    "type": "quantification",
+    "question": "How is a high volume sampler calibrated before and after a methane leak measurement campaign?",
+    "answer": "To calibrate a high volume sampler, known flow rates of methane are measured at the sampler inlet. The leak rate recorded by the sampler is then compared against the actual gas release rate determined using an independent gas flow meter.",
+    "evidence": "Additionally, before and after each measurement campaign, the High volume sampler should be calibrated by measuring known flow rates of methane in the sampler inlet and comparing the leak rate measured by the High volume sampler to the actual gas release rate as determined using a separate gas flow meter."
+  },
+  {
+    "type": "lookup",
+    "question": "What is the approximate purchase cost of a high volume sampler for leak quantification?",
+    "answer": "A high volume sampler costs approximately $17,500, depending on which auxiliary components are purchased.",
+    "evidence": "The High volume sampler costs approximately $17,500, depending on the auxiliary components purchased."
+  },
+  {
+    "type": "why",
+    "question": "Why might multiple oil and gas facilities share a single high volume sampler?",
+    "answer": "Facilities can share a high volume sampler to distribute both the operational benefits and the financial costs of conducting gas leak quantification.",
+    "evidence": "This instrument can be shared by several facilities, distributing the costs and the benefits of gas leak quantification."
+  },
+  {
+    "type": "quantification",
+    "question": "What factors determine the cost of conducting a leak measurement survey using a high volume sampler?",
+    "answer": "The overall cost of performing a leak measurement survey with a high volume sampler depends on the facility's number of components and prevailing labor rates.",
+    "evidence": "The cost of conducting a measurement survey using a high volume sampler is dependent on the labor rates and number of components at the facility."
+  },
+  {
+    "type": "quantification",
+    "question": "What are the typical rates charged by contractors for component leak measurement services?",
+    "answer": "Contractors provide leak measurement services at rates ranging from $1.00 to more than $2.50 per component measured.",
+    "evidence": "Alternatively, contractors provide leak measurement services at a rate that ranges from $1.00 to more than $2.50 per component measured."
+  }
+]

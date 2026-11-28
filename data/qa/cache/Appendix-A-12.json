@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "type": "quantification",
+    "question": "For hydrocarbon emission leak quantification using a turbine meter, what level of measurement accuracy can be expected inside and outside its recommended flow range?",
+    "answer": "Within its stated flow range for flows exceeding 0.283 standard m3/minute, a turbine meter achieves an accuracy of ±1 percent. However, if the device is operated outside of this specified flow range, its accuracy drops to ±25 percent.",
+    "evidence": "The accuracy of the turbine meter is ±1 percent if within the stated range (i.e., flows exceeding 0.283 standard m3/minute). If operating outside of the range, the turbine meter’s accuracy is ±25 percent."
+  },
+  {
+    "type": "why",
+    "question": "Why must actual volume measurements from a turbine meter be converted when calculating hydrocarbon gas emissions?",
+    "answer": "Actual volume readings must be converted to standard volume because the turbine meter records gas flow as actual volume over time. Completing this conversion requires applying the specific temperature and pressure of the gas being measured.",
+    "evidence": "Because this device measures the flow in actual volume over time, the volume would have to be converted to standard volume using the temperature and pressure of the gas that is being measured."
+  },
+  {
+    "type": "lookup",
+    "question": "What straight piping requirements must be met when installing a turbine meter for emission leak quantification?",
+    "answer": "The meter must be installed along a section of straight pipe free of valves or connectors. It requires a straight pipe clearance of ten pipe diameters upstream of the meter and five pipe diameters downstream.",
+    "evidence": "The requirements call for the meter to be installed with ten pipe diameters upstream of the meter and five pipe diameters downstream of straight pipe without valves or connectors."
+  },
+  {
+    "type": "mitigation",
+    "question": "What pre-use maintenance or field inspection is required for a turbine meter used in emission leak quantification?",
+    "answer": "Field calibration is not required for the turbine meter. Prior to use, operators only need to perform a simple field inspection to verify that no debris is lodged in the rotor blades.",
+    "evidence": "The turbine meter requires no field calibration. The unit needs to be inspected for debris lodged in the rotor blades. This is a simple inspection and can be done in the field prior to use."
+  },
+  {
+    "type": "definition",
+    "question": "What is the operational temperature range for electronic turbine meters used in hydrocarbon emission quantification?",
+    "answer": "The device is designed to operate within a temperature range of -18 to 104 °C (0 to 219 °F).",
+    "evidence": "Its operational temperature range is -18 to 104 °C (0 to 219 °F)."
+  }
+]
+```

@@ -1,0 +1,22 @@
+```json
+[
+  {
+    "type": "why",
+    "question": "Why is direct measurement of methane emissions encouraged during field surveys when a sound basis is present?",
+    "answer": "Direct measurement is strongly encouraged because establishing a sound basis allows measurement to provide greater certainty regarding emission levels as well as economic costs and benefits, including the value of gas saved.",
+    "evidence": "Where a sound basis is in place, measurement can contribute to greater certainty on emissions levels and economic costs and benefits (i.e., value of gas saved)."
+  },
+  {
+    "type": "comparison",
+    "question": "How does direct measurement compare to other methods for quantifying methane emissions?",
+    "answer": "Direct measurement is considered to be the most accurate method in principle for quantifying methane emissions.",
+    "evidence": "In principle, direct measurement can be considered as the most accurate method for quantifying methane emissions."
+  },
+  {
+    "type": "quantification",
+    "question": "Who must participate in methane emission field surveys and how can companies structure their survey teams?",
+    "answer": "Field surveys require the participation of personnel trained in using specialized detection and quantification equipment. Companies can choose to either form internal survey teams or hire external contractors to visit all participating assets.",
+    "evidence": "To perform a field survey, persons trained in the use of specialized detection and quantification equipment must participate, and companies may enlist contractors or create internal survey teams to visit all participating assets."
+  }
+]
+```

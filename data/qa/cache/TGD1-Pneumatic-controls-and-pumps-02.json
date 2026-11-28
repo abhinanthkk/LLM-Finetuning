@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "type": "lookup",
+    "question": "What is the typical regulated pressure range of supply gas sent to a natural gas driven pneumatic controller loop?",
+    "answer": "The supply gas delivered to a pneumatic controller loop is typically pressure regulated to 20-50 pounds per square inch gage (psig), which corresponds to (1.4-3.6 kilograms per square centimeter (kg/cm2)).",
+    "evidence": "typically pressure regulated to 20-50 pounds per square inch gage (psig), (1.4-3.6 kilograms per square centimeter (kg/cm2))"
+  },
+  {
+    "type": "definition",
+    "question": "What is defined as a \"bleed\" in natural gas driven pneumatic controllers?",
+    "answer": "A bleed refers to the modulated gas pressure signal sent from a process measurement device to the valve controller to adjust the valve actuator.",
+    "evidence": "This signal from the process measurement to the valve controller is called a “bleed,” and in some types of pneumatic controllers, the bleed stream continuously flows to the atmosphere even when the valve position is not changing."
+  },
+  {
+    "type": "why",
+    "question": "Why do natural gas driven pneumatic controllers vent gas to the atmosphere during valve movement?",
+    "answer": "Venting the supply gas to the atmosphere allows an internal spring within the actuator to push the diaphragm back, which moves the valve plug into an open or closed position.",
+    "evidence": "Venting this gas to the atmosphere at the controller allows a spring to push the diaphragm back, closing or opening the valve."
+  },
+  {
+    "type": "comparison",
+    "question": "How do gas pressure regulators compare to other types of natural gas driven pneumatic controllers in terms of atmospheric gas emissions?",
+    "answer": "Unlike other pneumatic controllers that release gas into the atmosphere, gas pressure regulators route the actuation gas back into the process stream, resulting in no atmospheric gas venting.",
+    "evidence": "A third type, called “gas pressure regulators,” discharges the valve actuation gas back into the process stream, and thereby have no atmospheric gas vent."
+  },
+  {
+    "type": "definition",
+    "question": "What distinguishes an intermittent bleed pneumatic controller from other valve controllers?",
+    "answer": "An intermittent bleed controller, also referred to as a snap-action or dump valve, only experiences gas signal flow when process parameters need adjustment. As a result, it produces no atmospheric vent or bleed of gas while the valve remains stationary.",
+    "evidence": "In this type of process control, sometimes called “snap-action” or “dump valve,” there is no vent or bleed of gas to the atmosphere when the valve is stationary."
+  }
+]
+```

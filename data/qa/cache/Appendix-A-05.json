@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "type": "comparison",
+    "question": "How do calibrated vent bags, anemometers, and high volume samplers compare to a turbine meter with a totalizer for recording emissions over a time period?",
+    "answer": "Calibrated vent bags, anemometers, and high volume samplers provide spot readings, making them less suitable for recording emissions over a period of time. In contrast, a turbine meter equipped with a totalizer is better suited for tracking emissions over time.",
+    "evidence": "Calibrated vent bags, anemometers and High volume sampler are spot readings, less suitable for recording the emissions over a time period than a turbine meter with a totalizer."
+  },
+  {
+    "type": "quantification",
+    "question": "What equipment options can be used to quantify emissions from reciprocating compressor rod seal or packing vents?",
+    "answer": "Emissions from reciprocating compressor rod seal or packing vents can be quantified using a vane anemometer, hotwire anemometer, turbine meter, calibrated vent bag, high volume sampler, acoustic detection device for through-valve leaks, or an orifice meter for vent flow measurement.",
+    "evidence": "Emissions Quantification Equipment: - Vane Anemometer - Hotwire Anemometer - Turbine meter - Calibrated Vent Bag - High volume sampler - Acoustic Detection Device (for through-valve leaks) - Orifice meter (vent flow - measurement device)."
+  },
+  {
+    "type": "lookup",
+    "question": "What emissions detection equipment is specified for centrifugal compressors with wet seals?",
+    "answer": "Optical leak imaging is the specified equipment used for detecting emissions from centrifugal compressors with wet seals.",
+    "evidence": "Emissions Source: Centrifugal compressors with wet seals; Emissions Detection Equipment: - Optical leak Imaging;"
+  },
+  {
+    "type": "quantification",
+    "question": "What equipment is used to quantify emissions from casinghead gas venting?",
+    "answer": "Quantification of emissions from casinghead gas venting is performed using a turbine meter, a hotwire anemometer, or a vane anemometer.",
+    "evidence": "Emissions Source: Casinghead gas venting; Emissions Detection Equipment: - Optical leak Imaging; Emissions Quantification Equipment: - Turbine Meter - Hotwire anemometer - Vane anemometer."
+  },
+  {
+    "type": "quantification",
+    "question": "What detection and quantification equipment is used for glycol dehydrators?",
+    "answer": "For glycol dehydrators, optical leak imaging is used for emissions detection. To quantify emissions, operators use a vane anemometer, a hotwire anemometer, or a turbine meter.",
+    "evidence": "Emissions Source: Glycol dehydrators; Emissions Detection Equipment: - Optical leak Imaging; Emissions Quantification Equipment: - Vane Anemometer - Hotwire Anemometer - Turbine meter."
+  }
+]
+```

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "definition",
+    "question": "What main functions do the OGMP technical guidance documents serve regarding methane emissions from natural gas driven pneumatic controllers and pumps?",
+    "answer": "The guidance documents introduce recommended methodologies for quantifying methane emissions from identified sources. They also outline established mitigation options for Partners to use when evaluating whether a specific source is mitigated.",
+    "evidence": "The guidance documents introduce suggested methodologies for quantifying methane emissions from specific sources and describe established mitigation options that Partners should reference when determining if the source is “mitigated.”"
+  },
+  {
+    "type": "why",
+    "question": "Why must logistical, safety, cost, and operational conditions be evaluated on a case-by-case basis for natural gas driven pneumatic controllers and pumps?",
+    "answer": "These factors require case-by-case evaluation because pneumatic equipment and processes are located across diverse settings—such as onshore, offshore, and remote operations—meaning emission quantification and mitigation methods can differ depending on the location and operational environment.",
+    "evidence": "As such, operational conditions, as well as logistical, safety and cost considerations, must be evaluated on a case-by-case basis."
+  },
+  {
+    "type": "mitigation",
+    "question": "For natural gas driven pneumatic controllers and pumps, when does OGMP assume that methane mitigation actions requiring equipment shut-downs will take place?",
+    "answer": "OGMP assumes that mitigation actions requiring the shut-down of non-redundant equipment or processes will be conducted during regularly scheduled maintenance. An exception occurs if a Partner decides that the corrective action warrants an early or extra shut-down.",
+    "evidence": "The OGMP assumes that methane emission mitigation actions that require shut-downs of non-redundant equipment/processes (e.g., that would result in a stoppage of operations) would be carried out during regularly scheduled maintenance activities, unless the Partner deems the corrective action to be worthy of an early/additional shut-down."
+  }
+]

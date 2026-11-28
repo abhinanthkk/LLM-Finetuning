@@ -1,0 +1,202 @@
+{
+ "TGD2-Fugitives-09": [
+  {
+   "type": "lookup",
+   "question": "What is the estimated capital cost of leak screening and measurement equipment for an internal DI&M team?",
+   "answer": "Approximately $105,000, based on $85,000 for a FLIR Model GF320 infrared camera and $17,500 plus $1,200 for a calibration kit for a high-volume sampler.",
+   "evidence": "approximately $105,000, based on an estimated cost of $85,000 for FLIR Model GF320 infrared camera and $17,500 plus $1,200 for a calibration kit for a high-volume sampler"
+  },
+  {
+   "type": "comparison",
+   "question": "How many components do small and large gas processing facilities and a model onshore wellsite typically have for leak surveys?",
+   "answer": "A small gas processing facility can contain approximately 14,200 components, a large one approximately 56,400, and a model onshore wellsite had 468 components.",
+   "evidence": "a small gas processing facility can contain approximately 14,200 components while a large processing facility might contain approximately 56,400 components.A model onshore wellsite had 468 components"
+  },
+  {
+   "type": "lookup",
+   "question": "What is the estimated labor cost for DI&M screening and measurement at small and large gas processing plants?",
+   "answer": "At $30.46/hour, with a two-man team for two days at a small plant and four days at a large plant, labor costs about $1,200 for a small plant and $2,400 for a large plant.",
+   "evidence": "As an example, at a labor rate of $30.46/hour, assuming two days of a two-man team for a small gas processing plant, four days for a large gas processing plant, using an IR camera and a high-volume sampler, the estimated cost range for facility screening and measurement labor is $1,200 (small processing plant) to $2,400 (large processing plant)."
+  },
+  {
+   "type": "mitigation",
+   "question": "How can leak surveys at wellsites be made cost-effective?",
+   "answer": "For wellsites, the leak survey and repair would have to be incorporated into normal operational rounds.",
+   "evidence": "For wellsites, the leak survey and repair would have to be incorporated into normal operational rounds to make this practice costeffective."
+  },
+  {
+   "type": "why",
+   "question": "Why can buying leak detection equipment pay off despite a higher initial cost than outsourcing?",
+   "answer": "The purchased equipment and training can be reused in future surveys, so the investment can pay for itself through gas savings from found and fixed leaks, especially if shared across several facilities.",
+   "evidence": "Considering that the purchased equipment and training can be applied to future surveys, however, this initial investment can pay for itself through gas savings from found and fixed leaks."
+  }
+ ],
+ "TGD2-Fugitives-10": [
+  {
+   "type": "lookup",
+   "question": "What daily rental costs does the OGMP use in its example payback for renting leak detection equipment?",
+   "answer": "$1,000 per day for an optical leak imaging camera and $400 per day for a high-volume sampler.",
+   "evidence": "an example payback scenario could assume a daily rental cost of $1,000 for an optical leak imaging camera and $400 for a highvolume sampler"
+  },
+  {
+   "type": "quantification",
+   "question": "How much gas must be saved to pay back a rented leak survey at a gas processing plant?",
+   "answer": "At $3/MMBtu, gas savings of 900 to 1,700 Mscf (25,000 to 50,000 scm) would pay back the small and large plant survey costs, equivalent to a year at 100 to 200 scf/hour (3 to 6 scm/hour) of leak reductions.",
+   "evidence": "a pipeline gas value of $3/MMBtu, natural gas savings of 900 to 1,700 thousand standard cubic feet (Mscf) (25,000 to 50,000 standard cubic meters (scm)) would pay back the small and large plant gas processing plant survey costs, assuming costs to fix the leak are treated as normal maintenance costs. These gas savings are equivalent to a year’s operation assuming 100 to 200 standard cubic feet per hour (scf/hour) (3 to 6 scm/hour) of leak reductions."
+  },
+  {
+   "type": "lookup",
+   "question": "What does a contractor baseline leak survey cost using the per-component rule of thumb?",
+   "answer": "Using $1 per component, a baseline survey costs about $14,000 for a small facility to $55,000 for a large facility.",
+   "evidence": "Using a general costing rule of thumb of $1/component, the cost range for a baseline survey would be $14,000 (small facility) to $55,000 (large facility)."
+  },
+  {
+   "type": "comparison",
+   "question": "How do follow-up DI&M survey costs compare with the initial survey?",
+   "answer": "Follow-up surveys cost 25 to 40 percent less than the initial survey because they focus on the components found most likely to leak.",
+   "evidence": "follow-up surveys in an ongoing DI&M program cost 25 to 40 percent less than the initial survey because subsequent surveys focus on the components found most likely to leak"
+  },
+  {
+   "type": "mitigation",
+   "question": "How can leak screening be fitted into normal operations for some components?",
+   "answer": "For some components, Partners can incorporate simple and rapid leak screening into ongoing operation and maintenance procedures instead of waiting for a scheduled DI&M survey.",
+   "evidence": "For other components, Partners can incorporate simple and rapid leak screening into ongoing operation and maintenance procedures."
+  }
+ ],
+ "TGD2-Fugitives-11": [
+  {
+   "type": "definition",
+   "question": "What are leaker emission factors and when are they applied for fugitive emissions?",
+   "answer": "Leaker emission factors estimate emissions from sources identified as leaking, so they are applied only to components found to be emitting gas.",
+   "evidence": "leaker emission factors help estimate emissions from sources that have been identified to be leaking and therefore are applied only to those components that have been found to be emitting gas"
+  },
+  {
+   "type": "lookup",
+   "question": "Which OGMP emission factors can facilities with a formal DI&M program use?",
+   "answer": "Upstream oil and gas facilities that have already implemented a formal DI&M program can use the emission factors in Table 2.4.",
+   "evidence": "Upstream oil and gas facilities that have already implemented a formal DI&M program can also use emission factors provided in Table 2.4:"
+  }
+ ],
+ "TGD2-Fugitives-19": [
+  {
+   "type": "quantification",
+   "question": "How can total organic carbon (TOC) emissions be estimated when leaks are detected with EPA Method 21?",
+   "answer": "Partners can use the correlation equations and emission factors in Table 2.5 to estimate TOC emissions.",
+   "evidence": "If leakages are detected by using EPA Method 21, it is possible for Partners to estimate the total organic carbon (TOC) emissions using the correlation equations and the emission factors provided in Table 2.5."
+  },
+  {
+   "type": "quantification",
+   "question": "How are TOC leak emissions converted to methane emissions?",
+   "answer": "Using the percentage of methane in the stream composition; if unknown, Partners can use the GRI/EPA average methane composition in Table 2.6.",
+   "evidence": "TOC emissions must be converted to methane emissions using the percentage of methane in the stream composition (if unknown, Partners can refer the GRI\\EPA average methane composition reported in Table 2.6)."
+  }
+ ],
+ "TGD2-Fugitives-21": [
+  {
+   "type": "quantification",
+   "question": "When should the correlation equations versus pegged emission factors be used for Method 21 screening values?",
+   "answer": "The correlation equation is used for all equipment with a screening value between zero and the instrument over range. Pegged values are used for over-range equipment, according to the maximum detectable value of 10,000 or 100,000 ppm.",
+   "evidence": "Pegged values are used for the “over range” equipment (according to the maximum detectable value, 10,000 or 100,000 ppm)."
+  },
+  {
+   "type": "lookup",
+   "question": "What emission rate should be used for components that are not leaking under Method 21?",
+   "answer": "Partners must use default zero emission rates for no leakers.",
+   "evidence": "Partners must use default zero emission rates for no leakers."
+  },
+  {
+   "type": "lookup",
+   "question": "Which emission factors apply when leakers are detected with optical gas imaging?",
+   "answer": "Partners can use the emission factors derived in collaboration with API and provided in Table 2.7.",
+   "evidence": "If leakers are detected using the Optical Gas Imaging technology, Partners can refer to the emission factors derived in collaboration with API and provided in Table 2.7."
+  }
+ ],
+ "TGD2-Fugitives-23": [
+  {
+   "type": "definition",
+   "question": "What leak threshold separates leak and no-leak emission factors for optical gas imaging?",
+   "answer": "A leak is defined per the U.S. EPA as greater than 10,000 ppm by OVA; no-leak factors are averages of measured leaks below 10,000 ppm. Any leak visible with a gas imaging camera should be quantified with leak factors.",
+   "evidence": "No-leak factors are averages of measured leaks less than 10,000 ppm. If a leak can be seen with a gas imaging camera, it should be quantified with “leak” factors."
+  },
+  {
+   "type": "lookup",
+   "question": "Which leak definition should Partners use for OGI emission factors if they have no information about the instrument?",
+   "answer": "They should use the higher leak definition, 60 g/h.",
+   "evidence": "if no information are available, Partners should use the higher leak definition – 60 g/h"
+  }
+ ],
+ "TGD2-Fugitives-24": [
+  {
+   "type": "quantification",
+   "question": "How should methane emissions calculated in mass be converted to volume for fugitive leaks?",
+   "answer": "Apply the gas density if known, or use the default standard conversion factors in Table 2.8, to convert to scm or scf.",
+   "evidence": "Partners must convert methane emissions calculated in mass to a volume (scm or scf) applying the density of the gas (if known) or using a default standard conversion factors (see Table 2.8)."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-01": [
+  {
+   "type": "definition",
+   "question": "What types of shaft seals are used on centrifugal compressors?",
+   "answer": "Centrifugal compressors use either high-pressure oil (wet) seals or mechanical gas (dry) seals on their rotating shafts to keep high-pressure gas from escaping the casing.",
+   "evidence": "These seals can be high-pressure oil (\"wet”) seals or mechanical gas (“dry”) seals, which act as barriers against escaping gas."
+  },
+  {
+   "type": "definition",
+   "question": "How does a wet seal on a centrifugal compressor prevent gas from escaping?",
+   "answer": "It circulates oil under high pressure between rings around the shaft, forming thin films between the rotating ring and two stationary rings that act as a barrier against the compressed gas.",
+   "evidence": "The wet seal centrifugal compressors circulate oil under high pressure between rings around the compressor shaft, forming a barrier against the compressed gas to prevent its escape to the atmosphere."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-02": [
+  {
+   "type": "why",
+   "question": "How does methane get into the seal oil of a centrifugal compressor with wet seals?",
+   "answer": "Very little gas escapes through the oil barrier, but a significant amount of gas is entrained by the oil on the inboard (compressor) side of the seal where the oil meets high-pressure gas.",
+   "evidence": "a significant amount of gas can be entrained by the oil on the “inboard” (compressor) side of the seal at the oil interface with high-pressure gas, thus contaminating the seal oil"
+  },
+  {
+   "type": "why",
+   "question": "Why must seal oil from wet seal centrifugal compressors be degassed before reuse?",
+   "answer": "Contaminated seal oil must be purged of entrained gas to maintain its viscosity and lubricity before it is recirculated.",
+   "evidence": "contaminated seal oil must be purged of the entrained gas to maintain viscosity and lubricity before it is recirculated"
+  },
+  {
+   "type": "definition",
+   "question": "How is seal oil degassed in a wet seal centrifugal compressor system, and where does the methane go?",
+   "answer": "The oil is routed to a tank to disengage gas, then gravity drains to a seal oil sump and is pumped back to the seals. In uncontrolled systems both seal oil tanks are vented to the atmosphere.",
+   "evidence": "Both of these seal oil tanks are typically vented to the atmosphere in uncontrolled wet seal compressors."
+  },
+  {
+   "type": "mitigation",
+   "question": "How should Partners check that mitigated wet seal compressor degassing systems are working?",
+   "answer": "By regularly inspecting flare ignition and/or the atmospheric vents from the seal oil sump, or the seal face of a dry seal, with an IR leak imaging camera.",
+   "evidence": "as can be observed by inspecting flare ignition and/or atmospheric vents from the seal oil sump or the seal face of a dry seal using an IR leak imaging camera"
+  },
+  {
+   "type": "lookup",
+   "question": "What equipment failures can cause higher emissions from a mitigated centrifugal compressor seal system?",
+   "answer": "An intermediate degassing system malfunction, a dry seal malfunction, or an extinguished flare.",
+   "evidence": "Possible equipment failures resulting from improperly functioning systems include an intermediate degassing system malfunction, dry seal malfunction or an extinguished flare."
+  }
+ ],
+ "TGD3-Centrifugal-Compressors-04": [
+  {
+   "type": "quantification",
+   "question": "Which quantification methods does the OGMP recommend for wet seal centrifugal compressor degassing emissions?",
+   "answer": "Direct measurement or emission factor calculation. Direct measurement is in principle the most accurate and is highly encouraged whenever possible.",
+   "evidence": "the CCAC OGMP recommends that Partners use one of the following two quantification methodologies: direct measurement or emission factor calculation"
+  },
+  {
+   "type": "why",
+   "question": "Why is direct measurement encouraged for centrifugal compressor seal oil degassing emissions?",
+   "answer": "It is in principle the most accurate method, and it gives Partners more certainty about emission levels and the economic costs and benefits, such as the value of gas saved.",
+   "evidence": "With direct measurement, Partners can be more certain of emissions levels and economic costs and benefits (i.e., value of gas saved)."
+  },
+  {
+   "type": "lookup",
+   "question": "Can Partners use their own quantification method for centrifugal compressor emissions instead of the OGMP methods?",
+   "answer": "Yes, if they judge it similar or more accurate, but they must document and explain the alternative methodology in the Annual Report.",
+   "evidence": "Individual Partners may choose an alternative quantification methodology if judged to be similar or more accurate by the Partner"
+  }
+ ]
+}

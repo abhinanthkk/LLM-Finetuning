@@ -1,0 +1,237 @@
+{
+ "TGD1-Pneumatic-controls-and-pumps-24": [
+  {
+   "type": "lookup",
+   "question": "Where do the default emission factors for pneumatic devices in the OGMP guidance come from?",
+   "answer": "They are taken from American Petroleum Institute (API) and Gas Research Institute (GRI) reports, summarized in Table 1.2, and are also used under subpart W of EPA's Greenhouse Gas Reporting Program.",
+   "evidence": "Emissions factors for pneumatic devices are taken from American Petroleum Institute (API) and Gas Research Institute (GRI) reports and are summarized in Table 1.2 below."
+  },
+  {
+   "type": "why",
+   "question": "Why should Partners not rely blindly on the default pneumatic controller emission factors?",
+   "answer": "Publicly available studies show some variability in emission factors, so Partners are encouraged to use factors that best represent conditions and practices at their own facilities.",
+   "evidence": "As shown in Table 1.2, publicly available studies have shown that there is some variability observed in emissions factors."
+  }
+ ],
+ "TGD1-Pneumatic-controls-and-pumps-26": [],
+ "TGD2-Fugitives-01": [
+  {
+   "type": "definition",
+   "question": "What are fugitive emissions in oil and gas operations?",
+   "answer": "Fugitive emissions arise from unintentional leaks from oil and gas equipment, such as flanges, fittings, valve stem packing, pump seals, compressor components, pressure relief devices venting to atmosphere, tank thief hatches, meters and open-ended lines.",
+   "evidence": "Fugitive emissions arise from unintentional leaks from equipment used in oil and gas operations."
+  },
+  {
+   "type": "comparison",
+   "question": "Are emissions from gas-driven pneumatic controllers counted as fugitive leaks under the OGMP?",
+   "answer": "No. Emissions from equipment designed to vent as part of normal operations, such as gas-driven pneumatic controllers, are not considered leaks for this core source.",
+   "evidence": "For the purposes of this core source, emissions from equipment designed to vent as part of normal operations, such as gas-driven pneumatic controllers, are not considered leaks."
+  },
+  {
+   "type": "why",
+   "question": "What typically causes methane leaks from oil and gas equipment?",
+   "answer": "Poor construction, and corrosion or wear of mechanical joints, seals and rotating surfaces over time. Malfunctioning devices, such as intermittent pneumatics bleeding continuously or stuck separator dump valves, can also cause fugitive emissions.",
+   "evidence": "Methane leaks are typically caused by poor construction, corrosion or wear of mechanical joints, seals, and rotating surfaces over time."
+  }
+ ],
+ "TGD2-Fugitives-02": [
+  {
+   "type": "why",
+   "question": "Why can fugitive emissions be significant even though individual leaks are small?",
+   "answer": "Oil and gas operations have very large numbers of valves, instruments, piping and tubing connections, pumps and other components, so small leaks can collectively become a substantial fraction of a site's methane inventory.",
+   "evidence": "fugitive emissions – even if individually small – can collectively become a substantial fraction of a site methane emissions inventory"
+  },
+  {
+   "type": "mitigation",
+   "question": "When should detected fugitive leaks be repaired?",
+   "answer": "As soon as feasible, for example on the spot or during the next planned maintenance shutdown.",
+   "evidence": "Leaks should be repaired as soon as feasible (e.g., on the spot or during the next planned maintenance shutdown)."
+  },
+  {
+   "type": "quantification",
+   "question": "How often should DI&M leak surveys be carried out for OGMP reporting?",
+   "answer": "At least annually is recommended, because leaks can reappear at any time, but Partners should set the right frequency for their assets based on a risk assessment.",
+   "evidence": "An annual frequency, at minimum, is recommended; Partners should, however, define the right frequency for their specific assets according to a risk assessment."
+  }
+ ],
+ "TGD2-Fugitives-03": [
+  {
+   "type": "quantification",
+   "question": "How should Partners report unmitigated fugitive emissions from sources not covered by a leak monitoring program?",
+   "answer": "They may use recognized population emission factors (EFs) for sources not covered by an acceptable leak monitoring program such as a DI&M program.",
+   "evidence": "To report unmitigated emissions from potential sources not covered by an acceptable leak monitoring program (e.g. DI&M Program), Partners may use recognized population emission factors (EFs)."
+  },
+  {
+   "type": "quantification",
+   "question": "What leakage period should be assumed for leaks found but not evaluated for economic repair?",
+   "answer": "Half the time since the last survey to the end of the reporting year, or a default leakage period of 12 months, using leaker EFs or direct measurement of the leaking components.",
+   "evidence": "assuming a leakage period of half the time since the last survey to the end of the reporting year, or a default leakage period of 12 months"
+  },
+  {
+   "type": "quantification",
+   "question": "How are emission reductions from repaired fugitive leaks calculated?",
+   "answer": "Using their repair records, Partners count the months between the last survey that found the component not leaking and the month of repair, or all months of the reporting year before the repair if not surveyed earlier that year, and multiply by the leak rate.",
+   "evidence": "Partners should calculate the number of months between the times of the last leak survey when a component was found not leaking and the month of repair"
+  }
+ ],
+ "TGD2-Fugitives-04": [
+  {
+   "type": "comparison",
+   "question": "What is considered the most accurate method for quantifying fugitive methane emissions?",
+   "answer": "Leak screening followed by direct measurement of the identified leaks, which is also used to judge the cost-effectiveness of repair.",
+   "evidence": "In principle, leak screening followed by direct measurement of identified leaks can be considered the most accurate method for quantifying methane emissions for determination of cost-effectiveness of repair."
+  },
+  {
+   "type": "quantification",
+   "question": "Do mitigated facilities have to quantify their fugitive leak repairs under the OGMP?",
+   "answer": "No. Mitigated facilities will not be required to quantify leak repairs; quantification applies to unmitigated facilities and to estimating reductions.",
+   "evidence": "Mitigated facilities will not be required to quantify leak repairs."
+  },
+  {
+   "type": "quantification",
+   "question": "How can fugitive emissions be estimated when direct measurement of leaks is not feasible?",
+   "answer": "They can be estimated using leaker emission factors for the detected leaking components.",
+   "evidence": "When direct measurement is not feasible, fugitive emissions can be estimated using “leaker emission factors” for detected leaking components."
+  },
+  {
+   "type": "comparison",
+   "question": "When is soap solution unsuitable for leak screening, and what can be used instead?",
+   "answer": "Soap solution is not feasible if the component is too hot or too cold, has too large an opening such as an open-ended vent pipe, or is physically inaccessible. An optical gas imaging camera or laser leak detector may be more appropriate.",
+   "evidence": "using soap solution is not feasible if the component being screened is too hot or too cold, has too large an opening (e.g., openended vent pipe), or is physically inaccessible"
+  },
+  {
+   "type": "quantification",
+   "question": "How is the annual volume of methane from a detected leak calculated?",
+   "answer": "Multiply the estimated or measured methane flow rate by half the operating hours between the last survey that found the component not leaking and the time the leak is found and repaired.",
+   "evidence": "An annual volume of methane emissions is calculated by multiplying the estimated or measured methane emissions flow rate by half the operating hours of a piece of equipment between the last leak survey that found the component not leaking and the time when a leak is found and repaired."
+  }
+ ],
+ "TGD2-Fugitives-05": [
+  {
+   "type": "lookup",
+   "question": "Which equipment should be included in a fugitive leak screening survey?",
+   "answer": "All components and equipment at the facility, including piping, valves, connectors, flanges, compressor components, open-ended lines, pneumatic gas supply tubing, pneumatic pumps, compressor and pump seals, and tank thief hatches.",
+   "evidence": "Screening should include all components and equipment at the facility."
+  },
+  {
+   "type": "lookup",
+   "question": "Which leak screening techniques does the OGMP list for fugitive emissions?",
+   "answer": "Optical gas imaging such as an IR leak imaging camera, a remote methane leak detector using tunable diode laser absorption spectroscopy, soap bubble screening, leak sensors such as FID, OVA or TVA, and acoustic leak detection.",
+   "evidence": "Remote Methane Leak Detector (handheld device which uses tunable diode laser absorption"
+  },
+  {
+   "type": "lookup",
+   "question": "Which direct measurement technologies can be used to measure fugitive leak rates?",
+   "answer": "A calibrated vent bag, high-volume sampler, vane anemometer, hotwire anemometer, turbine meter, and an acoustic leak detector with its correlation equation.",
+   "evidence": "Following is a list of available measurement technologies that may be used to inform a decision on the economics of a repair."
+  },
+  {
+   "type": "why",
+   "question": "What determines which measurement technique should be used for a particular leaking component?",
+   "answer": "The component's operating conditions and any physical barriers to measurement access with certain instruments; more than one technique may be feasible.",
+   "evidence": "The appropriate measurement technique for a particular component/piece of equipment at a facility will depend on its operating conditions and any physical barriers to measurement access with certain instruments."
+  },
+  {
+   "type": "quantification",
+   "question": "What should Partners use when direct measurement of fugitive leaks is not feasible for safety, technical or economic reasons?",
+   "answer": "They can estimate fugitive emissions using relevant emission factors; the guidance provides standard emission factors for leaking and non-leaking equipment and gas properties from internationally recognized data sets.",
+   "evidence": "When direct measurement is not feasible for safety, technical, or economic reasons, Partners can estimate fugitive emissions using relevant emission factors."
+  }
+ ],
+ "TGD2-Fugitives-06": [
+  {
+   "type": "definition",
+   "question": "How does a Directed Inspection & Maintenance (DI&M) program for fugitive emissions begin?",
+   "answer": "It typically begins with a baseline survey that screens equipment components with emissions detection equipment to identify individually leaking components.",
+   "evidence": "A Directed Inspection & Maintenance (DI&M) program typically begins with a baseline survey to identify leaks."
+  },
+  {
+   "type": "mitigation",
+   "question": "What is the repair deadline for leaking components to claim fugitive emission mitigation under the OGMP?",
+   "answer": "All components found leaking must be repaired within 12 months of identification, unless repair within that time is determined not to be cost-effective.",
+   "evidence": "In order to claim mitigation for this source type, all components found to be leaking are repaired within 12 months of identification, unless repair within this time span is determined to not be cost-effective."
+  },
+  {
+   "type": "why",
+   "question": "What factors should be considered when deciding to repair a fugitive leak on the spot?",
+   "answer": "Feasibility considerations such as the volume of the leak, safety implications, cost-effectiveness, and complexity of repair, including whether a shutdown is needed.",
+   "evidence": "taking into account feasibility considerations such as volume of leak, safety implications, cost-effectiveness, and complexity of repair"
+  },
+  {
+   "type": "lookup",
+   "question": "What must be documented to report fugitive emission reductions in the OGMP Annual Report, and when are credits taken?",
+   "answer": "The date of repair, type of component, and the measured or estimated methane emission reduction must be documented. Reduction credits are taken in the year the repair is actually done.",
+   "evidence": "Fugitive emission reduction credits are taken in the year that the actual repair is done."
+  },
+  {
+   "type": "comparison",
+   "question": "How does the annual fugitive leak survey differ from the baseline survey in a DI&M program?",
+   "answer": "The annual survey is a modified direct inspection that typically focuses on components in methane-containing service found to be leak-prone in the baseline or later surveys.",
+   "evidence": "This survey typically focuses on components and equipment in methane-containing gas service that were found to be leak-prone in the Baseline Fugitive Component and Equipment Leak Survey or subsequent leak surveys."
+  }
+ ],
+ "TGD2-Fugitives-07": [
+  {
+   "type": "lookup",
+   "question": "Which components account for most fugitive emissions at upstream oil and gas facilities?",
+   "answer": "Experience shows that most fugitive emissions at upstream facilities come from valves, connectors, flanges and compressor seals.",
+   "evidence": "experience shows that a majority of fugitive emissions from upstream facilities derive from valves, connectors, flanges and compressor seals"
+  },
+  {
+   "type": "why",
+   "question": "Why should DI&M programs record baseline leak data?",
+   "answer": "The majority of emissions typically come from a relatively small percentage of leaking components, so recording baseline data lets future surveys focus on the most significant leakers.",
+   "evidence": "Partners should record the baseline leak data so that future surveys can focus on the most significant leaking components."
+  },
+  {
+   "type": "lookup",
+   "question": "What information should Partners collect about leaks found in a DI&M survey?",
+   "answer": "An identifier for each leaking component, the component type, the measured or estimated leak rate, the survey date, the estimated annual gas loss, and the estimated repair cost.",
+   "evidence": "The information that Partners might choose to collect includes the following:"
+  },
+  {
+   "type": "mitigation",
+   "question": "What should Partners do if a detected leak cannot be repaired immediately?",
+   "answer": "They should tag the leak for tracking purposes and document the results of the DI&M survey.",
+   "evidence": "If the leak cannot be immediately repaired, Partners should tag leaks for tracking purposes and document the results of the DI&M survey."
+  },
+  {
+   "type": "mitigation",
+   "question": "How should DI&M survey frequency be adjusted if surveys find many large or recurring leaks?",
+   "answer": "Partners can increase the frequency of follow-up surveys, focusing on previously repaired components or the asset classes most likely to leak.",
+   "evidence": "if subsequent surveys show numerous large or recurring leaks, Partners can increase the frequency of DI&M follow-up surveys"
+  }
+ ],
+ "TGD2-Fugitives-08": [
+  {
+   "type": "lookup",
+   "question": "What elements should an effective DI&M plan include?",
+   "answer": "A comprehensive screening plan, leak screening and measurement tools and data procedures, a screening and measurement schedule, repair best-practice guidelines, and analysis of previous inspection results to direct the next survey.",
+   "evidence": "Results and analyses of previous inspection and maintenance efforts that will direct the next DI&M survey."
+  },
+  {
+   "type": "comparison",
+   "question": "What are the trade-offs of using an internal team instead of contractors for leak detection and measurement?",
+   "answer": "An internal team may cost more up front to buy equipment, but gains efficiencies by using the equipment across many facilities and sharing lessons learned between facility types and regions.",
+   "evidence": "Although the latter may initially cost more up front (e.g., to acquire the necessary leak detection and measurement equipment), Partners can achieve greater efficiencies using the equipment over numerous facilities."
+  },
+  {
+   "type": "lookup",
+   "question": "What share of equipment leaks can a DI&M program profitably repair, and what is the payback?",
+   "answer": "Studies indicate a DI&M program can profitably repair 78 to 92 percent of equipment leaks, with a 6 to 12 month payback.",
+   "evidence": "Studies referenced below indicate that a DI&M program can profitably repair 78 to 92 percent of equipment leaks, with a 6 to 12 month payback."
+  },
+  {
+   "type": "why",
+   "question": "What does the methane reduction from a DI&M program depend on?",
+   "answer": "It varies with the size, age, equipment and operating characteristics of the facility.",
+   "evidence": "The potential methane emission reduction from implementing DI&M programs will vary depending on the size, age, equipment, and operating characteristics of the facility."
+  },
+  {
+   "type": "quantification",
+   "question": "What factors affect the cost of DI&M leak screening and measurement?",
+   "answer": "The team performing the survey (internal or contractor), the size and type of facility screened, and the equipment used.",
+   "evidence": "The cost of performing DI&M screening/measurement depends on several factors, including the team performing the survey (internal or hired contractor), size/type of facility being screened, and equipment used."
+  }
+ ]
+}

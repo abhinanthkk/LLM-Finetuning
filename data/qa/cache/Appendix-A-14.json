@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "type": "quantification",
+    "question": "When using a vane anemometer to measure emissions, how is the volumetric flow rate estimated?",
+    "answer": "The volumetric flow rate is estimated by multiplying the pipe's calculated cross-sectional area by the measured flow velocity of the gas.",
+    "evidence": "The cross-sectional area is then multiplied by the measured flow velocity, to estimate the volumetric flow rate of emissions through the vent."
+  },
+  {
+    "type": "definition",
+    "question": "For leak quantification, what components make up a vane anemometer?",
+    "answer": "A vane anemometer is composed of a vane wheel flow velocity sensor together with a handheld unit that displays the measured gas velocity passing through the vane wheel.",
+    "evidence": "A vane anemometer consists of a vane wheel flow velocity sensor and handheld unit that displays the measured velocity of gas that passes through the device’s vane wheel."
+  },
+  {
+    "type": "why",
+    "question": "Why does a change in flow direction near a vane anemometer measurement location reduce the accuracy of emissions estimates?",
+    "answer": "Emissions estimates become less accurate when the flow direction changes near the measurement point because that change distorts the gas velocity profile.",
+    "evidence": "The emissions estimate is less accurate if the flow direction of the vent pipe changes near the vane anemometer measurement, which distorts the velocity profile."
+  },
+  {
+    "type": "lookup",
+    "question": "What are the cost and reusability characteristics of calibrated vent bags used for emissions measurement?",
+    "answer": "Calibrated vent bags cost approximately $50 each and can be reused approximately 100 times provided they are handled with care.",
+    "evidence": "These bags cost approximately $50 each and can be re-used approximately 100 times if handled with care."
+  },
+  {
+    "type": "comparison",
+    "question": "For a vane anemometer, how does the working temperature range of the vane wheel sensor compare to that of the handheld unit?",
+    "answer": "The vane wheel sensor typically operates across a wide working temperature range of -15 to 260 °C (5 to 500 °F), whereas the handheld unit has a much smaller working range of 0 to 50 °C (32 to 122 °F).",
+    "evidence": "The working temperature range of this vane wheel sensor is typically -15 to 260 °C (5 to 500 °F) while the handheld unit has a smaller working range of 0 to 50 °C (32 to 122 °F)."
+  }
+]
+```

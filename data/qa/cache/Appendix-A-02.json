@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "type": "why",
+    "question": "Why might emission factors be the only estimation method available for fugitive equipment and process leak emissions during desktop studies?",
+    "answer": "Desktop study personnel cannot determine the specific locations where leaks are occurring at any given moment or know the exact leak rates. Field surveys are required to collect this information onsite.",
+    "evidence": "Emission factors may be the only possible emissions estimation method for certain sources; one example is fugitive equipment and process leak emissions, because desktop study personnel do not have a way of knowing where leaks are occurring at any moment in time or the leak rates"
+  },
+  {
+    "type": "definition",
+    "question": "What is the purpose and scope of a field emissions survey for methane sources?",
+    "answer": "A field emissions survey gathers necessary operational data onsite and uses specialized equipment to identify methane emission sources. It measures emission levels for unmitigated sources, which include both fugitive leaks from components like flanges and valves, and operational vents like tank roof vents.",
+    "evidence": "A field Emissions Survey collects needed operational data onsite and utilizes specialized equipment to identify methane emission sources and measure emissions levels of unmitigated sources, both fugitive sources (unintentional emissions from flanges, valves, fittings, etc.), and vents from normal operations, such as tank roof vents or wet seal compressor degassing drum vents."
+  },
+  {
+    "type": "mitigation",
+    "question": "What actions are required to fulfill the mitigation practice for fugitive methane emissions?",
+    "answer": "The mitigation practice for fugitive emissions mandates conducting annual field leak surveys on all equipment components operating in methane service. Any leaking components identified during these surveys must be repaired if doing so is cost-effective.",
+    "evidence": "The mitigation practice for fugitive emissions requires annual field leak surveys of all components in methane service and repair of those that are cost-effective to repair."
+  },
+  {
+    "type": "quantification",
+    "question": "How is emissions quantification treated for fugitive components examined during annual leak surveys?",
+    "answer": "Quantifying emissions is not mandatory for fugitive components inspected during annual surveys. However, performing quantification can assist operators when deciding whether to repair a detected leak.",
+    "evidence": "Quantification is not required for fugitive components surveyed each year, although quantification may be useful in making a decision to repair a found leak."
+  },
+  {
+    "type": "comparison",
+    "question": "How do subsequent annual asset surveys differ from initial first-year surveys regarding core methane emission sources?",
+    "answer": "First-year asset surveys provide a comprehensive baseline inventory of core sources and classify them as mitigated or unmitigated. In contrast, subsequent annual surveys focus on identifying changes in the numbers of core sources and quantifying emissions exclusively from unmitigated sources.",
+    "evidence": "Subsequent Annual Surveys focus on identifying changes in numbers of core sources and quantifying emissions from only unmitigated sources."
+  }
+]
+```

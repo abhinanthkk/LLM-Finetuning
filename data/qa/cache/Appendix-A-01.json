@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "type": "definition",
+    "question": "In methane emissions surveys for oil and gas operations, how is a field survey defined and conducted?",
+    "answer": "A field survey is an approach where operational data elements are gathered during an actual visit to the field site. It involves identifying actual emissions from sources and quantifying unmitigated emissions through direct measurements or engineering calculations using field data.",
+    "evidence": "Field surveys involve gathering operational data elements during a field site visit, identifying actual emissions from sources, and quantifying unmitigated emissions by either direct measurements or by engineering calculations that rely on field data."
+  },
+  {
+    "type": "why",
+    "question": "Why is performing a desktop study recommended as an initial step when starting methane emissions surveys across company assets?",
+    "answer": "Conducting a desktop study serves as an initial step to raise awareness about OGMP goals and commitments among personnel across all participating assets within a company.",
+    "evidence": "Performing a desktop study is a first step to bring awareness regarding OGMP commitments and goals to personnel from all assets within a company’s scope of participation."
+  },
+  {
+    "type": "quantification",
+    "question": "For liquid storage tanks and glycol dehydrators, what are the most accurate methods for estimating methane emissions that fluctuate with process conditions?",
+    "answer": "Equilibrium models represent the most accurate estimation method for process-variable emissions. Specifically, E&P Tank is recommended for liquid storage tank emissions, and GlyCalc is recommended for glycol dehydrator emissions.",
+    "evidence": "The most accurate methods for emissions that vary with process conditions are equilibrium models, such as E&P Tank for liquid storage tank emissions and GlyCalc for glycol dehydrator emissions."
+  },
+  {
+    "type": "comparison",
+    "question": "For estimating methane emissions, how does the use of emission factors compare to other calculation approaches in terms of preference?",
+    "answer": "Using emission factors—whether developed by the company from similar assets or sourced from Technical Guidance Documents—is designated as the least preferred, though still acceptable, emission estimation approach.",
+    "evidence": "The least preferred, but acceptable, emission estimation approach is use of emission factors, either companydeveloped from similar assets or emission factors from Technical Guidance Documents or other sources."
+  },
+  {
+    "type": "lookup",
+    "question": "What basic operating data from liquid storage tanks, glycol dehydrators, and pneumatic systems can field personnel collect to calculate emissions remotely during desktop studies?",
+    "answer": "Field personnel can collect data including the produced oil flow rate to tanks, the pressure in the gas-liquid separator located ahead of liquid storage tanks, the glycol dehydrator configuration and pump type, and the total count of gas pneumatic control loops.",
+    "evidence": "Examples of such operating data include: pressure in gas-liquid separator ahead of liquid storage tanks and produced oil flow rate to tank(s); glycol dehydrator configuration and type of pump; and number of gas pneumatic control loops."
+  }
+]
+```

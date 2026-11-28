@@ -1,0 +1,584 @@
+id,doc,type,source,question,reference,base_answer,finetuned_answer,base_bleu,base_rougeL,base_relevance,base_words,ft_bleu,ft_rougeL,ft_relevance,ft_words
+TGD1-Pneumatic-controls-and-pumps-12-q01,TGD1-Pneumatic-controls-and-pumps,comparison,llm,Which pneumatic controller applications can tolerate a slower low-bleed device?,"Temperature and level controllers, because they are typically used where control is not prone to wide fluctuation or the equipment can readily and safely accommodate the fluctuation.","The OGMP Technical Guidance Document 2016, titled ""Methane Emissions from Oil and Gas Production Facilities,"" does not specifically address pneumatic controllers that can tolerate a slower low-bleed device. The document focuses on various aspects of methane emissions control in oil and gas production facilities, including equipment selection, maintenance practices, and operational procedures.
+
+For specific information on pneumatic controllers and their tolerance to slow bleed devices, you would need to refer to more specialized industry standards or guidelines that focus on pneumatic systems. These might include codes like ASME PTC 19.1, which deals with pressure piping, or other relevant standards that cover pneumatic system design and operation. If you have access to these resources, they could provide detailed answers regarding the tolerances of different components under specific conditions.","A compressor whose rod packing needs to be replaced because of excessive leakage, or a centrifugal pump with significant leakage through the seal that needs to be repaired.",0.4745,0.0897,0.5989,127,1.943,0.1091,0.4332,28
+TGD2-Fugitives-04-q01,TGD2-Fugitives,comparison,llm,"For fugitive methane, which quantification approach gives the most accurate results?","Leak screening followed by direct measurement of the identified leaks, which is also used to judge the cost-effectiveness of repair.","The most accurate quantification of fugitive methane typically involves a combination of field measurements and modeling approaches. Field measurements can provide direct data on the concentration of methane in the air at specific locations over time. These measurements can be taken using various techniques such as infrared cameras, pit samplers, or portable methane analyzers.
+
+Modeling approaches, on the other hand, use atmospheric models to predict where and when methane might escape from sources like natural gas wells, pipelines, storage tanks, and compressor stations. This is particularly useful for understanding the broader landscape of methane emissions across large areas or regions.
+
+Both methods have their strengths: field measurements offer detailed local information but may not cover extensive areas, while modeling provides broad-scale predictions but relies on assumptions and simplifications that can introduce uncertainties. Combining these two approaches often leads to more comprehensive and reliable estimates of methane emissions.","Leak screening followed by direct measurement of the identified leaks, which is also used to judge the cost-effectiveness of repair.",0.3792,0.0828,0.5426,147,100.0,1.0,1.0,20
+Appendix-A-09-q02,Appendix-A,why,llm,"What equipment temperatures rule out soap bubble screening for leaks, and why?","Because soaping uses a water-based solution, it cannot be applied to equipment running above the boiling point of water (100 °C/212 °F) or below the freezing temperature of water (0 °C/32 °F).","The OGMP Technical Guidance Document 2016-03 provides a detailed explanation of the conditions under which soap bubble screening is not suitable for detecting methane leaks in oil and gas facilities. The document outlines that soap bubble screening is not applicable when the temperature exceeds 50°C due to the potential for bubbles to break or evaporate at higher temperatures.
+
+This limitation arises because the process involves creating small bubbles of air within the methane stream, which can then be detected by sensors. At high temperatures, these bubbles may either evaporate before they can be captured or break apart into smaller bubbles, making it difficult or impossible to accurately measure the concentration of methane in the sample.
+
+Therefore, if the ambient temperature during the test exceeds 50°C, soap bubble screening would not provide reliable results for methane leak detection purposes. This approach helps ensure that the method remains effective under normal operating conditions without risking false positives or negatives due to environmental factors such as temperature.",Soap bubble screening is not possible if the equipment is hotter than 100 °C (212 °F) or colder than 0 °C (32 °F).,0.375,0.0792,0.7269,164,12.9589,0.3793,0.834,23
+TGD7-Liquids-unloading-17-q04,TGD7-Liquids-unloading,definition,llm,How does the sequential lift technique handle liquids in horizontal gas wells?,A series of pumps following the horizontal well to pump out liquids; Muskegon Development Company found it better than gas lift for managing liquids and minimizing emissions.,"The Sequential Lift Technique is a method used to increase production from horizontal gas wells by injecting liquid into the wellbore. This process involves several steps:
+
+1. **Injection of Liquid**: The first step is to inject a liquid, typically water or brine, down the well bore. This liquid serves as a carrier fluid that helps displace the natural gas.
+
+2. **Gas Displacement**: As the injected liquid moves up the wellbore, it displaces the natural gas. This displacement creates a pressure difference between the bottom of the well and the surface, which can be exploited to create a flow of natural gas upward through the wellbore.
+
+3. **Production**: Once the liquid has moved sufficiently up the wellbore, the injection stops, and the displaced natural gas begins to rise. This rising gas can then be produced at the surface via a production tubing string.
+
+4. **Controlled Flow**: The amount of liquid injected and the rate at which it moves up the wellbore can be controlled to optimize the flow of natural gas. This control allows operators to maintain a balance between the volume of natural gas produced and the volume of liquid injected.
+
+5. **Safety Measures**: Safety measures such as temperature monitoring, pressure relief valves, and proper containment systems are","A series of pumps following each other lifts the liquids up the well, so the main pump can then capture the natural gas vented from the top of the smallest pump.",0.2406,0.0851,0.6605,208,12.8045,0.3103,0.7467,31
+TGD3-Centrifugal-Compressors-06-q06,TGD3-Centrifugal-Compressors,quantification,llm,Under what circumstances should emission factors be used to estimate wet seal centrifugal compressor emissions?,"When direct measurement is not possible; they should then use emission factors that best represent their facilities, with their own operating factors.","The use of emission factors in estimating wet seal centrifugal compressor emissions is generally appropriate under certain conditions as outlined in the Oil and Gas Methane Partnership's Technical Guidance Document 10, which focuses on methane emissions from equipment and processes.
+
+Emission factors can be applied when:
+
+1. **Data Availability**: The specific emission factor for a particular process or equipment type is available. This allows for more accurate estimation of emissions based on known data rather than having to calculate it from first principles.
+
+2. **Process Specificity**: The process being considered involves a well-defined emission source that has been characterized through testing or modeling. Emission factors are typically derived from such characterization studies.
+
+3. **Regulatory Compliance**: In some cases, regulatory requirements may mandate the use of emission factors if detailed emission measurements are not feasible due to cost, time constraints, or other practical considerations.
+
+4. **Consistency with Standards**: Using emission factors aligns with industry standards and best practices for quantifying greenhouse gases, especially relevant for industries like oil and gas where precise measurement and reporting are critical.
+
+5. **Simplified Calculations**: When dealing with large-scale operations or multiple sources within a facility, applying emission factors simplifies the calculation process by reducing the number of variables involved.
+
+6. **Historical",When direct measurement is not possible; they should then be extrapolated for the entire year.,0.4472,0.0866,0.6658,206,34.8646,0.4865,0.6776,15
+TGD6-Storage-Tanks-13-q01,TGD6-Storage-Tanks,lookup,llm,"What gases make up the vapors above a medium (30° API) crude oil in a storage tank, and in what proportions?","From E&P TANKS, for 30° API crude at atmospheric pressure and 70° F, about 68 percent methane, 10 percent ethane, 8 percent propane, and 3 percent each of butane and isobutene.","The vapor above a medium (30° API) crude oil in a storage tank primarily consists of hydrocarbons with varying boiling points. The composition can vary depending on factors such as temperature, pressure, and the presence of other substances like water or solvents. However, generally speaking, the main components would be:
+
+1. **Alkanes**: These are the simplest hydrocarbon molecules, typically ranging from C2H6 to C4H10. They have lower boiling points and will evaporate at room temperature.
+
+2. **Alkenes**: These contain one or more double bonds between carbon atoms. Alkenes tend to have higher boiling points than alkanes but still may partially evaporate under certain conditions.
+
+3. **Aromatic Hydrocarbons**: These include compounds that contain a benzene ring. Aromatic hydrocarbons also have different boiling points compared to alkanes and alkenes.
+
+The exact proportions of these components depend on the specific crude oil type, its processing history, and environmental conditions. For example, if there is significant moisture present, it could lead to the formation of lighter fractions due to condensation effects. In a well-controlled environment without external influences, the primary component might be ethane (C2H6), followed","According to Table 2.2, the proportion of methane, propane, butanes and natural inert gases in medium crude oil is approximately: methane: propane:butane = 44.87%: 5.16%: 9.87%.",0.6396,0.0837,0.6971,182,3.3546,0.129,0.8006,26
+TGD4-Reciprocating-Compressors-10-q02,TGD4-Reciprocating-Compressors,lookup,llm,"During rod packing maintenance on a reciprocating compressor, which parts might be swapped out?","Packing rings, cups, gaskets, and piston rods.","The OGMP (Oil & Gas Methane Partnership) provides guidelines for maintaining and repairing equipment in the oil and gas industry. When performing rod packing maintenance on a reciprocating compressor, several components may need to be replaced or serviced. These include:
+
+1. **Rod Pads**: The rods themselves can wear down over time due to friction with the cylinder walls. New rods should be installed if they become worn.
+
+2. **Rod Ends**: Rod ends that have been damaged by corrosion or other forms of damage may need to be replaced.
+
+3. **Rod Bearings**: If the bearings within the rod end show signs of wear, replacement is necessary to ensure proper operation and longevity of the system.
+
+4. **Rod Packing Material**: The material used for rod packing needs to be checked for integrity. If it has deteriorated or degraded, new packing must be applied.
+
+5. **O-Rings**: O-rings located at various points along the rod path can also experience degradation from exposure to oils and gases. Replacing these as needed ensures sealing effectiveness.
+
+6. **Sealing Gaskets**: Sealing gaskets around the rod paths and other critical areas should be inspected for any signs of wear or damage. Replacement is often required to maintain seal integrity.
+
+7. **Rod Guide","The packing ring, cups, gasket, and piston rods.",0.23,0.0474,0.7246,203,42.4013,0.9333,0.9687,8
+TGD9-Casinghead-venting-10-q02,TGD9-Casinghead-venting,mitigation,llm,"If casinghead gas is tied into a VRU, in what situation do I need pressure regulators?","When low-pressure casinghead gas joins higher-pressure sources, such as a dehydrator flash tank separator, at the VRU suction.","OGMP Technical Guidance Document 2016-03 provides information on how to handle casinghead gas when it's tied into a Virtual Recirculation Unit (VRU). The document suggests that if there is no pressure regulator installed at the VRU, then a pressure regulator should be installed between the VRU and the wellhead.
+
+The reason for this recommendation is to ensure that the high-pressure casinghead gas can safely transition to lower pressures as it flows through the VRU, which may have different operating conditions or equipment than the well itself. This helps prevent overpressure issues that could lead to safety hazards or damage to equipment.
+
+In summary, you would need a pressure regulator if one is not already present at the VRU to manage the pressure difference during the transfer of casinghead gas from the VRU back to the well. This ensures safe operation and prevents potential problems associated with unregulated pressure transitions.","When low-pressure casinghead gas joins higher-pressure sources, such as a dehydrator flash tank separator, at the VRU suction.",1.2262,0.1163,0.7291,149,100.0,1.0,1.0,18
+TGD5-Glycol-Dehydrators-05-q01,TGD5-Glycol-Dehydrators,quantification,llm,What methods can be used to quantify methane from a glycol dehydrator under the OGMP?,"Direct measurement, engineering calculation with software, or emission factor calculation. Direct measurement is in principle the most accurate.","Under the Oil and Gas Methane Partnership (OGMP), quantifying methane emissions from a glycol dehydrator involves several methodologies that focus on accurately measuring the volume of natural gas produced, which is then converted into methane. Here are some key approaches:
+
+1. **Volume Measurement**: The primary method involves directly measuring the volume of natural gas produced by the glycol dehydration process. This can be done through flow meters installed at various points in the pipeline system.
+
+2. **Methane Concentration Analysis**: Once the volume of natural gas is determined, it can be analyzed for its methane concentration. This helps in understanding how much methane is present relative to the total volume of gas produced.
+
+3. **Mass Balance Approach**: Another approach involves calculating the mass of methane emitted based on the volume of natural gas produced. This requires knowing the density of methane (approximately 0.6 g/L at standard temperature and pressure).
+
+4. **Gas Chromatography-Mass Spectrometry (GC-MS)**: For more precise measurements, especially when dealing with small volumes or high concentrations of methane, GC-MS can be employed. This technique separates gases based on their boiling point and identifies them by their characteristic mass spectrum.
+
+5. **In-situ Emission Estimation**: Some","Direct measurement, engineering calculation, or the emission factor approach; direct measurement is in principle the most accurate.",0.2494,0.0459,0.6244,194,53.2027,0.8571,0.9165,17
+TGD8-Well-completions-04-q04,TGD8-Well-completions,lookup,llm,What instruments should be used to measure flowback during a hydraulically fractured well completion?,"Vane anemometer, hotwire anemometer, turbine meter, and orifice meter.","According to the Oil and Gas Methane Partnership's Technical Guidance Document, when measuring flowback during a hydraulically fractured well completion, several instruments should be employed to accurately assess the volume of fluid that is released from the formation. These include:
+
+1. **Flow Meter**: A high-precision flow meter capable of measuring small volumes of fluids is essential. This instrument will help in determining the rate at which the fluid flows out of the well.
+
+2. **Pressure Transducer**: Pressure transducers can be used to monitor the pressure changes within the wellbore as the fluid is released. Understanding the pressure profile helps in estimating the volume of fluid flowing back.
+
+3. **Temperature Sensor**: Temperature sensors can provide information on the temperature of the fluid being released. This data can be correlated with the volume of fluid to infer the conditions under which it was produced.
+
+4. **Volume Measurement Devices**: Devices such as graduated cylinders or volumetric containers can be used to directly measure the volume of fluid released into the ground surface.
+
+5. **Wellhead Flowmeter**: An inline wellhead flowmeter can be installed near the wellhead to continuously measure the flow rate of the fluid before it reaches the surface.
+
+6. **Hydrostatic Pressure Gauge**: This gauge measures the pressure exerted","After finding the appropriate location, a turbine meter or an Ormicron F series flow meter with an insertion device is used to measure the flowback rate.",0.2094,0.0184,0.7131,206,3.3582,0.1714,0.7374,26
+TGD1-Pneumatic-controls-and-pumps-01-q03,TGD1-Pneumatic-controls-and-pumps,why,llm,What problem do gas-driven chemical injection pumps solve in natural gas pipelines?,"Natural gas driven chemical injection pumps inject substances like methanol into pipelines to prevent the formation of crystalline methane hydrates, which can cause operational blockages in natural gas pipelines.","Gas-driven chemical injection pumps are designed to inject chemicals into natural gas pipelines at specific intervals or based on certain conditions, such as corrosion prevention, anti-corrosion treatment, or other protective measures. The primary purpose of these pumps is to maintain pipeline integrity by adding a protective layer that can prevent damage from external factors like water erosion, which can lead to pipe corrosion.
+
+The use of gas-driven chemical injection pumps helps ensure the safety and longevity of the pipeline system by addressing potential issues before they become critical problems. This technology allows for precise control over the application of chemicals, ensuring that only necessary amounts are added to the pipeline, thereby minimizing environmental impact and reducing the need for extensive maintenance operations.","They inject chemicals into wells or pipes to prevent blockages caused by crystalline methane hydrates, which are safe to use in small quantities as flame arrestors.",2.6951,0.1948,0.8815,122,14.7804,0.3273,0.7905,26
+TGD2-Fugitives-07-q03,TGD2-Fugitives,lookup,llm,"When a DI&M survey finds a leak, what details should be recorded about it?","An identifier for each leaking component, the component type, the measured or estimated leak rate, the survey date, the estimated annual gas loss, and the estimated repair cost.","According to the Oil and Gas Methane Partnership's Technical Guidance Document 102-3, when a DI&M (Distributed Integrated Measurement and Monitoring) survey identifies a leak, several key pieces of information should be documented:
+
+1. **Date and Time**: The exact date and time the leak was detected.
+2. **Location**: The precise location on the well site or field where the leak is located.
+3. **Well ID**: The identification number assigned to the well being surveyed.
+4. **Surveyor’s Name and Contact Information**: The name of the person conducting the survey and their contact information.
+5. **Leak Detection Method**: How the leak was detected (e.g., by sensors, visual observation).
+6. **Type of Leak**: Whether the leak is suspected to be a blowout, casing perforation, or other type of leak.
+7. **Volume Estimate**: An estimate of the volume of natural gas that may have been lost due to the leak.
+8. **Potential Impact**: Any potential impact on the environment or production operations if the leak were to continue.
+9. **Action Taken**: Actions taken in response to the detection (e.g., shutting off valves, initiating repairs).
+
+This documentation helps in tracking the progress of remediation efforts and","The make and model, the type of equipment, the location, the reading, the estimated annual volume of gas lost, and the survey date.",0.449,0.1161,0.7217,190,15.8665,0.3922,0.697,23
+Appendix-A-04-q04,Appendix-A,lookup,llm,What instruments can detect fugitive leaks from equipment and process components?,"Fugitive equipment and process leaks can be detected using optical leak imaging, laser leak detectors, soap bubble screening, Organic Vapor Analysers (OVAs) and Toxic Vapor Analysers (TVAs), or acoustic leak detection.","The OGMP Technical Guidance Document 10 provides a list of instruments that can be used to detect fugitive leaks from equipment and process components, including:
+
+1. **Flame Photometer**: This instrument measures the concentration of hydrocarbons in the air by detecting the flame produced when a sample is burned.
+
+2. **Gas Chromatograph-Mass Spectrometer (GC-MS)**: This device separates and identifies gases based on their mass-to-charge ratio, allowing for the detection of specific compounds or mixtures.
+
+3. **Thermal Desorption-Gas Chromatography (TD-GC)**: This method involves heating organic materials to release volatile substances, which are then analyzed using GC technology.
+
+4. **Infrared Spectroscopy (FTIR)**: This technique uses infrared light to measure the absorption spectrum of a substance, providing information about its composition and structure.
+
+5. **Raman Spectroscopy**: Similar to FTIR, Raman spectroscopy also uses infrared light but with a different principle; it detects vibrational and rotational transitions between molecular energy levels.
+
+6. **Mass Spectrometry (MS)**: MS analyzes samples by ionizing them and then separating ions into their component parts based on their mass-to-charge ratio.
+
+7. **Opt","Fugitive leaks from equipment and process components can be detected using optical leak imaging, laser leak detectors, soap bubble screening, Organic Vapor Analysers (OVAs) and Toxic Vapor Analysers (TVAs), or acoustic leak detection.",1.0068,0.0762,0.8014,171,87.3893,0.9375,0.9947,33
+TGD7-Liquids-unloading-16-q04,TGD7-Liquids-unloading,lookup,llm,What is the per-well cost of adding smart well technology to a plunger lift?,"One Natural Gas STAR partner estimated $5,700 to $18,000 per well, incremental to a plunger lift.","The per-well cost of adding smart well technology to a plunger lift system can vary significantly depending on several factors, including the specific equipment and services required, the complexity of the installation process, and local market conditions. Generally, such costs might include:
+
+1. **Equipment Costs**: This includes purchasing or leasing the necessary hardware components like sensors, communication devices, and software.
+2. **Installation Costs**: This involves labor costs associated with installing the new technology into existing wells, which may require drilling holes in the ground if the technology requires direct access to the reservoir.
+3. **Service Costs**: These could be related to ongoing maintenance, data analysis, and support from service providers who specialize in smart well technologies.
+
+For example, if you're considering a project where you need to add smart sensors to monitor pressure and flow rates in each individual well, the total cost would likely be higher due to the additional hardware needed and possibly more complex installation processes compared to traditional plunger lift systems that don't require as many technological upgrades.
+
+To get a precise figure, one would need to consult with a contractor or supplier specializing in smart well solutions, who can provide detailed estimates based on the specifics of your project.","$1,900 to $7,800 per well, including workover rig time, for a total of two weeks' work.",1.1761,0.0533,0.6822,204,9.5604,0.2222,0.6231,16
+TGD3-Centrifugal-Compressors-15-q05,TGD3-Centrifugal-Compressors,lookup,llm,What percentage of newly built centrifugal compressors are supplied with dry seals?,"About 90 percent of all new compressors come with dry seals, so Partners buying a new compressor should make sure it has dry seals.","According to the OGMP (Oil & Gas Methane Partnership), there is no specific requirement or standard in the industry regarding the percentage of newly built centrifugal compressors that must be supplied with dry seals. The choice between wet and dry seals often depends on factors such as cost, maintenance requirements, and performance needs. However, it's important to note that the use of dry seals can significantly reduce leakage and improve efficiency in certain applications. For more detailed information, one would need to refer to specific guidelines from organizations like ISO, ASME, or other relevant standards bodies that might have recommendations or requirements related to seal types in compressor design.","Approximately 90 percent of all new compressors come with dry seals, so Partners buying a new compressor should make sure it has dry seals.",2.0871,0.1203,0.8522,109,95.9097,0.9583,0.9987,24
+TGD6-Storage-Tanks-02-q05,TGD6-Storage-Tanks,why,llm,What causes flashing losses at storage tanks on onshore production sites?,"They are designed to push liquid from a higher-pressure gas/liquid separator into the tank without a pump, which causes some flashing.","Flashing losses in onshore storage tanks can be caused by several factors, including:
+
+1. **Temperature Fluctuations**: The temperature of the stored product can change due to variations in ambient conditions or equipment inefficiencies. This can lead to changes in vapor pressure that cause the liquid to flash into a gaseous state.
+
+2. **Pressure Changes**: Pressure fluctuations within the tank or between the tank and the pipeline system can also trigger flashes as the pressure difference forces the liquid to transition from one phase to another.
+
+3. **Flow Dynamics**: Fluid flow dynamics inside the tank can create regions where the fluid is more prone to flash. For example, areas with high velocity or turbulence may have higher rates of flash evaporation compared to other parts of the tank.
+
+4. **Tank Design and Construction**: The design and construction of the tank itself can affect its performance. Poor insulation or inadequate venting systems can contribute to increased flashing losses over time.
+
+5. **Product Properties**: The physical properties of the stored product, such as its boiling point and volatility, play a role in determining how easily it will flash under certain conditions.
+
+6. **Equipment Maintenance**: Regular maintenance of the storage tank and associated equipment can help prevent issues related to flashing losses. Proper cleaning, inspection, and repair","They are designed to push liquid from a higher-pressure gas/liquid separator into the tank without a pump, which causes some flashing.",0.42,0.0763,0.7379,213,100.0,1.0,1.0,21
+TGD4-Reciprocating-Compressors-01-q02,TGD4-Reciprocating-Compressors,comparison,llm,"On a well-maintained reciprocating compressor, which part emits the most gas?","Piston rod packing systems typically emit the highest volume of gas; fugitive leaks from flanges, valves and fittings on these compressors are minimal and covered by the fugitives guidance.","In a well-maintained reciprocating compressor, the cylinder is typically the primary source of gas emission due to its high-pressure environment and continuous operation. The piston also plays a significant role in the process as it moves back and forth within the cylinder, contributing to the compression and release of gases. However, if there are issues such as leaks or improper maintenance that allow gas to escape from other parts like valves or seals, those components could contribute to additional gas emissions. Proper inspection and repair of these components can help maintain efficiency and reduce emissions.",The rod packing system in compressors with connecting rods that use pistons is perhaps the least maintained component and also the single largest source of gas loss.,1.1332,0.1587,0.7092,95,4.01,0.2143,0.7759,27
+TGD9-Casinghead-venting-01-q04,TGD9-Casinghead-venting,lookup,llm,Which equipment failures can make a mitigated casinghead gas system emit more methane?,"A well compressor malfunction, a VRU malfunction, or an extinguished flare.","The OGMP Technical Guidance Document 2016-03, ""Mitigation of Casing Head Gas Emissions,"" provides information on various factors that can contribute to increased methane emissions from a mitigated casing head gas system. The document identifies several potential causes of higher methane emissions:
+
+1. **Casing Head Pressure Regulator Failure**: If the pressure regulator is not functioning properly or if it fails completely, it can lead to reduced flow through the tubing string, causing the wellbore pressure to rise above the design limits. This condition can result in higher than expected methane emissions.
+
+2. **Well Tubing String Issues**: Problems with the well tubing string, such as kinks, bends, or improper installation, can impede the flow of natural gas and potentially increase the volume of gases released into the atmosphere.
+
+3. **Flow Control Valves**: These valves control the rate at which fluids and gases flow through the tubing string. A malfunctioning valve could cause inconsistent flow rates, leading to variations in the amount of gas emitted.
+
+4. **Downhole Equipment Failures**: Any failure within downhole equipment, including packers, valves, or other components, can disrupt the normal operation of the well, resulting in higher-than-normal methane emissions.
+
+5. **Dr","A well compressor malfunction, a VRU malfunction, or an extinguished flare.",0.3972,0.0485,0.687,192,100.0,1.0,1.0,11
+TGD5-Glycol-Dehydrators-05-q05,TGD5-Glycol-Dehydrators,why,llm,What is the purpose of an infrared camera survey before measuring glycol dehydrator emissions?,Viewing the whole dehydrator system with an IR leak imaging camera identifies possible fugitive leak emissions.,"An infrared camera survey before measuring glycol dehydrator emissions serves several purposes:
+
+1. **Visual Inspection**: The primary purpose is to visually inspect the equipment, especially around the area where the emissions are suspected or expected. This helps in identifying any potential sources of leaks or other issues that could be contributing to the emissions.
+
+2. **Detection of Emissions Sources**: Infrared cameras can detect small amounts of methane and other hydrocarbon gases at concentrations too low to be detected by human senses. They help in pinpointing areas where these gases might be escaping from the equipment.
+
+3. **Preventive Maintenance**: By detecting potential emission sources early, maintenance activities can be scheduled more effectively. This reduces the likelihood of unplanned repairs during production operations, which can lead to increased downtime and higher costs.
+
+4. **Compliance with Standards**: Many industries have regulations regarding the release of greenhouse gases into the atmosphere. An infrared camera survey provides a visual record of compliance with these standards, helping companies demonstrate their adherence to environmental regulations.
+
+5. **Data Collection for Further Analysis**: The data collected through infrared surveys can be used as part of a larger dataset for further analysis. This includes understanding the patterns of emissions over time, comparing different locations within a facility, or correlating emissions with specific operational",Viewing the whole dehydrator system with an IR leak imaging camera identifies possible fugitive leak emissions.,0.3614,0.0437,0.7576,213,100.0,1.0,1.0,16
+TGD8-Well-completions-02-q01,TGD8-Well-completions,definition,llm,"Under the federal greenhouse gas reporting rule's general provisions, what counts as a well completion?","The process letting petroleum or gas flow from new wells to expel fluids and test the reservoir, which may vent gas via an open pit or tank.","The General Provisions of the Federal Greenhouse Gas Reporting Rule define ""well completions"" as the installation or modification of equipment that allows natural gas to flow from a producing formation into a production facility. This includes activities such as drilling, completing, and equipping wells with necessary infrastructure like pipelines, valves, and meters. The rule aims to ensure accurate measurement and reporting of greenhouse gases emitted during these processes.",The process in which petroleum or gas is extracted from underground formations and brought to the surface.,1.4344,0.1684,0.6909,68,6.6449,0.3636,0.7532,17
+TGD1-Pneumatic-controls-and-pumps-20-q02,TGD1-Pneumatic-controls-and-pumps,lookup,llm,How many tons per year of methane and VOC does the OGMP expect to save per piston pump and per diaphragm pump by routing their gas to a control device?,"Based on a 95 percent reduction, about 0.36 tpy methane and 0.10 tpy VOC per piston pump, and 3.29 tpy methane and 0.91 tpy VOC per diaphragm pump, in the production segment.","The OGMP (Oil & Gas Methane Partnership) has set specific targets for reducing methane emissions from various equipment types in the oil and gas industry. For piston pumps, the goal is to reduce methane emissions by 50% compared to current practices. Diaphragm pumps have different emission reduction goals depending on the type of diaphragm pump used.
+
+For piston pumps:
+- The OGMP expects to save approximately **1 ton per year** of methane and Volatile Organic Compounds (VOCs) per piston pump by routing its gas to a control device.
+
+For diaphragm pumps:
+- Specific savings can vary based on the type of diaphragm pump (e.g., positive displacement or rotary), but generally, the OGMP aims to achieve similar reductions as with piston pumps, which would be around **1 ton per year** of methane and VOCs per diaphragm pump when routed to a control device.
+
+These figures represent the expected annual methane and VOC savings under the OGMP's guidelines, assuming optimal implementation and adherence to best practices.","Based on a 95 percent reduction, approximately 1.2 tons per year per piston pump and 0.6 tons per year per diaphragm pump.",1.7903,0.1407,0.7795,164,21.728,0.4667,0.8085,22
+TGD2-Fugitives-16-q02,TGD2-Fugitives,lookup,template,"In OGMP Table 2.4, what emission factor applies to a gas connector in gas/vapor (GV) service?","According to OGMP Table 2.4 (Emission Factors for Fugitive Emissions After the Implementation of a Formal DI&M Program), the EF for Gas, Connector, GV is 0.03 scf THC/h/source; 0.001 scm THC/h/source.","OGMP Table 2.4 provides emission factors for various sources of greenhouse gases, including methane. For a gas connector in gas/vapor (GV) service, the relevant emission factor is typically associated with fugitive emissions from equipment or infrastructure.
+
+The specific emission factor would depend on the exact conditions under which the gas connector operates, such as its location, type of material used, and whether it's part of a larger system that could be subject to leaks or other potential sources of methane release.
+
+However, without more detailed information about the specific circumstances of the gas connector, it's not possible to provide a precise emission factor directly from the table. The table likely includes general categories like ""equipment"" or ""process,"" but the exact application depends on the context provided by the rest of the table.
+
+For accurate information, consulting the full OGMP Table 2.4 or contacting OGMP support would be necessary.","According to OGMP Table 2.4 (Onshore Operations Methane Emission Factors), the emission factor for Gas Connector – Gas/Vapor (GV) is 1.0 scf/hour/gallon; 0.028 scm/hour/gallon.",1.4452,0.1563,0.8785,148,16.1089,0.5143,0.879,24
+Appendix-A-12-q01,Appendix-A,quantification,llm,How accurate is a turbine meter for leak measurement within its flow range compared with outside it?,"Within its stated flow range for flows exceeding 0.283 standard m3/minute, a turbine meter achieves an accuracy of ±1 percent. However, if the device is operated outside of this specified flow range, its accuracy drops to ±25 percent.","The accuracy of a turbine meter for leak measurement can vary depending on several factors, including the specific design and calibration of the meter, the conditions under which it operates, and the precision required for the application.
+
+1. **Flow Range**: Within the specified flow range, a turbine meter should provide reasonably accurate measurements. The meter's performance in this range will depend on how well it has been calibrated to match the expected flow characteristics.
+
+2. **Outside the Flow Range**: Beyond the specified flow range, the accuracy of a turbine meter may degrade due to changes in flow conditions. Turbine meters typically operate best at steady-state conditions where the flow rate remains constant. If the flow rate deviates from the designed operating point, the meter's response time and accuracy might be compromised.
+
+3. **Calibration and Maintenance**: Regular calibration and maintenance of the turbine meter are crucial for ensuring that it provides reliable readings over its entire operational range. Any deviations from the manufacturer’s specifications or improper calibration could lead to inaccuracies.
+
+4. **Environmental Conditions**: Changes in temperature, pressure, and other environmental conditions can affect the performance of a turbine meter. For example, if the meter is exposed to high temperatures or pressures beyond its normal operating limits, its accuracy might decrease.
+
+5. **Specific Design Features","Within its stated flow range of 0.2 to 60 kilograms per hour (kg/h), the turbine meter is ±1 percent accurate. However, it is not accurate when operating outside this flow range; its accuracy then drops to + or -25 percent.",3.0144,0.1163,0.859,214,15.0257,0.5679,0.9281,40
+TGD7-Liquids-unloading-10-q03,TGD7-Liquids-unloading,comparison,llm,How does the delivery of surfactants differ between a shallow gas well and a deep one?,"In a shallow well, poured down the annulus through an open valve; in a deep well, an injection system with regular monitoring is needed.","The delivery of surfactants in a gas well can be influenced by several factors, including the depth of the well, the type of surfactant used, and the specific conditions within the reservoir. Here's how it might differ between a shallow gas well and a deep one:
+
+1. **Depth**: Shallow wells typically have less pressure and temperature differences compared to deeper wells. This means that the concentration of dissolved gases like natural gas is higher at shallower depths.
+
+2. **Surfactant Concentration**: In a shallow well, the concentration of surfactant may need to be lower because the solubility of surfactants decreases with increasing pressure. Conversely, in a deep well, where the pressure is higher, the same or similar concentrations of surfactant may be required due to the increased pressure leading to greater solubility.
+
+3. **Flow Rate**: The flow rate through a well also plays a role. Higher flow rates generally mean more efficient use of surfactant, but they can also lead to surges in pressure if not managed properly.
+
+4. **Wellbore Conditions**: The presence of water layers or other fluids in the wellbore can affect the effectiveness of surfactants. These conditions can alter the distribution of surfactant throughout","In a shallow well, the surfactant is injected into the casing; in a deep well it must be delivered via a pump or pressure regulator from the surface to the bottom of the well.",3.1107,0.0905,0.6363,196,19.9204,0.3103,0.7426,34
+TGD3-Centrifugal-Compressors-06-q05,TGD3-Centrifugal-Compressors,lookup,llm,Where does the data behind the default emission factors for wet seal centrifugal compressors come from?,They are based on data from compressors operated outside the United States in the natural gas processing stage.,"The default emission factors for wet seal centrifugal compressors, as provided in the Oil and Gas Methane Partnership's (OGMP) guidelines, typically originate from a combination of experimental data, field measurements, and modeling studies conducted by industry experts and researchers. These sources include:
+
+1. **Experimental Data**: Researchers conduct laboratory experiments to measure the methane leakage rates under various conditions such as different operating pressures, temperatures, and flow rates.
+
+2. **Field Measurements**: Field studies involve installing sensors on real equipment or monitoring systems that capture actual emissions over time. This provides direct evidence of methane leakage at operational sites.
+
+3. **Modeling Studies**: Computational fluid dynamics (CFD) simulations and other numerical models can be used to predict methane emissions based on design parameters like seal type, material properties, and operating conditions.
+
+4. **Expert Opinions**: Industry experts and consultants who have extensive experience with similar equipment and technologies provide insights into typical performance characteristics and potential emission levels.
+
+These data points are then aggregated and standardized through OGMP’s guidelines to create consistent and reliable emission factor values for use in environmental impact assessments and reporting purposes. The specific details and methodologies employed may vary slightly depending on the latest research findings and best practices within the industry.",They are based on data from compressors operated outside the United States in the natural gas processing stage.,0.5101,0.0448,0.6716,203,100.0,1.0,1.0,18
+TGD6-Storage-Tanks-09-q02,TGD6-Storage-Tanks,why,llm,What is the reason for sloping a VRU suction line downward toward the suction scrubber?,So that no liquid trap forms that would block the free flow of gas to the compressor.,"The purpose of sloping a VRU suction line downward toward the suction scrubber is to ensure that any liquid or slurry that may be present in the wellbore fluid mixture flows into the VRU's suction system, rather than remaining in the wellbore. This design helps to prevent contamination of the wellbore fluids by the VRU's own process gases, which can potentially lead to issues such as corrosion or other chemical reactions within the wellbore environment. The slope also aids in maintaining proper flow dynamics within the VRU, ensuring efficient operation of the device.",So that liquid will collect in the drip catcher and flow to the ground instead of building up in the VRU where it can foul the compressor parts.,0.6281,0.1429,0.5879,93,5.0645,0.3556,0.7327,28
+TGD4-Reciprocating-Compressors-14-q03,TGD4-Reciprocating-Compressors,comparison,llm,"For rod packing vent gas, is a VRU or a flare more effective at reducing methane, and by how much?","Up to 95 percent with a VRU (its operating factor), and up to 99 percent with a flare connection, assuming 99 percent flare efficiency.","The effectiveness of a Vent Recirculation Unit (VRU) versus a flare in reducing methane emissions depends on several factors including the specific conditions of the well site, the volume of gas involved, and the efficiency of each technology.
+
+1. **VRU**: A VRU can be highly effective in capturing and recirculating methane from wells. The primary advantage of a VRU is that it captures the majority of the methane before it escapes into the atmosphere, thereby significantly reducing the overall emission rate. However, the capture efficiency of a VRU can vary depending on its design, the pressure differential between the wellhead and the VRU, and the flow rate of the gas. If the VRU is not designed correctly or if the flow rate is too low, some of the methane may still escape into the atmosphere.
+
+2. **Flare**: A flare is typically used to burn off excess natural gas that cannot be captured through a VRU. Flares have high thermal efficiencies but their effectiveness in reducing methane emissions also varies based on the concentration of methane in the flared gas. In general, flaring is less efficient than a VRU because it burns off the entire volume of gas rather than just the portion that can be captured. This means that even though a flare might","A VRU might not capture all the gas that vents from a compressor rod packing, so a flare could have higher overall methane reduction when compared to sending gas to the atmosphere.",0.6242,0.0756,0.672,214,3.0787,0.1429,0.673,32
+TGD9-Casinghead-venting-11-q02,TGD9-Casinghead-venting,why,llm,Why is sending casinghead gas to a flare considered the last option?,"Recovery is preferred, and a lit flare can sometimes emit more greenhouse gas than an unlit one when purge and pilot gas are counted.","Sending casinghead gas to a flare is generally considered the last resort or final option when other methods of handling flaring do not meet certain criteria, such as safety standards, environmental regulations, or economic feasibility. The rationale behind this approach includes:
+
+1. **Safety Standards**: Flaring can pose significant risks if it occurs in populated areas or near sensitive environments like water bodies. Casinghead gas must be managed safely before being released into the atmosphere.
+
+2. **Environmental Regulations**: Many jurisdictions have strict emission control requirements that need to be met by reducing or eliminating methane emissions from flares. Sending gas to a flare ensures compliance with these regulations.
+
+3. **Economic Feasibility**: In some cases, the cost of capturing and processing the gas may outweigh the benefits of avoiding flaring. In such scenarios, flaring becomes the most economical solution.
+
+4. **Technological Limitations**: There might be technological constraints where capturing and processing the gas at the well site is impractical due to infrastructure limitations or operational complexities.
+
+5. **Public Acceptance and Compliance**: Some communities require that all flared gases be captured and processed according to specific protocols. This requirement often leads to the use of flares as a last resort.
+
+6. **Regulatory Mandates**: Certain regulatory frameworks","Recovery is preferred, and a lit flare can sometimes emit more greenhouse gas than an unlit one when purge and pilot gas are counted.",0.254,0.0529,0.6511,203,100.0,1.0,1.0,24
+TGD5-Glycol-Dehydrators-11-q05,TGD5-Glycol-Dehydrators,quantification,llm,"If an existing flare has spare capacity, what does it cost to route glycol dehydrator vents to it?","If the flare has spare capacity, the installation cost is simply piping and valves.","The cost of routing glycol dehydrator vents to a flare with spare capacity would depend on several factors including the specific equipment involved, labor costs, material handling fees, and any additional engineering or design work required. The OGMP Technical Guidance Document 10 provides detailed information on how to calculate these costs based on the size and complexity of the project.
+
+To determine the exact cost, you should consult the latest version of the OGMP Technical Guidance Document 10, which includes detailed calculations and examples that can help in estimating the costs associated with such a project. This document is specifically designed to address the challenges faced by operators when upgrading their facilities to meet environmental standards, particularly focusing on the integration of new technologies like glycol dehydration systems into existing operations.",Only piping costs; the main benefit is saving on fuel costs for the recovered gas.,0.758,0.0966,0.7299,131,3.4198,0.1379,0.7391,15
+TGD8-Well-completions-09-q02,TGD8-Well-completions,lookup,template,"In OGMP Table 8.2, what is the methane emission factor for fractured gas well completions and workovers that use flaring only?","According to OGMP Table 8.2 (Default Emission Factors for Well Completions of Hydraulically Fractured Wells), the methane emissions factor for Hydraulically fractured gas well completions and workovers with flaring only is 7,352 scm/completion; 259,605 scf/completion.","According to OGMP Table 8.2, the methane emission factor for fractured gas well completions and workovers that use flaring only is approximately 0.15 kg CO₂e per m³ of natural gas produced. This value represents the greenhouse gas equivalent (CO₂e) emissions associated with the flared natural gas. The table provides a general guideline but actual values can vary based on specific conditions such as flare efficiency, gas composition, and local regulations. For precise calculations, it's recommended to consult the latest version of OGMP or relevant industry standards.","According to OGMP Table 8.2 (Default Emission Factors for Well Completions of Fractured Wells), the methane emission factor for Fractured gas well completions and workovers that use flaring only is 7,352 scm/completion; 259,605 scf/completion.",11.8555,0.3053,0.8969,86,73.7446,0.9367,0.9801,34
+TGD1-Pneumatic-controls-and-pumps-02-q02,TGD1-Pneumatic-controls-and-pumps,definition,llm,"In a gas-driven pneumatic controller, what does the term 'bleed' refer to?",A bleed refers to the modulated gas pressure signal sent from a process measurement device to the valve controller to adjust the valve actuator.,"The term ""bleed"" in a gas-driven pneumatic controller typically refers to the release of compressed air or other gases from the system into the atmosphere through a small opening or vent. This is often done as part of maintenance procedures to check for leaks or to clean the system. The purpose of bleed is to ensure that the system remains free of contaminants and to maintain its integrity by removing any excess pressure or gases that may have accumulated over time. Bleeding also helps in maintaining the cleanliness of the system components and ensures that they remain dry and free of moisture, which can be important for preventing corrosion and ensuring proper operation.",The bleed refers to the modulated gas pressure signal sent from a process measurement device to the valve controller to adjust the valve actuator.,1.6025,0.1449,0.8476,113,95.7348,0.9583,0.9956,24
+TGD2-Fugitives-11-q05,TGD2-Fugitives,lookup,template,What leaker emission factor does OGMP Table 2.3 give for a pressure relief valve in the All Components – Gas Service category?,"According to OGMP Table 2.3 (Onshore Operations Methane Emission Factors), the leaker emission factor for All Components – Gas Service, Pressure Relief Valve is 4.5 scf/hour/component; 0.13 scm/hour/component.","OGMP Table 2.3 provides emission factors for various components of natural gas systems, including pressure relief valves. The table is part of the OGMP (Oil & Gas Methane Partnership) guidelines aimed at reducing methane emissions from oil and gas operations.
+
+For a pressure relief valve in the ""All Components - Gas Service"" category, the relevant emission factor would be found in the appropriate section of the table that describes the specific component's characteristics and potential emissions under different operating conditions.
+
+However, without access to the actual table or detailed information on the specific category, it's not possible to provide the exact emission factor directly. Typically, such factors can vary based on design, materials, and operational conditions but generally fall within the range provided by the table for similar components.
+
+If you need precise data, consulting the full OGMP table or contacting OGMP support would be necessary. For general understanding, the emission factors listed in the table should cover most common scenarios, though specifics may differ slightly depending on the valve model and its application.","According to OGMP Table 2.3 (Onshore Operations Methane Emission Factors), the leaker emission factor for All Components – Gas Service is 4.5 scf/hour/component; 0.13 scm/hour/component.",1.42,0.1435,0.8745,174,86.1737,0.9538,0.9239,25
+Appendix-A-01-q04,Appendix-A,comparison,llm,Where do emission factors rank among the methods for estimating methane emissions?,"Using emission factors—whether developed by the company from similar assets or sourced from Technical Guidance Documents—is designated as the least preferred, though still acceptable, emission estimation approach.","The emission factors for methane emissions from various sources, including oil and gas operations, can vary significantly depending on the specific method used to estimate them. The ranking of these factors would depend on how they were calculated or compared in a particular study or context.
+
+In general, emission factors are often ranked based on their accuracy, reliability, and consistency across different studies. Some common considerations might include:
+
+1. **Accuracy**: How closely does the factor match observed data?
+2. **Reproducibility**: Can the same factor be consistently applied across different studies or regions?
+3. **Consistency**: Is the factor consistent with other similar measurements or models?
+
+Without specific details about which methods you're referring to, it's difficult to provide a precise ranking. However, generally speaking, more recent and standardized methodologies like those outlined in the OGMP (Oil & Gas Methane Partnership) guidelines tend to have higher credibility due to their peer-reviewed validation and widespread adoption in industry standards.
+
+For detailed information on specific methods, one should consult the relevant OGMP guidelines or other authoritative sources that discuss best practices in methane emission estimation.","Emission factors serve as a ranking method, but they may not accurately characterize local conditions or represent best practices.",0.5894,0.0849,0.6415,181,1.6731,0.125,0.7346,19
+TGD7-Liquids-unloading-16-q01,TGD7-Liquids-unloading,definition,llm,How does smart well technology work on wells with plunger lifts?,"An automated system that considers well conditions and decides when a plunger lift cycle is needed, so liquids are unloaded at the optimal time.","Smart well technology, also known as digital well technology or intelligent well management systems, is designed to enhance the efficiency and safety of oil and gas production operations by providing real-time data and remote control capabilities. When applied to wells with a plunger lift system, this technology can significantly improve performance through several mechanisms:
+
+1. **Data Collection**: Smart well technology allows for continuous monitoring of key parameters such as pressure, flow rate, temperature, and liquid level in the wellbore. This information is collected from sensors placed at various points along the wellbore.
+
+2. **Real-Time Monitoring**: The data collected is transmitted back to a central server where it can be analyzed in real time. This enables operators to quickly identify anomalies that might indicate issues like stuck plunger, which could lead to significant downtime and increased costs if not addressed promptly.
+
+3. **Predictive Maintenance**: By analyzing historical data and current conditions, the system can predict potential problems before they occur. For example, if there's a pattern indicating a high likelihood of a stuck plunger, maintenance staff can prepare accordingly.
+
+4. **Remote Control and Automation**: With smart well technology, operators can remotely control the plunger lift process. This includes starting and stopping the pump, adjusting the stroke length, and even performing some","An automated system that considers well conditions and decides when a plunger lift cycle is needed, so liquids are unloaded at the optimal time.",0.8411,0.0844,0.7227,210,100.0,1.0,1.0,24
+TGD3-Centrifugal-Compressors-15-q06,TGD3-Centrifugal-Compressors,quantification,llm,"After switching a centrifugal compressor from wet to dry seals, how do you work out the methane reduction?","As the difference between measured emissions in the wet seal and dry seal configurations, measured before installation and again a month after. Default dry seal emission factors can be used as a proxy, and natural gas used as seal barrier fluid must be added to the seal leakage.","The reduction in methane emissions after switching from wet to dry seals on a centrifugal compressor can be calculated based on several factors including the volume of compressed air, the efficiency of the seal system, and the effectiveness of the new sealing technology.
+
+1. **Volume of Compressed Air**: The amount of air that passes through the compressor is crucial because it determines the total mass of methane that could potentially be emitted if the process were not sealed. This volume needs to be measured before and after the switch to determine the reduction.
+
+2. **Seal System Efficiency**: The efficiency of the new seal system will directly impact the reduction in methane emissions. A more efficient seal means less air leakage, which translates into fewer methane emissions per unit of air processed.
+
+3. **Methane Emission Factor**: The emission factor for methane depends on various conditions such as temperature, pressure, and the specific composition of the gases involved. For example, at standard conditions, 1 cubic meter of natural gas contains approximately 160 kg of methane.
+
+4. **Total Volume Calculation**: Multiply the volume of air processed by the emission factor to get the total methane emissions before and after the switch. Subtract the latter value from the former to find the reduction.
+
+5. **Efficiency Calculation**: Calculate the","Using the seal leakage of both the wet and dry sealed compressors operating the same quality of gas, minus the leakages from the new dry seals.",0.8116,0.145,0.7901,214,3.5477,0.2432,0.6713,26
+TGD6-Storage-Tanks-14-q05,TGD6-Storage-Tanks,why,llm,Why would an operator not normally install a stabilization tower only to reduce tank methane?,They are expensive and installed for specific purposes such as product vapor pressure and NGL recovery.,"An operator might not typically install a stabilization tower solely to reduce tank methane because stabilization towers are designed primarily for capturing and treating flue gases from combustion processes, particularly in natural gas processing plants or refineries. They can be effective at reducing methane emissions by removing volatile organic compounds (VOCs), which include methane.
+
+However, if an operator is specifically concerned with reducing methane emissions from storage tanks rather than flue gases, they may consider installing a stabilization tower that targets methane. This could involve:
+
+1. **Enhanced Flue Gas Treatment**: The stabilization tower could be modified to capture and treat methane directly from the storage tanks.
+2. **Separation of Gases**: The tower could separate different types of gases, including methane, from other components like carbon dioxide, hydrogen sulfide, and water vapor.
+3. **Combined Heat and Power (CHP)**: The captured methane could be used as fuel for generating electricity or steam, further reducing overall greenhouse gas emissions.
+
+The decision to use a stabilization tower for methane reduction depends on the specific operational needs and environmental goals of the facility. If the primary concern is methane emissions from storage tanks, then targeting this specific emission source through enhanced flue gas treatment or separation technologies makes sense. However, if the goal is broader reductions across","The tank pressure is too high for the tower to be effective, or there is no access from the tank roof or floor.",0.2425,0.0526,0.6141,212,1.9823,0.0513,0.5108,23
+TGD4-Reciprocating-Compressors-01-q05,TGD4-Reciprocating-Compressors,lookup,llm,What are the packing rings on reciprocating compressors typically made of?,"They are available in a variety of materials, including bronze and carbon-impregnated Teflon.","The packing rings on reciprocating compressors are typically made of a material that provides good sealing properties while also being resistant to wear and corrosion. Common materials used in packing rings include:
+
+1. **Graphite**: Graphite is a common choice due to its excellent lubrication properties, low friction coefficient, and resistance to wear.
+2. **Carbon Fiber Reinforced Plastics (CFRP)**: These materials can provide high strength-to-weight ratios and are resistant to chemical erosion.
+3. **Polytetrafluoroethylene (PTFE)**: PTFE has excellent thermal stability and chemical resistance but may be more expensive than other options.
+
+The specific composition and type of packing ring will depend on the compressor's design requirements, operating conditions, and cost considerations. The goal is to ensure effective sealing against internal leakage while maintaining operational efficiency and longevity.","They are usually made of bronze, which is soft and lubricated with oil, allowing it to expand and seal against the rod shaft, cups and rings when pressurized.",0.3775,0.0839,0.6262,126,3.1732,0.2381,0.7178,28
+TGD9-Casinghead-venting-01-q02,TGD9-Casinghead-venting,why,llm,What happens to production in a mature oil well if casinghead gas is not removed?,"In mature wells with beam or electric submersible pumps, it can restrict oil flow by vapor locking the pump, and with surface backpressure it can severely restrict production.","In a mature oil well, if casinghead gas is not effectively managed or removed from the wellbore, it can lead to several issues that could impact both the well's performance and the overall efficiency of the operation:
+
+1. **Increased Production Costs**: The presence of uncontrolled casinghead gas can increase operational costs by requiring additional equipment and maintenance to manage this gas.
+
+2. **Reduced Well Integrity**: Casinghead gas can cause corrosion and erosion of the well’s internal components over time, leading to potential leaks and reduced well integrity.
+
+3. **Decreased Pump Efficiency**: If the casinghead gas is not controlled, it can reduce the pump efficiency due to increased friction and resistance as the fluid moves through the tubing string.
+
+4. **Potential Environmental Impact**: Uncontrolled casinghead gas can contribute to environmental concerns such as greenhouse gas emissions, which can be harmful to the environment.
+
+5. **Operational Complexity**: Managing casinghead gas requires specialized equipment and processes, adding complexity to the well operations and potentially increasing labor and material costs.
+
+6. **Risk of Fire Hazards**: In some cases, uncontrolled casinghead gas can pose fire hazards within the well, especially during periods when the well is shut-in or producing at low rates.
+
+7. **Impact on Res",Resistive or velocity tubing can be used; otherwise production is shut in until a wellhead compressor is installed.,0.9232,0.0948,0.667,201,1.5622,0.1304,0.687,18
+TGD5-Glycol-Dehydrators-08-q02,TGD5-Glycol-Dehydrators,lookup,llm,How much of the methane and VOCs carried by the TEG does a flash tank separator recover?,Approximately 90 percent of the methane and 10 to 40 percent of the VOCs.,"The recovery efficiency of the flash tank separator in recovering methane and volatile organic compounds (VOCs) from the top of the TEG (Thermal Energy Generator) system can vary depending on several factors, including the design of the separator, the composition of the gases being separated, and operational conditions.
+
+In general, flash tanks are designed to separate different components based on their density or volatility. The separation process typically involves creating a region where lighter components (such as methane and other hydrocarbons) rise to the surface while heavier components (like some VOCs) remain at the bottom. This is achieved through differences in vapor pressure, temperature, and density.
+
+For methane and VOCs recovered from the TEG system, the flash tank separator would ideally capture these components efficiently. However, the exact recovery rate depends on how well the separator is configured and operated. Typically, flash tanks have high efficiencies for separating light hydrocarbons like methane but may not be as effective for capturing more complex mixtures containing higher concentrations of VOCs.
+
+To determine the specific recovery rates, one would need to consult the technical specifications provided by the manufacturer of the flash tank separator or the TEG system itself. These documents often include data on the separator's performance under various operating conditions.
+
+It's also important to",Approximately 90 percent of the methane and 10 to 40 percent of the VOCs.,0.6107,0.0611,0.69,213,100.0,1.0,1.0,14
+TGD8-Well-completions-03-q02,TGD8-Well-completions,lookup,llm,Which malfunctions can increase methane from a well completion that is reported as mitigated?,"A blown-out flare, malfunctioning venting, or venting non-combustible gas with too much nitrogen and/or carbon dioxide instead of flaring or producing it.","The OGMP Technical Guidance Document 2016-3, ""Well Completion Design,"" provides information on potential issues that could lead to increased methane emissions from a well completion. One of these issues is related to the integrity of the cementing material used in the casing of the well. If the cementing material fails or leaks, it can allow natural gas to migrate into the formation, increasing the amount of methane released during production.
+
+Specifically, Section 4.5.2 of the document discusses the importance of maintaining the integrity of the cementing materials in the wellbore. It states:
+
+""Failure of the cementing material can result in the migration of fluids between the wellbore and the formation, leading to increased methane emissions.""
+
+This failure can occur due to various reasons such as improper mixing ratios, inadequate curing times, or physical damage to the cementing material during the drilling process. Addressing these issues through proper design, construction, and maintenance practices can help mitigate the risk of increased methane emissions from a well completion.","A blown-out flare, malfunctioning venting, or venting non-combustible gas with too much nitrogen and/or carbon dioxide instead of flaring or producing it.",0.5493,0.0622,0.5766,165,100.0,1.0,1.0,22
+TGD1-Pneumatic-controls-and-pumps-24-q01,TGD1-Pneumatic-controls-and-pumps,lookup,template,What is the OGMP Table 1.2 methane emission factor for intermittent bleed pneumatic controller vents in the Gas Transmission & Storage sector?,"According to OGMP Table 1.2 (Default Emission Factors for Pneumatic Controller Vents), the methane emission factor for Gas Transmission & Storage – Intermittent bleed pneumatic controller vents is 0.07 scm/hour/device; 2.35 scf/hour/device.","The OGMP Table 1.2 provides a methane emission factor of 0.35 kg CH4 per tonne of natural gas processed, which can be applied to intermittent bleed pneumatic controller vents in the Gas Transmission & Storage sector. This value represents the estimated amount of methane that would be emitted into the atmosphere if these vented gases were not captured or controlled. The table also includes other relevant information such as the applicable conditions and the source of the data. For precise application, it's important to consult the full OGMP document for detailed guidelines on how to apply this factor in different scenarios.","According to OGMP Table 1.2 (Default Emission Factors for Pneumatic Controller Vents), the methane emission factor for Gas Transmission & Storage is 0.07 scm/hour/device; 2.35 scf/hour/device.",6.5502,0.2,0.8939,101,82.1882,0.9275,0.9616,26
+TGD2-Fugitives-06-q01,TGD2-Fugitives,definition,llm,What is the first step of a Directed Inspection & Maintenance program for fugitive leaks?,It typically begins with a baseline survey that screens equipment components with emissions detection equipment to identify individually leaking components.,"The first step in a Directed Inspection & Maintenance program for fugitive emissions, as per the Oil and Gas Methane Partnership's guidelines, would be to conduct a baseline inventory or survey of all known emission sources within the facility. This involves identifying all potential leak points, assessing their locations, sizes, and types, and documenting them on a map or database. The goal here is to create a comprehensive understanding of where emissions might occur so that targeted maintenance efforts can be directed towards these areas. This initial step sets the stage for subsequent steps such as inspection, repair, and monitoring, ensuring that resources are focused on the most critical areas for reducing methane emissions.",A baseline survey identifies all components and checks they are not leaking.,0.7707,0.0896,0.7446,114,4.1984,0.3125,0.7677,12
+Appendix-A-02-q02,Appendix-A,definition,llm,"What does a field emissions survey do, and which sources does it cover?","A field emissions survey gathers necessary operational data onsite and uses specialized equipment to identify methane emission sources. It measures emission levels for unmitigated sources, which include both fugitive leaks from components like flanges and valves, and operational vents like tank roof vents.","A field emissions survey is designed to measure and characterize methane emissions from various sources within a specific area or facility. This process typically involves several steps:
+
+1. **Site Selection**: The survey begins with selecting appropriate sites based on criteria such as proximity to emission sources, accessibility, and potential impact areas.
+
+2. **Data Collection**:
+   - **Field Measurements**: Direct measurements of methane concentration in the air at different points within the site.
+   - **Remote Sensing**: Use of remote sensing techniques like lidar (Light Detection and Ranging) to capture data over large areas without direct access.
+
+3. **Data Analysis**: Analyzing collected data to determine the distribution and magnitude of methane emissions across the selected area.
+
+4. **Source Identification**: Identifying the specific sources contributing to the observed emissions by correlating the measured concentrations with known emission pathways.
+
+5. **Emission Quantification**: Calculating the total amount of methane emitted from each identified source.
+
+6. **Report Generation**: Producing detailed reports that summarize findings, including maps showing the location of detected emissions and quantified amounts.
+
+The sources covered by a field emissions survey can vary widely depending on the scope and objectives of the study. Commonly included sources include natural gas production facilities, storage tanks, pipelines, compressor stations","A field emissions survey gathers necessary operational data onsite and uses specialized equipment to identify methane emission sources. It measures emission levels for unmitigated sources, which include both fugitive leaks from components like flanges and valves, and operational vents like tank roof vents.",1.5121,0.1405,0.9052,201,100.0,1.0,1.0,43
+TGD7-Liquids-unloading-06-q03,TGD7-Liquids-unloading,why,llm,"During liquids unloading with venting, at what point does the gas escape to the atmosphere?","Well flow goes to an atmospheric production tank acting as a separator, and gas escapes from the top, typically through a thief hatch opened just for the unloading.","According to the OGMP Technical Guidance Document 10-2 ""Methane Emissions from Oil and Gas Production Facilities,"" when conducting liquids unloading operations that involve venting of natural gas, the gas typically escapes to the atmosphere through a vent line or flare system. The exact timing can vary depending on operational practices but generally occurs during the process where liquid is being transferred into storage tanks or pipelines.
+
+The document also mentions that operators should consider implementing best management practices such as capturing and treating flue gases before release to minimize atmospheric emissions. This practice aligns with the goal of reducing greenhouse gas emissions, particularly methane, which is a potent contributor to climate change.","Well flow goes to an atmospheric production tank acting as a separator, and gas/liquid separates there; the gas escapes from the top.",0.9856,0.1135,0.6965,112,57.7395,0.7059,0.9119,22
+TGD3-Centrifugal-Compressors-12-q04,TGD3-Centrifugal-Compressors,lookup,llm,What percentage reduction in methane comes from sending wet seal degassing vents to a VRU?,"An estimated 95 percent, so mitigated emissions are 5 percent of the unmitigated volume.","The OGMP Technical Guidance Document 2016-2017, specifically Chapter 3 on ""Methane Emissions Control,"" provides information on various technologies that can be used to reduce methane emissions. The document does not provide specific details on how much methane is reduced by sending wet seal degassing vents to a Virtual Recovery Unit (VRU). However, it suggests that such technology could potentially capture some methane but would depend on the design of the system and its efficiency.
+
+For more precise information, you might need to refer to newer or updated versions of the OGMP guidelines or consult with industry experts who specialize in methane emission control technologies. They can offer insights based on current best practices and technological advancements.","Approximately 95 percent, allowing 5 percent annual downtime for maintenance.",0.6866,0.0458,0.5715,116,11.8875,0.3333,0.764,10
+TGD6-Storage-Tanks-08-q05,TGD6-Storage-Tanks,why,llm,"If tank emissions come from software or lab analysis, why do stuck-open scrubber dump valve emissions need to be added?",To avoid underestimating storage tank emissions when a scrubber dump valve is confirmed stuck open.,"The OGMP (Oil & Gas Methane Partnership) guidelines suggest that all sources of methane emissions should be accounted for in a comprehensive inventory. This includes not just direct emissions but also indirect emissions such as those associated with equipment malfunctioning or being stuck open.
+
+In the context of your question, if there is a stuck-open scrubber dump valve causing emissions, it would fall under the category of ""indirect"" emissions because the issue is related to the operation of the scrubber system itself rather than the actual process taking place inside the facility.
+
+Therefore, even though this emission source might seem less obvious at first glance, it still needs to be included in the overall inventory of methane emissions. The goal is to provide a complete picture of methane emissions so that effective strategies can be developed to reduce these emissions across the entire industry.",The valve actuation gas is counted as coming from the tank emissions.,1.5753,0.0755,0.7854,144,6.1676,0.1481,0.6941,12
+TGD4-Reciprocating-Compressors-08-q05,TGD4-Reciprocating-Compressors,lookup,template,What methane emission factor does OGMP Table 4.2 list for reciprocating compressor rod packing in the Storage sector?,"According to OGMP Table 4.2 (Default Emission Factors for Reciprocating Compressor Rod Packing), the methane emission factor for Storage is 6.5 scm/hour-compressor; 229.5 scf/hour-compressor.","OGMP Table 4.2 lists a methane emission factor of 0.15 kg CH4 per tonne of natural gas processed, which is applicable to the Storage sector. This applies specifically to the use of reciprocating compressor rod packing. The table provides various factors based on different operating conditions and equipment types within the storage industry. For more detailed information or specific application, it's advisable to consult the full table or seek clarification from OGMP support.","According to OGMP Table 4.2 (Default Emission Factors for Reciprocating Compressor Rod Packing), the methane emission factor for Storage is 3.7 scm/hour-compressor; 128.5 scf/hour-compressor.",3.3967,0.243,0.9339,73,83.4995,0.9032,0.9993,24
+TGD9-Casinghead-venting-10-q01,TGD9-Casinghead-venting,why,llm,What makes tying casinghead gas into an existing tank VRU easy to do?,"Only small-diameter piping and pressure regulators are needed, and tank emissions and casinghead gas have similar composition, pressure and flow.","The OGMP Technical Guidance Document 2016-03 provides a detailed explanation of how to tie casinghead gas into an existing vapor recovery unit (VRU). The key points include:
+
+1. **Casinghead Gas Collection**: Casinghead gas is collected from wells during production, typically at the surface or in the wellbore.
+
+2. **Existing VRU Configuration**: An existing VRU can be designed to handle casinghead gas by incorporating appropriate components such as pressure regulators, valves, and flow meters that are compatible with the specific conditions of the VRU.
+
+3. **Integration Process**:
+   - **Pressure Regulator**: A pressure regulator is installed between the casinghead gas collection point and the VRU inlet.
+   - **Flow Meter**: A flow meter is placed on the VRU's outlet line to measure the volume of gas flowing through it.
+   - **Valves**: Valves are used to control the flow of gas into the VRU and to isolate different sections of the system when necessary.
+   - **Piping**: Piping is laid out according to the design specifications provided by the OGMP guidelines.
+
+4. **Safety Considerations**: Proper installation of safety equipment like flame arrestors and explosion-proof enclosures is crucial to ensure","The main issue is deciding where the additional pressure drop will make sense; a tank sump pump usually can be switched off when tying in, which saves an extra pump.",0.6735,0.0686,0.5993,184,1.5883,0.0784,0.5577,30
+TGD5-Glycol-Dehydrators-10-q01,TGD5-Glycol-Dehydrators,mitigation,llm,What two alternatives make up glycol dehydrator Mitigation Option B?,"Routing the flash tank and still overhead vents to a flare or combustion device, or replacing the gas-assist lean glycol pump with an electric lean glycol pump.","Glycol dehydration is a process used in natural gas processing to remove water from the gas stream. The two main alternatives that can be considered as part of the mitigation option ""B"" in the context of reducing methane emissions through glycol dehydration are:
+
+1. **Enhanced Recovery (ER)**: This involves injecting steam into the reservoir to increase the flow rate of hydrocarbons, thereby increasing production. Enhanced recovery techniques can help reduce methane emissions by improving overall efficiency.
+
+2. **Compressed Air Injection**: In this method, compressed air is injected into the wellbore or at various points within the reservoir. The pressure differential between the injection point and the formation creates a high-pressure zone where methane can escape more easily, leading to higher extraction rates and reduced methane losses during transportation and storage.
+
+Both enhanced recovery and compressed air injection aim to improve the efficiency of the gas field operations, which can indirectly lead to lower methane emissions if they result in increased production volumes and better handling practices. However, their effectiveness depends on the specific conditions of the gas field and the implementation details.",A fixed-bed reactor or a regenerator and a moving-bed tower sieve plate dryer.,0.2923,0.0474,0.5737,182,1.3756,0.093,0.4614,13
+TGD8-Well-completions-07-q01,TGD8-Well-completions,lookup,llm,How much do reduced emission completions cut methane compared with venting?,Generally greater than 95 percent.,"Reduced Emission Completions (RECs) can significantly reduce methane emissions compared to venting, but the extent of reduction depends on several factors including the specific implementation details, well design, and operational practices.
+
+1. **Well Design**: The efficiency of a REC system is highly dependent on its design. A well designed REC system that captures and reinjects produced fluids into the reservoir or back into the ground can capture significant amounts of methane. For example, in some cases, RECs have been reported to capture up to 90% of the total CH4 emissions from a well.
+
+2. **Operational Practices**: Proper operation and maintenance of the REC system are crucial. Regular monitoring and adjustments to ensure optimal performance can further enhance the effectiveness of the system.
+
+3. **Innovative Technologies**: Advanced technologies such as microseismic monitoring, which allows for real-time detection of leaks and potential blowouts, can help in reducing methane emissions by identifying and addressing issues promptly.
+
+4. **Geological Conditions**: The geological conditions of the reservoir play a role. In certain formations, it may be more challenging to implement effective RECs due to the presence of high-pressure zones or other geological barriers.
+
+5. **Regulatory Compliance**: Compliance with environmental regulations regarding methane emissions","415 to 860 Mcf (12 to 30 Mcm), according to Natural Gas STAR.",0.1434,0.0,0.521,198,2.287,0.0,0.5746,13
+TGD1-Pneumatic-controls-and-pumps-16-q03,TGD1-Pneumatic-controls-and-pumps,why,llm,How does having a centralized power gas system lower the capital cost of switching to instrument air?,"Their existing gas-powered pneumatic components, such as piping, controllers and actuators, are likely compatible with instrument air, so they do not need to be replaced.","The use of a centralized power gas system can significantly reduce the capital costs associated with switching from instrument air to other forms of compressed gases, such as nitrogen or air. This is because:
+
+1. **Reduced Infrastructure Costs**: A centralized power gas system eliminates the need for individual power gas systems at each site. This reduces the upfront investment required in infrastructure like compressors, storage tanks, and pipelines.
+
+2. **Lower Maintenance Costs**: With fewer sites requiring maintenance, there is less frequent and more manageable maintenance work, which translates into lower overall maintenance costs over time.
+
+3. **Economies of Scale**: Centralized systems often operate on larger scales, allowing for economies of scale that can lead to better efficiency and reduced per-unit costs.
+
+4. **Simplified Operations**: The central location of the power gas system simplifies operations, reducing the complexity of managing multiple smaller systems, thereby lowering operational costs.
+
+5. **Improved Reliability**: Centralized systems typically have higher reliability due to their size and redundancy built-in, leading to fewer outages and thus lower downtime costs.
+
+6. **Environmental Benefits**: By consolidating power gas needs, companies can potentially save on energy consumption and related environmental impacts by not needing to produce and distribute large quantities of power gas across numerous locations.
+
+7",Because a centralized gas system brings additional benefits: pipeless instruments and reduced maintenance and operation costs.,0.8249,0.0684,0.5916,206,1.3113,0.0952,0.668,16
+TGD2-Fugitives-16-q05,TGD2-Fugitives,lookup,template,"In OGMP Table 2.4, what emission factor applies to a gas open-ended line in all service types?","According to OGMP Table 2.4 (Emission Factors for Fugitive Emissions After the Implementation of a Formal DI&M Program), the EF for Gas, Open-Ended Line, All is 1.83 scf THC/h/source; 0.052 scm THC/h/source.","OGMP Table 2.4 provides emission factors for various sources of greenhouse gases, including methane. For a gas open-ended line in all service types, the applicable emission factor is typically based on the specific type of gas being transported or produced.
+
+However, without access to the exact table from OGMP, I can provide general information that such lines might be subject to different emission factors depending on their design, operation, and intended use. The factors would likely vary based on whether they are used for transportation, storage, production, or other purposes.
+
+For precise application, it's best to consult the most current version of OGMP Table 2.4 or seek professional advice regarding the specific conditions and requirements of your project.","According to OGMP Table 2.4 (Onshore Operations Methane Emission Factors), the emission factor for All Service Types (Gas Open-Ended Line) is 1.3 scf/hour/service; 0.037 scm/hour/service.",1.6563,0.184,0.839,118,15.8152,0.5135,0.8357,25
+Appendix-A-15-q04,Appendix-A,mitigation,llm,What calibration procedure is recommended for a vane anemometer used to quantify leaks?,Operators are advised to calibrate a vane anemometer by creating calibration curves following the manufacturer's instruction.,"The OGMP recommends that a vane anemometer be calibrated according to the guidelines provided in the ""Calibration of Vane Anemometers"" document, which can be found in the OGMP Technical Guidance Document 10. This document outlines specific procedures for calibrating vane anemometers to ensure accurate measurements of airflow velocity, which is crucial for quantifying methane leakage from equipment or facilities. The calibration process should include verifying the instrument's response time, linearity, and repeatability over a range of flow rates typical of those expected during normal operation. Proper calibration helps maintain the accuracy of the measurement system, thereby providing reliable data on methane emissions.","A calibration procedure, such as that described in Appendix A, should be followed to obtain accurate leak rates.",1.4589,0.1167,0.7685,102,2.3901,0.1714,0.6843,18
+TGD7-Liquids-unloading-15-q04,TGD7-Liquids-unloading,definition,llm,What is the relationship between simple cycle optimization and smart well technology for plunger lifts?,"It is essentially a subset of, or predecessor to, smart well technology.","The relationship between simple cycle optimization and smart well technology for plunger lifts lies in their shared goal of improving efficiency, reducing energy consumption, and minimizing environmental impact in the upstream oil and gas industry. Simple cycle optimization typically involves optimizing the operation of a single well or a group of wells to maximize production while minimizing costs and environmental impacts. Smart well technology, on the other hand, refers to advanced technologies that enhance the performance and control over individual wells, such as real-time monitoring, data analytics, and automation.
+
+In the context of plunger lift technology, which is a common method used to extract natural gas from deep formations, both approaches can be integrated to achieve better results. For example, smart well technology might include features like variable frequency drives for pumps, sensors to monitor pressure and flow rates, and software algorithms to optimize operations based on real-time data. These technologies can help in understanding the dynamics of each well, allowing for more precise control and adjustments during the plunger lift process.
+
+Simple cycle optimization could involve adjusting parameters such as pump speed, stroke length, and hydraulic pressure to ensure optimal conditions for plunger lift without wasting energy. By integrating these two concepts, operators can leverage the benefits of both methods—enhanced efficiency through optimized simple cycles and precision control provided by smart well technology","It is essentially a subset of, or predecessor to, smart well technology.",1.161,0.0586,0.7018,224,100.0,1.0,1.0,12
+TGD3-Centrifugal-Compressors-17-q04,TGD3-Centrifugal-Compressors,lookup,llm,"How much gas, and how much revenue, do dry seals save each year through their operational benefits?","About 20,000 Mscf (567 Mscm) of gas per year, worth $60,000 at $3 per Mscf.","The Dry Seals project aims to quantify the annual savings from implementing dry seal technology in the upstream sector of the oil and gas industry. The project is designed to provide a detailed analysis of the costs associated with traditional wet seal technologies versus the potential savings from dry seals.
+
+Dry seals are used on various equipment such as valves, pumps, compressors, and other components that require sealing against gases or liquids. They can significantly reduce maintenance costs by preventing leaks and reducing the need for expensive repairs due to corrosion or contamination.
+
+To estimate the annual savings, the project would consider several factors:
+
+1. **Cost Savings**: This includes the cost of purchasing and maintaining dry seals compared to wet seals.
+2. **Maintenance Costs**: Reduced maintenance costs due to fewer leaks and less frequent repair work.
+3. **Energy Efficiency**: Lower energy consumption due to reduced leakage losses.
+4. **Environmental Impact**: Reduction in greenhouse gas emissions due to lower leak rates.
+5. **Revenue Implications**: Potential increase in revenue if higher efficiency leads to increased production volumes or better market conditions.
+
+The specific figures for savings will depend on the scale of implementation, the current state of the industry's practices, and the effectiveness of the dry seal technology. However, the goal of the Dry Seals project is to provide a","About 20,000 Mscf (567 Mscm) of gas per year, worth $60,000 at $3 per Mscf.",0.1999,0.0254,0.6162,218,100.0,1.0,1.0,15
+TGD6-Storage-Tanks-09-q04,TGD6-Storage-Tanks,comparison,llm,What makes tank vapors captured by a VRU more valuable than pipeline-quality gas?,"They are rich in propane, butanes and natural gasoline, so they have a higher heat content and are more valuable to gas processing plants.","The value of capturing tank vapor is often higher than that of pipeline-quality natural gas due to several factors related to the composition, volume, and potential use of these gases:
+
+1. **Composition**: Tank vapor typically contains a mixture of various hydrocarbons, including methane, but also includes heavier components like propane, butane, and pentanes. Pipeline-quality gas usually has a much lower concentration of lighter hydrocarbon components.
+
+2. **Volume**: Tank vapor can be collected in large quantities from multiple sources over time, potentially reaching hundreds or even thousands of cubic meters per day. In contrast, pipeline gas flows through a single line with limited flow rates.
+
+3. **Potential Use**: The value of the recovered gas depends on its intended use. If the recovered gas is used as fuel, it may have a higher value because it can be burned directly without needing further processing. For example, if the gas is used in vehicles or power generation, the recovery process could be economically viable.
+
+4. **Regulatory Considerations**: Different jurisdictions might offer incentives or tax credits for capturing and utilizing non-conventional gas resources. This can make the economic viability of capturing tank vapor more attractive compared to conventional pipeline gas.
+
+5. **Technological Advancements**: Over time, technologies for capturing and processing","They are rich in propane, butanes and natural gasoline, so they have a higher heat content and are more valuable to gas processing plants.",0.8491,0.0944,0.7189,206,100.0,1.0,1.0,24
+TGD4-Reciprocating-Compressors-06-q02,TGD4-Reciprocating-Compressors,why,llm,"For reciprocating compressors inside buildings, why should the vent piping be traced?","All cylinder packing vents are often manifolded to a single roof vent per machine, so it may not be clear which vent belongs to which packing; tracing piping and checking P&ID drawings avoids confusion.","The vent piping on reciprocating compressors in buildings is important because it allows for the release of any gases that may have been produced during operation. This includes not only carbon dioxide but also other potentially harmful substances such as hydrocarbons like methane. By tracing the vent piping, engineers can ensure that these gases are safely released into the atmosphere rather than being trapped within the building or discharged to the environment through poorly designed exhaust systems.
+
+This practice helps comply with environmental regulations regarding air quality and greenhouse gas emissions, particularly relevant for industries involved in the production of natural gas. Properly tracing the venting system ensures that all potential emissions from the compressor are managed effectively, minimizing their impact on local air quality and contributing to overall sustainability efforts.","It is often not clear where the vent pipes on reciprocating compressor machines are located, so tracing the piping allows sure identification of the sources and a clear understanding of how gases are routed.",0.4883,0.0964,0.6679,131,2.9528,0.2029,0.764,34
+TGD9-Casinghead-venting-05-q04,TGD9-Casinghead-venting,comparison,llm,What kinds of compressors can handle wet casinghead gas?,"Rotary-vane and scroll compressors handle wet gas well, but reciprocating compressors generally cannot; rotary-vane is usually most cost-effective for small volumes.","The OGMP Technical Guidance Document 2016-03 provides information on handling wet casinghead gas in compressors, which is a critical aspect of managing methane emissions from natural gas production facilities. The document outlines that certain types of compressors may be more suitable or less suitable depending on the specific conditions at a given site.
+
+For compressors to effectively handle wet casinghead gas, they should have features such as:
+
+1. **High Efficiency**: Compressors with high efficiency ratings can help reduce energy consumption and lower greenhouse gas emissions.
+2. **Low Emissions**: Selecting compressors with low emissions standards ensures minimal release of pollutants into the atmosphere.
+3. **Wet Casinghead Handling Capability**: This refers to the ability of the compressor to manage and process gases containing water vapor without significant degradation of performance or emission levels.
+4. **Regulated Compliance**: Ensuring compliance with local environmental regulations regarding emissions and effluents is crucial for maintaining operational integrity and public trust.
+
+In summary, while all compressors can potentially handle wet casinghead gas, those designed specifically for this purpose will perform better by adhering to the guidelines provided in the OGMP document. These include high-efficiency models, low-emission capabilities, and the ability to manage and process gases","Rotary-vane and scroll compressors handle wet gas well, but reciprocating compressors generally cannot; rotary-vane is usually most cost-effective for small volumes.",0.449,0.0625,0.6997,197,100.0,1.0,1.0,21
+TGD5-Glycol-Dehydrators-07-q04,TGD5-Glycol-Dehydrators,why,llm,What is the benefit of sending glycol dehydrator vent gas into a tank's vapor space when using a VRU?,The large volume and near-atmospheric pressure of the tank vapor space dampens the variability of individual gas stream flow rates.,"The benefit of sending glycol dehydrator vent gas into a tank's vapor space when using a Vapor Recovery Unit (VRU) involves several key advantages:
+
+1. **Energy Efficiency**: The VRU can use this vent gas to power its operations, thereby reducing energy consumption from external sources.
+
+2. **Cost Savings**: By utilizing the vent gas, there is no need to purchase additional fuel or electricity, which can significantly reduce operating costs.
+
+3. **Efficiency in Energy Utilization**: This practice maximizes the efficiency of the VRU by converting waste heat (from the vent gas) back into useful energy through the process of vapor recovery.
+
+4. **Environmental Benefits**: Reducing reliance on fossil fuels means less greenhouse gases and other pollutants are emitted into the atmosphere.
+
+5. **Sustainability**: It promotes sustainability by minimizing the environmental impact associated with traditional natural gas processing methods.
+
+6. **Operational Flexibility**: The VRU can operate more efficiently if it has access to a steady supply of clean, recovered gas rather than having to rely solely on external sources.
+
+7. **Economic Viability**: For operators who have invested in the VRU technology, this approach ensures that their equipment remains operational without significant downtime due to lack of fuel or electricity.
+
+In summary,",The large volume and near-atmospheric pressure of the tank vapor space dampens the variability of individual gas stream flow rates.,0.4883,0.0724,0.6109,199,100.0,1.0,1.0,20
+TGD8-Well-completions-06-q02,TGD8-Well-completions,lookup,llm,"During a reduced emission completion, what equipment is used to treat the produced gas?","Sand traps, plug catchers, dehydrators, and three-phase separators.","In a reduced emission completion process, which aims to minimize methane emissions from natural gas production, specific equipment is employed to capture and treat the produced gas. The primary equipment involved in this process includes:
+
+1. **Compressor**: This device compresses the low-pressure gas into a higher pressure state, making it easier to transport.
+
+2. **Separator**: A separator separates the liquid hydrocarbons (such as propane and butane) from the compressed gas stream. This step is crucial because these lighter components can be recovered and sold or used as fuel.
+
+3. **Cooler**: After separation, the cooled gas is then passed through a cooler where it is further compressed before being sent to the next stage of treatment.
+
+4. **Refrigerant Absorber Unit**: In some cases, especially when dealing with high concentrations of ethane, a refrigerant absorber unit may be used. This unit uses a refrigerant that absorbs the ethane vapor at a lower temperature than the rest of the gas stream, allowing the ethane to be separated more efficiently.
+
+5. **Dewaxing Unit**: For heavy oils containing significant amounts of wax, a dewaxing unit might be necessary. This unit removes the wax from the gas stream, improving its quality and reducing the","Sand traps, plug catchers, dehydrators, and three-phase separators.",0.2145,0.0192,0.6527,198,100.0,1.0,1.0,8
+TGD1-Pneumatic-controls-and-pumps-17-q02,TGD1-Pneumatic-controls-and-pumps,quantification,llm,"When sizing an instrument air system, how should utility air demand be estimated relative to instrument air demand?","Assume the maximum periodic compressed air rate for utility purposes is double the steady rate used for instrument air, so one-third of pneumatic air is for instrument air and two-thirds for utility air.","In the context of sizing an instrument air system, it is important to consider the relationship between utility air demand and instrument air demand. Utility air demand typically refers to the total volume of air required by all processes in a facility, including both utility and process applications. Instrument air demand, on the other hand, specifically relates to the use of compressed air for pneumatic control systems.
+
+The estimation of utility air demand can influence the design of the instrument air system because:
+
+1. **Utility Air Demand**: This includes the total volume of air needed for general utility purposes such as ventilation, cooling towers, and other non-pneumatic equipment. It is often calculated based on the square footage or area of the building multiplied by a factor that represents the amount of air required per unit area.
+
+2. **Instrument Air Demand**: This involves the specific needs of the pneumatic control systems within the facility. The amount of instrument air required depends on factors like the number of actuators, valves, sensors, and other components requiring pneumatic control.
+
+3. **Estimation Method**: When sizing the instrument air system, one approach is to estimate the utility air demand first, then determine if additional instrument air capacity is necessary. If the utility air demand exceeds the instrument air demand, more instrument air capacity will","Utility air demand, the total compressed air needed for all purposes in a facility, must be estimated to ensure enough throughput from the air compressor(s).",0.7537,0.1417,0.7392,218,3.1527,0.2295,0.6919,25
+TGD2-Fugitives-08-q04,TGD2-Fugitives,why,llm,Which facility characteristics determine how much methane a DI&M program can cut?,"It varies with the size, age, equipment and operating characteristics of the facility.","The Oil and Gas Methane Program (OGMP) provides guidelines on identifying facilities that can benefit from reducing methane emissions, which is crucial for understanding how much methane reduction can be achieved through a DiM (Direct Methane) program. The key factors determining how much methane a Direct Methane (DiM) program can achieve include:
+
+1. **Type of Facility**: Different types of facilities have different levels of potential for methane emission reductions due to their design, operation, and equipment.
+
+2. **Location**: Facilities located in areas with higher methane emissions rates or those near known sources of methane leakage may offer greater opportunities for reduction.
+
+3. **Equipment Efficiency**: Older or less efficient equipment at a facility might allow for more significant improvements in methane capture efficiency compared to newer, more efficient systems.
+
+4. **Process Intensity**: Facilities involved in high-intensity processes such as drilling, production, processing, and transportation tend to emit more methane per unit of activity than lower intensity operations like maintenance or storage.
+
+5. **Operational Practices**: Effective operational practices, including regular maintenance, repair, and replacement of equipment, can lead to better control over methane emissions.
+
+6. **Regulatory Requirements**: Compliance with environmental regulations and standards can drive the implementation of technologies designed to reduce methane emissions.","Methane emissions depend on the presence of human beings at the site, so a DI&M first identifies what is being built where and how much equipment is present.",0.2342,0.0556,0.6485,202,1.8868,0.1429,0.7041,28
+Appendix-A-02-q05,Appendix-A,comparison,llm,How is the focus of later annual surveys different from the first-year survey of core sources?,"First-year asset surveys provide a comprehensive baseline inventory of core sources and classify them as mitigated or unmitigated. In contrast, subsequent annual surveys focus on identifying changes in the numbers of core sources and quantifying emissions exclusively from unmitigated sources.","The focus of a later annual survey differs from the first-year survey of core sources in several key ways, as outlined by the Oil and Gas Methane Partnership's guidelines:
+
+1. **Sampling Strategy**: The second year survey typically involves sampling at more locations within each wellbore to capture a broader range of conditions. This can include deeper intervals or areas that were not sampled during the initial survey.
+
+2. **Core Source Identification**: In the first year survey, cores are collected from specific locations to identify potential methane-emitting zones. The second year survey aims to confirm these findings through additional sampling but also to explore new areas where methane might be present.
+
+3. **Data Analysis**: The analysis in the second year survey focuses on quantifying the total amount of methane emitted over time rather than just identifying individual emission points. It may involve calculating average emissions rates per unit volume of produced fluids.
+
+4. **Techniques and Equipment**: Newer technologies and methods used in the second year survey could include improved sensors, better data collection techniques, and possibly enhanced analytical capabilities to detect lower levels of methane.
+
+5. **Geological Context**: The second year survey takes into account the geological context of the wells, including reservoir characteristics, production history, and any changes in operations that might affect methane emissions","Later annual surveys concentrate on the nine remaining sources identified in the first year, focusing on the years following their repair or mitigation having no operations that remove safety concerns.",1.0075,0.1313,0.8325,215,2.8494,0.169,0.6551,30
+TGD7-Liquids-unloading-17-q02,TGD7-Liquids-unloading,comparison,llm,Why might a rod pump be preferred to a plunger lift for removing liquids from a gas well?,"A rod pump works with a lower pressure drop than a plunger lift needs and regardless of gas velocity, extending well life.","A rod pump is often preferred over a plunger lift in gas wells because it can handle higher volumes of liquid production more efficiently. Rod pumps use a long, flexible tubing that extends into the wellbore, allowing them to draw up large quantities of liquid with each stroke. This design is particularly useful when dealing with high-pressure gas wells where significant amounts of liquid need to be removed before producing natural gas.
+
+In contrast, a plunger lift typically has a shorter length of tubing and relies on a smaller diameter tube or a series of tubes to move the liquid. While this setup can work effectively in some cases, it may not be as efficient at handling larger volumes of liquid compared to a rod pump system. The efficiency of both methods depends on factors such as the specific conditions of the well, the volume of liquid being produced, and the overall configuration of the pumping system. In many instances, especially in high-volume operations, a rod pump would be chosen due to its ability to process greater volumes of liquid without compromising the flow rate of the natural gas.","A rod pump is preferred because it stays in place once installed, whereas a plunger lift requires moving the plunger manually or remotely after each trip.",1.3509,0.1033,0.8042,189,8.9832,0.25,0.76,26
+TGD3-Centrifugal-Compressors-06-q03,TGD3-Centrifugal-Compressors,quantification,llm,How do you estimate wet seal centrifugal compressor emissions using an emission factor?,"Partners apply an emission factor for methane volume per year per compressor, adjusted for the compressor's actual operating factor, meaning the percentage of time in a year it is operating.","Estimating wet seal centrifugal compressor emissions involves several steps, including identifying the appropriate emission factors from relevant standards or guidelines. The Wet Seal Centrifugal Compressor Emission Factor is a specific value that can be used to estimate emissions based on the type of equipment and its operating conditions.
+
+Here’s how you might approach this estimation:
+
+1. **Identify the Emission Factor**: Obtain the Wet Seal Centrifugal Compressor Emission Factor from the OGMP Technical Guidance Document. This factor represents the average emissions per unit volume of compressed air at standard temperature and pressure (STP).
+
+2. **Determine Operating Conditions**:
+   - **Airflow Rate**: Measure the airflow rate through the compressor.
+   - **Compressed Air Volume**: Calculate the total volume of compressed air produced by multiplying the airflow rate by the compression ratio (if known).
+   - **Operating Time**: Determine the time over which the compressor operates.
+
+3. **Calculate Total Emissions**:
+   - Multiply the Wet Seal Centrifugal Compressor Emission Factor by the total volume of compressed air produced during the operational period.
+
+4. **Account for Other Factors**:
+   - Consider any additional sources of emissions such as leaks, venting, or other processes within the facility that could contribute to overall","Multiply the compressor's operating hours by the emission factor; add to that amount the equivalent volume of gas drawn into the seal countably ruptured, converted to standard conditions, and added to the total.",0.288,0.1005,0.7508,192,3.6293,0.2154,0.7437,33
+TGD6-Storage-Tanks-08-q04,TGD6-Storage-Tanks,definition,llm,What does the term En stand for in the storage tank stuck dump valve emissions equation?,"En is the storage tank emissions determined by calculation, software or lab analysis, in scf per year.","In the context of the OGMP (Oil & Gas Methane Partnership) technical guidance, ""En"" likely stands for ""Enclosed."" This term is used to describe a situation where the emission source is enclosed or contained within a structure that prevents direct release into the atmosphere. The term might be used in equations related to methane emissions from storage tanks to indicate that the emissions are confined within a closed system rather than escaping into the environment.","En is the storage tank emissions determined by calculation, software or lab analysis, in scf per year.",0.7334,0.1319,0.7851,75,100.0,1.0,1.0,17
+TGD4-Reciprocating-Compressors-11-q02,TGD4-Reciprocating-Compressors,why,llm,Which costs belong in the economic analysis of replacing reciprocating compressor rod packing?,"Equipment replacement costs, the value of gas saved based on leak measurement, and the costs of any production stops needed to carry out the maintenance.","The replacement of reciprocating compressor rod packing typically involves several costs that should be included in a comprehensive economic analysis. These costs can vary depending on the specific circumstances, but generally include:
+
+1. **Replacement Cost**: The cost to replace the existing rod packing with new material or design.
+2. **Installation Cost**: The cost associated with installing the new rod packing into the compressor.
+3. **Maintenance Costs**: Any additional maintenance or repair costs related to the new rod packing during its operational life.
+4. **Energy Savings**: The potential reduction in energy consumption due to improved efficiency from the new rod packing, which could lead to lower operating costs over time.
+5. **Capital Investment**: If the project is part of a larger capital investment plan, the cost of purchasing the new equipment might also need to be considered.
+
+These costs should be evaluated against the expected savings in terms of reduced energy use, decreased maintenance needs, and potentially higher production rates, all of which contribute to the overall financial viability of the replacement decision.","The main cost is the initial cost of replacement, which varies with location, type of packing and number of cylinders.",0.6593,0.1117,0.6932,172,2.2283,0.2222,0.7102,20
+TGD9-Casinghead-venting-09-q02,TGD9-Casinghead-venting,lookup,template,"According to OGMP Table 9.2, how much are the installation costs for casinghead vent gas recovery with a compressor?","According to OGMP Table 9.2 (Project Costs and Savings for Casinghead Vent Gas Recovery with a Compressor (Example Scenario)), the implementation costs for Installation Costs is $18,750.","OGMP Table 9.2 provides information on various technologies for capturing and recovering natural gas from wells. The table does not specifically address casinghead vent gas recovery with a compressor as it is more commonly associated with surface-based systems rather than well-integrated technology.
+
+However, if we were to extrapolate or infer based on similar technologies mentioned in the table, such as compression units or specific equipment types that might be used in conjunction with casinghead vents, one would need to look at the overall cost of these components.
+
+The table typically includes items like:
+
+1. Compressor
+2. Casinghead Valve
+3. Vent Line
+4. Separator
+5. Compression Unit
+
+For a detailed breakdown of costs, you would refer to the full OGMP document which contains comprehensive pricing data for different technologies and their respective components. If you're looking for a general estimate, the table doesn't provide specific numbers but outlines the components involved in the process.
+
+If you have access to the full OGMP document, please consult Section 9.2 for more precise details on the costs associated with each component of the system described there.","About $10,400 for a small compressor ($1,000 down, $8,400 payback over five years) plus approximately $1,300 per year in extra electricity at $0.075 per kWh.",1.2165,0.1475,0.8331,182,1.7705,0.1017,0.7323,25
+TGD5-Glycol-Dehydrators-06-q07,TGD5-Glycol-Dehydrators,why,llm,Which emission sources are not covered by the default glycol dehydrator emission factors?,"They do not include emissions from gas-assisted glycol pumps or stripping gas, which can be a significant methane source.","The default glycol dehydrator emission factors provided in the OGMP Technical Guidance Document 2016-2017 do not cover all potential emission sources from a glycol dehydration unit. The document outlines specific emission factors for certain types of equipment, but it does not explicitly list every possible source that could contribute to emissions.
+
+To determine which emission sources might be missed or not fully accounted for, you would need to consider:
+
+1. **Process Equipment**: Any equipment within the glycol dehydration process that is not part of the standard equipment listed in the document.
+2. **Venting Systems**: Emissions from venting systems that are not included in the default factors.
+3. **Non-standard Operations**: Processes or operations that deviate significantly from the standard operating conditions described in the document.
+4. **Secondary Emissions**: Emissions from secondary processes or activities that occur downstream of the primary glycol dehydration operation.
+
+For precise information on what is not covered, consulting the full OGMP Technical Guidance Document or reaching out to OGMP support for clarification on each specific scenario would be necessary. OGMP provides detailed guidance on how to calculate emissions based on their best estimates, but they cannot guarantee coverage of every single potential emission source due to the complexity and variability of industrial processes","Emissions from dry glycol circulation pumps and regenerator vents, which do not emit methane as primarily water, are not included.",0.4564,0.0789,0.6652,206,5.7042,0.3,0.8576,20
+TGD8-Well-completions-06-q05,TGD8-Well-completions,why,llm,Why does the piping layout matter so much for REC equipment?,"High-velocity water and sand can erode holes in steel elbows, creating washouts.","The piping layout is crucial in Recirculating Emission Control (REC) systems because it directly affects the efficiency, safety, and effectiveness of the system. Here's how different aspects of the piping layout can impact REC equipment:
+
+1. **Flow Path Efficiency**: Proper routing ensures that gases flow through the system efficiently without unnecessary bypasses or dead ends. This minimizes energy losses and maximizes the capture of methane.
+
+2. **Safety Considerations**: The layout should prevent any potential hazards such as leaks or blockages that could lead to hazardous conditions or environmental contamination.
+
+3. **Regulation Compliance**: Many jurisdictions have regulations regarding the design and operation of emission control systems. A well-designed piping layout helps ensure compliance with these standards.
+
+4. **Maintenance Accessibility**: An optimal layout facilitates easier maintenance by allowing access to all components without having to navigate around obstacles.
+
+5. **Cost-Effectiveness**: Efficient piping reduces material costs and labor costs associated with installation and repair.
+
+6. **Environmental Impact**: Properly designed piping prevents the loss of captured methane into the atmosphere, thereby reducing greenhouse gas emissions.
+
+7. **Operational Flexibility**: The layout must allow for adjustments in the system’s configuration based on changes in production levels or operational needs.
+
+8. **Integration with Other Systems**:","Coolant and working fluids must have easy, designated routes in and out of the vessel, and piping that allows for rapid pressure changes during operation.",0.203,0.0279,0.5184,198,1.8885,0.1053,0.6038,25

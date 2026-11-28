@@ -1,0 +1,22 @@
+```json
+[
+  {
+    "type": "why",
+    "question": "Why are emissions surveys and quantification processes necessary for OGMP participating operations?",
+    "answer": "Emissions surveys and quantification processes are required to establish a baseline understanding of methane emission sources and their magnitudes, which enables operators to assess future mitigation plans. Additionally, these processes gather the required data to fulfill reporting for OGMP Annual Reports.",
+    "evidence": "Emissions Surveys and quantification processes are necessary to provide a basis for understanding methane emissions sources and levels to evaluate future plans to mitigate emissions."
+  },
+  {
+    "type": "lookup",
+    "question": "How many methane emission sources described in the Framework document are covered in Appendix A for OGMP operations?",
+    "answer": "Appendix A concentrates on the nine methane emissions sources that are specified in the Framework document.",
+    "evidence": "The information provided in this appendix focuses on the nine methane emissions sources described in the Framework document."
+  },
+  {
+    "type": "definition",
+    "question": "What technical guidance does Appendix A offer regarding emissions surveys in OGMP participating operations?",
+    "answer": "Appendix A outlines information regarding two distinct approaches to carrying out emissions surveys. It also supplies technical specifics on technologies that operators can employ to detect and measure methane emission sources across their facilities.",
+    "evidence": "This appendix provides information on two different approaches to conducting Emissions Surveys and provides technical details on technologies that can be used to identify and quantify methane emission sources present in OGMP participating operations."
+  }
+]
+```

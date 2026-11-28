@@ -1,0 +1,32 @@
+[
+  {
+    "type": "why",
+    "question": "Why is the methane emissions detection and measurement equipment information included in the guidance document?",
+    "answer": "The equipment specifications and use procedures are provided to inform operators who wish to identify and reduce methane emissions across international oil and natural gas companies. It serves as a compilation of experiences and methodologies rather than a comprehensive guide.",
+    "evidence": "The suggested methane emissions detection and measurement equipment contained in this document are intended to inform operators interested in identifying and reducing methane emissions at various international oil and natural gas companies."
+  },
+  {
+    "type": "lookup",
+    "question": "What overview does Exhibit 1 provide regarding methane emission detection and quantification equipment?",
+    "answer": "Exhibit 1 summarizes the presented detection and quantification equipment and demonstrates how these devices apply to the nine methane emissions sources described in the technical guidance documents.",
+    "evidence": "Exhibit 1 gives an overall summary of the methane emission detection andquantification equipment presented in this section and how they apply to the nine methane emissions sources described earlier in the source-specific Technical Guidance Documents."
+  },
+  {
+    "type": "quantification",
+    "question": "What equipment can be used to quantify methane emissions from natural gas driven pneumatic controllers and pumps?",
+    "answer": "Methane emissions from natural gas driven pneumatic controllers and pumps can be quantified using a calibrated vent bag, a high volume sampler, or a flow meter.",
+    "evidence": "Emissions Quantification Equipment: - Calibrated Vent Bag Exhibit F - High volume sampler Exhibit G - Flow meter Exhibit H."
+  },
+  {
+    "type": "lookup",
+    "question": "What detection equipment is available for identifying fugitive equipment and process leaks?",
+    "answer": "Fugitive equipment and process leaks can be detected using optical leak imaging, laser leak detectors, soap bubble screening, Organic Vapor Analysers (OVAs) and Toxic Vapor Analysers (TVAs), or acoustic leak detection.",
+    "evidence": "Emissions Detection Equipment: - Optical leak Imaging Exhibit A - Laser leak detector Exhibit B - Soap Bubble Screening Exhibit C - Organic Vapor Analysers (OVAs) and Toxic Vapor Analysers (TVAs) Exhibit D - Acoustic Leak Detection Exhibit E"
+  },
+  {
+    "type": "quantification",
+    "question": "Which equipment options can be used for quantifying methane emissions from fugitive equipment and process leaks?",
+    "answer": "Quantification options for fugitive equipment and process leaks include a calibrated vent bag, high volume sampler, vane anemometer, hotwire anemometer, turbine meter, and an acoustic detection device specifically for through-valve leaks.",
+    "evidence": "Emissions Quantification Equipment: - Calibrated Vent Bag Exhibit F - High volume sampler Exhibit G - Vane anemometer Exhibit H - Hotwire anemometer Exhibit H - Turbine meter Exhibit I - Acoustic Detection Device (for through-valve leaks) Exhibit J."
+  }
+]

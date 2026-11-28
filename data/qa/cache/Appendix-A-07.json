@@ -1,0 +1,32 @@
+[
+  {
+    "type": "why",
+    "question": "Why might Lower Explosive Level (LEL) detectors be used prior to conducting an infrared (IR) camera emission survey?",
+    "answer": "Lower Explosive Level (LEL) detectors can be used to identify potentially explosive concentrations of combustible hydrocarbons near facility operations before introducing the camera into the area.",
+    "evidence": "Alternatively, Lower Explosive Level (LEL) detectors can be used to detect potentially explosive concentration of combustible hydrocarbon near operations before the camera is used."
+  },
+  {
+    "type": "lookup",
+    "question": "What is the recommended operating temperature range for an infrared (IR) leak detection camera?",
+    "answer": "The recommended operating temperature for an IR leak detection camera ranges from -20 to 50°C (-4 to 122 °F).",
+    "evidence": "The recommended operating temperature for the camera ranges from -20 to 50°C (-4 to 122 °F)."
+  },
+  {
+    "type": "lookup",
+    "question": "What is the maximum distance from which a Remote Methane Leak Detector (RMLD) can detect methane in a gas plume?",
+    "answer": "A Remote Methane Leak Detector (RMLD) can detect methane present in a gas plume up to a maximum distance of 30 meters (100 feet).",
+    "evidence": "This device uses tuneable diode-infrared laser tuned at a frequency absorbed by methane, allowing it to detect any methane present in a gas plume from a maximum distance of 30 meters (100 feet)."
+  },
+  {
+    "type": "definition",
+    "question": "How does a Remote Methane Leak Detector (RMLD) detect the presence of methane in a gas plume?",
+    "answer": "An RMLD passes a laser beam through a gas plume, which reflects back to the device. It detects methane in the beam path by comparing the signal strength of the outgoing beam to the reflected beam.",
+    "evidence": "When the laser beam from the RMLD passes through a gas plume and is reflected back to the camera, it will detect if any methane present in the beam path by comparing the strength of the outgoing and reflected beam."
+  },
+  {
+    "type": "comparison",
+    "question": "How does laser leak detection compare to physical inspection methods when surveying pipelines for methane emissions?",
+    "answer": "Unlike traditional inspection methods, laser leak detection allows operators to stay in place and scan along their line of sight, which prevents them from needing to walk the entire length of a pipeline or service line.",
+    "evidence": "It also prevents operators from walking the entire length of a pipeline or service line, allowing them to stay in place and scan for leaks along the sight line."
+  }
+]

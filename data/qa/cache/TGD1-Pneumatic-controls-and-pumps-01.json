@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "type": "why",
+    "question": "Why do operators at remote oil and gas facilities use natural gas to power pneumatic controllers and pumps instead of compressed air or electricity?",
+    "answer": "Operators utilize pressurized natural gas to power pneumatic controllers and pumps at remote facilities because utility-supplied electricity or compressed air may not be available and economical at those locations.",
+    "evidence": "At remote production, gathering, and gas transmission facilities, compressed air or electricity may not be available and economical. In such cases, operators may use the available inherent energy of pressurized natural gas to power these devices."
+  },
+  {
+    "type": "definition",
+    "question": "How do natural gas driven pneumatic pumps mechanically operate and release methane gas?",
+    "answer": "Pneumatic pumps function by using natural gas pressure to alternately push both sides of a diaphragm attached to a piston pump. Gas is released into the atmosphere with every movement of the pump.",
+    "evidence": "Pneumatic pumps use gas pressure to alternately push on one side and then on the other side of a diaphragm connected to a piston pump. The gas is vented at each pump movement."
+  },
+  {
+    "type": "why",
+    "question": "Why are natural gas driven chemical injection pumps used in pipelines, and what operational issue do they prevent?",
+    "answer": "Natural gas driven chemical injection pumps inject substances like methanol into pipelines to prevent the formation of crystalline methane hydrates, which can cause operational blockages in natural gas pipelines.",
+    "evidence": "These pumps inject methanol and other chemicals into wells and pipelines, and are vital to the production process. For example, methanol prevents crystalline methane hydrate formation that can lead to blockages in pipelines."
+  },
+  {
+    "type": "lookup",
+    "question": "What primary non-design factor drives a large fraction of methane emissions from pneumatic devices in the Production segment?",
+    "answer": "Field measurement studies indicate that a large portion of overall methane emissions from pneumatic devices in the Production segment comes from equipment not operating as designed due to maintenance issues or defects.",
+    "evidence": "In fact, recent field measurement studies have pointed out that a large fraction of total emissions from pneumatic devices in the Production segment are a result of devices that are not operating as designed (due to a defect or maintenance issue)."
+  },
+  {
+    "type": "quantification",
+    "question": "What factors cause the methane emission rate to vary among natural gas driven pneumatic controllers and pumps?",
+    "answer": "The methane emission rate from pneumatic devices varies based on the device's specific function, design, and operation, including whether emissions originate from controller bleed, pump actuation gas, or valve actuation gas venting.",
+    "evidence": "Depending on a device’s function, design, and operation, the emission rate can vary (e.g., a controller’s bleed, valve actuation gas vent, and a pneumatic-driven pump’s actuation gas)."
+  }
+]
+```

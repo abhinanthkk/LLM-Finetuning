@@ -1,0 +1,32 @@
+[
+  {
+    "type": "comparison",
+    "question": "What is a key advantage of using calibrated vent bags compared to rotating meters such as turbine meters for leak quantification?",
+    "answer": "A major advantage of calibrated vent bags over rotating meters is that they do not exert significant back pressure on the vented component. This avoids interfering with vented operations and permits low-pressure drop measurements.",
+    "evidence": "A key advantage of the bag expansion technique over rotating meters (e.g., turbine meter) is that it does not exert a significant back pressure on the vented component."
+  },
+  {
+    "type": "definition",
+    "question": "What are calibrated vent bags in the context of leak quantification?",
+    "answer": "Calibrated vent bags are non-elastic bags of a known calibrated volume when fully inflated, such as 0.085 m3 or 3 ft3. They are made from antistatic plastic and feature a neck shaped to easily seal around vent pipes.",
+    "evidence": "Calibrated vent bags are non-elastic bags of calibrated volume when fully inflated (e.g., 0.085 m3 or 3 ft3), made from antistatic plastic with a neck shaped for easy sealing around a vent pipes."
+  },
+  {
+    "type": "quantification",
+    "question": "What size range of leaks can be quantified using calibrated vent bags?",
+    "answer": "Calibrated vent bags are suitable for measuring leak rates greater than 17 m3/hour (600 ft3/hour) and can quantify leaks as large as 408 m3/hour (14,400 ft3/hour).",
+    "evidence": "These bags are useful for quantifying leaks greater than 17 m3/hour (600 ft3/hour) and can measure leaks as large as 408 m3/hour (14,400 ft3/hour)."
+  },
+  {
+    "type": "why",
+    "question": "Why must the gas composition be analyzed when measuring emissions with calibrated vent bags?",
+    "answer": "Gas composition needs to be analyzed to determine the actual methane content because air can sometimes be drawn into the vent line, producing a mixture of gas and air.",
+    "evidence": "Additionally, gas composition should be analysed to determine the methane content of the vented gas because in some cases air may also be entrained in the vent, resulting in a mixture of gas and air."
+  },
+  {
+    "type": "lookup",
+    "question": "What gas temperature range can be measured when using calibrated vent bags?",
+    "answer": "Calibrated vent bags are capable of measuring gases within a temperature range of 0 to 49 °C (32 to 120 °F).",
+    "evidence": "Calibrated vent bags can measure gases ranging from 0 to 49 °C (32 to 120 °F)."
+  }
+]

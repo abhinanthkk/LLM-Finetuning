@@ -1,0 +1,246 @@
+{
+ "TGD1-Pneumatic-controls-and-pumps-07": [
+  {
+   "type": "quantification",
+   "question": "Which quantification methodologies does the OGMP recommend for methane emissions from natural gas driven pneumatic controllers and pumps?",
+   "answer": "The OGMP recommends activity data count, direct measurement, manufacturer estimate, engineering estimates, or the emission factor approach. A Partner may use an alternative methodology if it judges it more accurate, but must document and explain it in the Annual Report.",
+   "evidence": "These quantification methodologies include activity data count, direct measurement, manufacturer estimate, engineering estimates, or emission factor approach."
+  },
+  {
+   "type": "definition",
+   "question": "What does the activity data count involve for gas-driven pneumatic devices under the OGMP?",
+   "answer": "The activity data count is the count of gas-driven pneumatic devices and pumps. Partners must inventory all gas-driven controllers that emit natural gas to the atmosphere within their participating operations.",
+   "evidence": "As part of the OGMP, Partners must inventory all gas-driven controllers that emit natural gas to the atmosphere within their participating operations."
+  },
+  {
+   "type": "quantification",
+   "question": "When should continuous high-bleed pneumatic controllers be measured to get their average bleed rate?",
+   "answer": "They should be measured while the valve is in a stationary position, which represents the average bleed rate. Alternatively, they can be measured over a period long enough to capture several valve movement cycles.",
+   "evidence": "measurements is best made while the valve is in a stationary position: this represents the average bleed rate"
+  },
+  {
+   "type": "lookup",
+   "question": "What bleed rate must a continuous low-bleed pneumatic controller meet to qualify as low-bleed?",
+   "answer": "A low-bleed controller must bleed less than or equal to 6 standard cubic feet per hour (scfh), which is 0.17 standard cubic meters per hour (scmh). It can be measured the same way as a high-bleed device to confirm this.",
+   "evidence": "the low-bleed standard of less than or equal to 6 standard cubic feet per hour (scfh) (0.17 standard cubic meter per hour (scmh))"
+  },
+  {
+   "type": "why",
+   "question": "Why do intermittent bleed pneumatic controllers not need to be quantified under the OGMP?",
+   "answer": "Intermittent bleed devices are considered controlled, so they do not need to be quantified.",
+   "evidence": "Intermittent bleed devices are controlled, and thereby do not need to be quantified."
+  }
+ ],
+ "TGD1-Pneumatic-controls-and-pumps-08": [
+  {
+   "type": "quantification",
+   "question": "How long should sampling last when directly measuring continuous bleed pneumatic controllers?",
+   "answer": "Following the methods of Allen et al. (2013) and Allen et al. (2014), sampling should cover at least 15 minutes for continuous bleed controllers.",
+   "evidence": "Methods from Allen et al. (2013) and Allen et al. (2014) should be employed and should cover at least 15 minutes of sampling for continuous bleed controllers."
+  },
+  {
+   "type": "lookup",
+   "question": "Which measurement tools are recommended for pneumatic devices such as controllers?",
+   "answer": "The recommended tools are direct gas measurement with an upstream flow meter in the supply gas line together with a leak detection and repair inspection of the supply gas system, a high volume sampler or equivalent, and a calibrated vent bag.",
+   "evidence": "Direct gas measurement by upstream flow meter in the supply gas line in conjunction with a leak detection and repair inspection of the supply gas system"
+  },
+  {
+   "type": "why",
+   "question": "Why should direct measurement of a pneumatic controller start with an engineering analysis of the control loop?",
+   "answer": "A field observation of the control loop shows how it operates and where the bleed emissions occur, so that measurement points are identified accurately and the measurements capture all of the device's methane emissions.",
+   "evidence": "This is important so that the measurement points are accurately identified and that measurements completely capture a device’s methane emissions."
+  },
+  {
+   "type": "quantification",
+   "question": "How should Partners measure methane from a pneumatic chemical injection pump vent?",
+   "answer": "They should measure the actuator gas from the pump vent over a period that includes several cycles of pumping strokes. Recommended tools are an upstream flow meter on the supply gas line, a high volume sampler, or a calibrated vent bag.",
+   "evidence": "Partners should measure the actuator gas from a pneumatic chemical injection pump vent over a period of time that includes several cycles of pumping strokes."
+  },
+  {
+   "type": "mitigation",
+   "question": "What can an operator do if measuring the bleed rate of every pneumatic controller and pump is too burdensome?",
+   "answer": "The operator may measure a representative sample of the total population instead of every device, taking into account the controller service and design used across its facilities.",
+   "evidence": "The operator may consider measurement of a representative sample of the total population in lieu of measurement at every device"
+  }
+ ],
+ "TGD1-Pneumatic-controls-and-pumps-09": [
+  {
+   "type": "why",
+   "question": "Why should manufacturer estimates of pneumatic controller bleed rates be used with caution?",
+   "answer": "Experience suggests that manufacturers' bleed rates are understated, so measurement data should be used whenever it can be acquired.",
+   "evidence": "Experience suggests that manufacturers’ bleed rates are understated, so measurement data should be used when the data can be acquired."
+  },
+  {
+   "type": "lookup",
+   "question": "Where can Partners find manufacturer bleed rates for common pneumatic controller models?",
+   "answer": "Appendix A of the Natural Gas STAR technical document on reducing methane emissions from pneumatic devices lists the brand, model and manufacturer-provided bleed rates for various pneumatic controllers, with actual field data where available.",
+   "evidence": "lists the brand, model, and gas bleed rate information for various pneumatic controllers as provided by manufacturers"
+  },
+  {
+   "type": "definition",
+   "question": "What is the manufacturer estimate approach for quantifying pneumatic controller emissions?",
+   "answer": "It uses the emission rates stated by controller manufacturers. The list of these rates is not exhaustive but covers the most commonly used devices, and the estimates should be used with caution.",
+   "evidence": "Manufacturer estimates for emission rates on pneumatic controllers should be used with caution."
+  }
+ ],
+ "TGD1-Pneumatic-controls-and-pumps-10": [
+  {
+   "type": "lookup",
+   "question": "What does OGMP Table 1.5 provide for pneumatic controllers?",
+   "answer": "Table 1.5 is an OGMP list of commonly used controller devices from various manufacturers. Partners can use it to classify controllers in the Survey Form and use either the manufacturer's stated emission rate or the rates in the table.",
+   "evidence": "Partners may use this list to classify the controllers in the Survey Form and also employ the manufacturer’s stated emission rate or the rates included in Table 1.5."
+  },
+  {
+   "type": "why",
+   "question": "Why should Partners verify manufacturer-provided bleed rates for continuous bleed pneumatic devices?",
+   "answer": "The manufacturer rates may not apply to local site conditions such as gas composition or supply pressure. Manufacturers sometimes give bleed data to make sure a supply gas system is not undersized rather than to characterize emissions, and their data is only accurate for new instruments in the exact application.",
+   "evidence": "sometimes the manufacturer is providing bleed data in order to make sure a supply gas system is not undersized, rather than to characterize bleed emissions rates"
+  },
+  {
+   "type": "quantification",
+   "question": "How are annual emissions from an intermittent vent pneumatic controller in on/off service estimated using the engineering estimate method?",
+   "answer": "The volume vented per actuation (Volscf) is calculated from the piping and actuator volumes and pressures, and annual emissions equal the estimated number of actuations per device per year multiplied by that volume per actuation.",
+   "evidence": "Annual Emissions = (Estimated number of actuations per device per year) X (Volscf)"
+  },
+  {
+   "type": "why",
+   "question": "Why can a fixed volume per actuation be used for snap-acting pneumatic controllers or dump valves?",
+   "answer": "For intermittent vent controllers in on/off service, the same volume of gas is vented every time the device shifts from on to off.",
+   "evidence": "every time the device shifts from “on” to “off”, the same volume of gas is vented"
+  },
+  {
+   "type": "definition",
+   "question": "In the engineering estimate equation for pneumatic controller venting, what does ΔVolbonnet represent?",
+   "answer": "ΔVolbonnet is the change in the physical volume of a pneumatic valve actuator when it changes from at rest to fully actuated, in scf (FPS units) or scm (SI units).",
+   "evidence": "The change in the physical volume of a pneumatic valve actuator when changed from at rest to fully actuated"
+  }
+ ],
+ "TGD1-Pneumatic-controls-and-pumps-11": [
+  {
+   "type": "why",
+   "question": "What limits the accuracy of engineering estimates for intermittent pneumatic controller emissions?",
+   "answer": "The method needs an estimated number of actuations per device per year from onsite knowledge. If the process is highly variable or cyclic through the year, that estimate can be inaccurate.",
+   "evidence": "If the process is highly variable or cyclic throughout the year, estimation of the number of actuations per year can be inaccurate."
+  },
+  {
+   "type": "why",
+   "question": "Why are engineering estimates not suitable for throttling intermittent pneumatic controllers?",
+   "answer": "Both the bonnet volume and the frequency of actuation are highly variable for throttling intermittent controllers.",
+   "evidence": "Throttling intermittent controllers do not lend themselves to engineering estimates because the bonnet volume and the frequency of actuation are both highly variable."
+  },
+  {
+   "type": "quantification",
+   "question": "When can the emission factor approach be used for pneumatic devices under the OGMP?",
+   "answer": "It can be used when a Partner does not use direct measurement or manufacturers' data. Partners are encouraged to use emission factors that best represent conditions and practices at their facilities.",
+   "evidence": "If they do not select the direct measurement or the manufacturers’ data approach is not selected, an emission factor approach may be used."
+  },
+  {
+   "type": "lookup",
+   "question": "What is the source of the default emission factors for pneumatic controllers and pumps in OGMP Tables 1.2 and 1.3?",
+   "answer": "They are based on data from the 1996 GRI/EPA report and represent average emissions and device populations during the survey period in the early 1990s.",
+   "evidence": "The default emission factors represented in Table 1.2 and 1.3 are based on data derived from the 1996 GRI/EPA report and generally represent estimates of average emissions and populations of devices during the survey period in the early 1990s."
+  },
+  {
+   "type": "why",
+   "question": "What are the limitations of the default pneumatic device emission factors in the OGMP guidance?",
+   "answer": "They may not represent any individual device well, particularly intermittent devices, or current production operations such as hydraulically fractured oil and gas wells. Partners should choose the factors that best match their conditions and internal protocols.",
+   "evidence": "These factors may be inaccurate representations of any individual device, particularly for intermittent devices or even current production operations"
+  }
+ ],
+ "TGD1-Pneumatic-controls-and-pumps-12": [
+  {
+   "type": "mitigation",
+   "question": "What does Mitigation Option A for natural gas driven pneumatic controllers involve?",
+   "answer": "It involves replacing or retrofitting high-bleed pneumatic controllers with low-bleed or intermittent-bleed controllers, which can achieve significant methane reductions and save money if the process can tolerate slower, less responsive control.",
+   "evidence": "Partners can achieve significant methane emission reductions and save money by replacing or retrofitting high-bleed pneumatic controllers"
+  },
+  {
+   "type": "lookup",
+   "question": "What bleed rate should Partners specify when buying replacement low-bleed pneumatic controllers?",
+   "answer": "Partners should specify controllers with bleed rates at or less than 6 scfh (0.17 scmh), and check that the controller is low-bleed at their own pneumatic gas supply pressure before purchase.",
+   "evidence": "Partners should specify pneumatic controllers with bleed rates at or less than 6 scfh (0.17 scmh)."
+  },
+  {
+   "type": "mitigation",
+   "question": "What information should a pneumatic controller survey record when identifying candidates for low-bleed replacement?",
+   "answer": "The survey should record the make and model, function, location, condition and bleed rate of each controller, including whether it is continuous or intermittent bleed.",
+   "evidence": "include the make/model, function, location, condition, and bleed rate (also recording either continuous or intermittent bleed)"
+  },
+  {
+   "type": "why",
+   "question": "Why might some high-bleed pneumatic controllers be unsuitable for replacement with low-bleed controllers?",
+   "answer": "Some processes need a fast or precise control response so they do not drift too far from the set point. A slower-acting controller could damage equipment, create a safety issue, or both.",
+   "evidence": "A slower acting controller could damage equipment, become a safety issue, or both."
+  },
+  {
+   "type": "comparison",
+   "question": "Give an example of an application where a high-bleed pneumatic controller is still needed instead of a low-bleed one.",
+   "answer": "A compressor whose pneumatic controllers monitor suction and discharge pressure and actuate a recycle by-pass when either is out of range needs fast, precise control, as do transient situations where gas flow fluctuates widely or unpredictably.",
+   "evidence": "An example is a compressor where pneumatic controllers monitor the suction and discharge pressure and actuate a recycle by-pass when one or the other is out of the specified target range."
+  }
+ ],
+ "TGD1-Pneumatic-controls-and-pumps-13": [
+  {
+   "type": "comparison",
+   "question": "Which types of pneumatic controllers are usually suitable for slower-acting low-bleed devices?",
+   "answer": "Temperature and level controllers, because they are typically used where control is not prone to wide fluctuation or the equipment can readily and safely accommodate the fluctuation.",
+   "evidence": "Temperature and level controllers are typically present in control situations that are not prone to wide fluctuation"
+  },
+  {
+   "type": "why",
+   "question": "Why is the bleed rate of a pneumatic device not directly linked to safety?",
+   "answer": "Emergency isolation and pressure relief valves are not bleeding controllers. Pneumatic devices are for normal process control, while emergency equipment such as ESD and PRV systems is spring loaded, and control valves are chosen to open or close on loss of pneumatic gas supply.",
+   "evidence": "Safety concerns could be an issue, but only in specific situations because emergency isolation of pressure relief valves are not bleeding controllers."
+  },
+  {
+   "type": "mitigation",
+   "question": "What must be installed to retrofit high-bleed pneumatic controllers to low-bleed, and when is it done?",
+   "answer": "The work is done during shutdown of the related equipment or system and requires low-bleed or intermittent-bleed controllers or retrofit kits, plus any additional piping and fittings needed.",
+   "evidence": "The implementation of this technology will occur during shutdown of the equipment or system related to the pneumatic device(s)"
+  },
+  {
+   "type": "lookup",
+   "question": "What is the maximum emission rate of a pneumatic device after conversion to low-bleed?",
+   "answer": "Once converted to low-bleed, a pneumatic device should emit no more than 0.17 scmh or 6 scfh.",
+   "evidence": "Once converted to low-bleed, a pneumatic device should emit no more than 0.17 scmh or 6 scfh."
+  },
+  {
+   "type": "lookup",
+   "question": "What do recent U.S. regulations say about installing high-bleed pneumatic controllers at new oil and gas production facilities?",
+   "answer": "They do not allow high-bleed controllers, meaning a continuous bleed rate greater than 6 scfh (0.17 scmh), at new or modified oil and gas production facilities.",
+   "evidence": "Recent U.S. regulations do not allow installation of high-bleed pneumatic controllers in new or modified oil and gas production facilities (i.e., continuous bleed rate greater than 6 scfh (0.17 scmh)."
+  }
+ ],
+ "TGD1-Pneumatic-controls-and-pumps-14": [
+  {
+   "type": "quantification",
+   "question": "How are methane emission reductions calculated when replacing high-bleed pneumatic controllers with low-bleed ones?",
+   "answer": "Methane emission reductions equal the baseline unmitigated emission rate minus the mitigated emission rate, both in scfh or scmh.",
+   "evidence": "Methane Emissions Reductions = Baseline “Unmitigated” Emission Rate (scfh or scmh) – “Mitigated” Emission Rate (scfh or scmh)"
+  },
+  {
+   "type": "lookup",
+   "question": "What default unmitigated emission rate does the OGMP use for a high-bleed pneumatic controller?",
+   "answer": "If using default values, the unmitigated emission rate from a high-bleed controller is 37.3 scfh or 1.1 scmh.",
+   "evidence": "If using default values, the unmitigated emission rates from high-bleed controllers equals 37.3 scfh or 1.1 scmh."
+  },
+  {
+   "type": "lookup",
+   "question": "What default emission rate does the OGMP use for a low-bleed pneumatic controller?",
+   "answer": "If using default values, the emission rate from a low-bleed controller is 1.39 scfh or 0.04 scmh.",
+   "evidence": "If using default values, uncontrolled emission rates from low bleed controllers equals 1.39 scfh or 0.04 scmh"
+  },
+  {
+   "type": "lookup",
+   "question": "What is the typical capital cost of a low-bleed pneumatic controller?",
+   "answer": "The capital cost ranges from approximately $400 to $3,500, depending on the controller's function and design.",
+   "evidence": "The capital costs for a low-bleed controller can range from approximately $400 to $3,500, depending on the controller’s function and design."
+  },
+  {
+   "type": "quantification",
+   "question": "How are annual operation and maintenance costs treated in the economics of switching to low-bleed pneumatic controllers?",
+   "answer": "Annual O&M costs for low-bleed controllers are typically negligible, and the avoided maintenance costs of the older controller are usually counted as a benefit in the economic analysis.",
+   "evidence": "Annual O&M costs are typically negligible, and the avoided maintenance costs for an older controller are typically included as a benefit in the economic analysis."
+  }
+ ]
+}

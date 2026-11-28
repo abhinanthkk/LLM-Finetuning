@@ -1,0 +1,330 @@
+{
+ "TGD7-Liquids-unloading-03": [
+  {
+   "type": "definition",
+   "question": "How does a plunger lift system unload liquids from a gas well?",
+   "answer": "A controller closes in the well so the plunger drops to the bottom, then reopens it so gas pushes the plunger to the top with a slug of liquid above it.",
+   "evidence": "The controller then reopens the well, allowing the gas to push the plunger to the top with a slug of liquid on top."
+  },
+  {
+   "type": "why",
+   "question": "When can a plunger lift system cause methane venting?",
+   "answer": "Some plunger controllers vent automatically if the plunger does not return when expected, and other systems are designed to vent on every plunger trip.",
+   "evidence": "plunger controllers may be designed to allow automatic venting if the plunger does not return when expected, thus creating an emission during some plunger trips. Other systems are designed to vent on every plunger lift trip."
+  },
+  {
+   "type": "comparison",
+   "question": "Which artificial lift methods for liquids unloading require electric power at the well site?",
+   "answer": "Sucker rod or beam pumps and electric submersible pumps require electric power; progressive cavity pumps may require it.",
+   "evidence": "This technology may require electric power at the wellhead."
+  },
+  {
+   "type": "definition",
+   "question": "How does gas lift help unload liquids from a gas well?",
+   "answer": "A compressor pushes high-pressure gas downhole to increase total gas velocity up the well; flow goes to the separator with gas to sales.",
+   "evidence": "A compressor pushes high-pressure gas downhole in order to increase total gas velocity up the well."
+  },
+  {
+   "type": "definition",
+   "question": "How does a wellhead compressor help unload liquids from a gas well?",
+   "answer": "It pulls gas from the wellhead, lowering the well's operating and bottom-hole pressure, which increases gas velocity in the wellbore.",
+   "evidence": "A compressor pulls gas from the wellhead in order to reduce gas flow operating pressure from the well, which reduces gas flow pressure at well “bottom hole,” which increases well bore (gas flow) velocity."
+  }
+ ],
+ "TGD7-Liquids-unloading-06": [
+  {
+   "type": "quantification",
+   "question": "Which methods does the OGMP recommend for quantifying methane from liquids unloading?",
+   "answer": "Direct measurement, engineering calculation, or the emission factor approach; direct measurement is in principle the most accurate.",
+   "evidence": "These quantification methodologies include: direct measurement, engineering calculation, or emission factor approach."
+  },
+  {
+   "type": "lookup",
+   "question": "For which types of liquids unloading is direct measurement feasible?",
+   "answer": "For manual, intermittent or plunger lift unloading where gas is vented to the atmosphere from a vent or storage tank.",
+   "evidence": "Direct measurement may be feasible or practical for manual, intermittent, or plunger lift liquids unloading in which venting to the atmosphere occurs from a vent or storage tank."
+  },
+  {
+   "type": "why",
+   "question": "Where is gas released during a vented liquids unloading event?",
+   "answer": "Well flow goes to an atmospheric production tank acting as a separator, and gas escapes from the top, typically through a thief hatch opened just for the unloading.",
+   "evidence": "the gas flow is released through the top of the tank, typically through an open thief hatch or other openings in the tank’s fixed roof"
+  },
+  {
+   "type": "quantification",
+   "question": "How can the gas vented during liquids unloading be measured?",
+   "answer": "After finding the emission points, with a temporary flow meter stack on the emission point, or a meter inserted upstream in the process piping.",
+   "evidence": "Partners can directly measure the flow from the emission point(s) with a temporary flow meter stack or can insert a flow meter upstream of the emission point within the process piping"
+  },
+  {
+   "type": "why",
+   "question": "Why should Partners review site flow and use an IR camera before measuring liquids unloading emissions?",
+   "answer": "Each site is unique, with dedicated open-top tanks or other tank openings, so the review and IR camera identify the emission points to measure.",
+   "evidence": "Viewing the vent with an infrared leakimaging camera can also identify emission points that should be measured."
+  }
+ ],
+ "TGD7-Liquids-unloading-07": [
+  {
+   "type": "quantification",
+   "question": "How are annual whole gas emissions from liquids unloading calculated from measured flow?",
+   "answer": "Annual emissions equal the frequency of venting events per year times the cumulative gas flow per event; multiply by methane composition to get methane.",
+   "evidence": "Ea = Annual whole gas emissions at standard conditions in cubic feet (scf). Fp = Frequency of the venting events (number of occurrences per year)."
+  },
+  {
+   "type": "lookup",
+   "question": "Where can the frequency of liquids unloading venting events be obtained?",
+   "answer": "For manual venting, from a log of manually started events. For automated plunger lifts, from the plunger controller, which logs events where the plunger did not return in time and the well was vented.",
+   "evidence": "In the case of automated venting of plunger lift systems, this frequency can likely be collected directly from the plunger controller"
+  },
+  {
+   "type": "definition",
+   "question": "In the manual or intermittent unloading equation, what do CD and WD stand for?",
+   "answer": "CD is the casing internal diameter in inches, and WD is the well depth from the top of the well or the lowest packer to the bottom, in feet.",
+   "evidence": "CD = Casing internal diameter for each well in inches. WD = Well depth from either the top of the well or the lowest packer to the bottom of the"
+  },
+  {
+   "type": "definition",
+   "question": "In the manual or intermittent unloading equation, what does V represent?",
+   "answer": "V is the total number of unloading events per year per well.",
+   "evidence": "V = Total number of unloading events per year per well."
+  },
+  {
+   "type": "quantification",
+   "question": "When can the engineering calculation be used for liquids unloading emissions?",
+   "answer": "When direct measurement is not selected, feasible or practical; there are separate calculations for wells with and without plunger lifts.",
+   "evidence": "If the direct measurement approach is not selected or is not feasible or practical, an engineering calculation approach can be used."
+  }
+ ],
+ "TGD7-Liquids-unloading-08": [
+  {
+   "type": "quantification",
+   "question": "What pressure is used if casing pressure is unavailable in the liquids unloading calculation?",
+   "answer": "Partners can multiply each well's tubing pressure by the casing-to-tubing pressure ratio of a packer-free well in the same sub-basin.",
+   "evidence": "If casing pressure is not available, Partners can multiply the tubing pressure of each well with a casing-to-tubing pressure ratio of a well with no packer from the same sub-basin, in psia."
+  },
+  {
+   "type": "definition",
+   "question": "In the manual unloading equation, what is the average time to blow down the casing volume?",
+   "answer": "1.0 hour for an average well to blow down its casing volume at shut-in pressure.",
+   "evidence": "1.0 = Hours for average well to blowdown casing volume at shut-in pressure (hr)."
+  },
+  {
+   "type": "definition",
+   "question": "What do TDp and WDp mean in the plunger lift unloading calculation?",
+   "answer": "TDp is each well's tubing internal diameter in inches, and WDp is the tubing depth to the plunger bumper in feet.",
+   "evidence": "TDp = Tubing internal diameter for each well, p, in inches. WDp = Tubing depth to plunger bumper for each well, p, in feet (ft)."
+  },
+  {
+   "type": "definition",
+   "question": "What does W represent in the plunger lift unloading emissions calculation?",
+   "answer": "W is the total number of wells with plunger lift assist and well venting for liquids unloading in each sub-basin.",
+   "evidence": "W = Total number of wells with plunger lift assist and well venting for liquids unloading for"
+  },
+  {
+   "type": "definition",
+   "question": "What is HRq in the liquids unloading emission calculation?",
+   "answer": "HRq is the hours the well was left open to the atmosphere during each unloading event.",
+   "evidence": "HRq = Hours that the well was left open to the atmosphere during each unloading event, q"
+  }
+ ],
+ "TGD7-Liquids-unloading-09": [
+  {
+   "type": "definition",
+   "question": "In the plunger lift unloading calculation, how long does tubing volume blowdown take?",
+   "answer": "0.5 hours for an average well to blow down its tubing volume at flow-line pressure.",
+   "evidence": "0.5 = Hours for average well to blowdown tubing volume at flow-line pressure."
+  },
+  {
+   "type": "quantification",
+   "question": "How is the emission factor approach applied to liquids unloading?",
+   "answer": "A factor for methane per well per year or per event is applied, adjusted for operating parameters such as plunger lift and frequency of vented events.",
+   "evidence": "An emission factor that represents emissions of methane volume per year per well or per event should be applied for liquids unloading, adjusted for operating parameters."
+  },
+  {
+   "type": "lookup",
+   "question": "Where are default methane emission factors for liquids unloading in the OGMP guidance?",
+   "answer": "In Tables 7.2-7.4 of the liquids unloading guidance.",
+   "evidence": "Default methane emission factors are provided in Tables 7.2-7.4."
+  }
+ ],
+ "TGD7-Liquids-unloading-10": [
+  {
+   "type": "definition",
+   "question": "How do foaming agents, soap strings and surfactants reduce liquids unloading emissions?",
+   "answer": "They reduce the density and surface tension of well liquids, lowering the gas velocity needed to carry liquids out of the well.",
+   "evidence": "Foaming agents, soap strings and surfactants reduce the density and surface tension of the liquids in the well, thereby reducing the velocity needed for the gas to carry the liquids out of the well."
+  },
+  {
+   "type": "lookup",
+   "question": "In which gas wells do foaming agents work best?",
+   "answer": "Where the liquids are 50 percent or more water and liquid accumulates slowly; surfactants do not work when mixed with hydrocarbons.",
+   "evidence": "Foam produced by surfactants works best in wells where the liquids comprise 50 percent or more water."
+  },
+  {
+   "type": "comparison",
+   "question": "How are surfactants delivered in shallow versus deep gas wells?",
+   "answer": "In a shallow well, poured down the annulus through an open valve; in a deep well, an injection system with regular monitoring is needed.",
+   "evidence": "In a shallow well, the surfactant can be delivered by pouring it down the annulus of the well through an open valve. In a deep well, a surfactant injection system will be required (along with regular monitoring)."
+  },
+  {
+   "type": "lookup",
+   "question": "What does a surfactant injection system for gas wells include?",
+   "answer": "A surfactant reservoir, a motor valve usually with a timer, an injection pump, and a power source; no in-well equipment is typically needed.",
+   "evidence": "The surfactant injection system includes a surfactant reservoir, a motor valve (usually with a timer, depending on the system design), an injection pump, and a power source"
+  },
+  {
+   "type": "why",
+   "question": "Why does the OGMP say liquids unloading mitigation options are not universal?",
+   "answer": "Each strategy only applies to wells operating under certain conditions.",
+   "evidence": "Note that each of these mitigation strategies is not universally applicable and will only apply to wells operating under certain conditions"
+  }
+ ],
+ "TGD7-Liquids-unloading-11": [
+  {
+   "type": "lookup",
+   "question": "How much gas can foaming agents save per well compared with swabbing and blowdown?",
+   "answer": "178 to 7,394 Mcf per well per year (5 to 209 Mcm per well per year), according to Natural Gas STAR.",
+   "evidence": "the foaming agent saves 178 to 7,394 thousand cubic feet (Mcf) per well per year (5 to 209 thousand cubic meters (Mcm) per well per year) compared to swabbing and blowing down a well"
+  },
+  {
+   "type": "lookup",
+   "question": "What does using foaming agents for liquids unloading cost?",
+   "answer": "A pump, if needed, costs $500 to $9,900, and surfactants cost $500 per month.",
+   "evidence": "The pump cost can range from $500 to $9,900, and the surfactants cost $500 per month."
+  },
+  {
+   "type": "lookup",
+   "question": "How much did production increase with foaming agents at Natural Gas STAR companies?",
+   "answer": "From 360 to 1,100 Mcf (10 to 31 Mcm) per well per year.",
+   "evidence": "the increased production using foaming agents ranged from 360 to 1,100 Mcf (10 to 31 Mcm) per well per year"
+  }
+ ],
+ "TGD7-Liquids-unloading-12": [
+  {
+   "type": "why",
+   "question": "Why does velocity tubing improve liquids unloading?",
+   "answer": "Gas velocity depends on pressure drop and tubing cross-section; velocity tubing reduces the cross-section, raising velocity.",
+   "evidence": "Velocity tubing effectively reduces the cross-sectional area of the well, thereby increasing the velocity."
+  },
+  {
+   "type": "lookup",
+   "question": "Above what gas velocity is velocity tubing effective?",
+   "answer": "Above about 1,000 feet/minute (305 meters/minute); below that it no longer works, though foaming agents can extend it.",
+   "evidence": "As a rule of thumb, velocity tubing can be effective with velocities above 1,000 feet/minute (ft/min) (305 meters/minute, m/min)."
+  },
+  {
+   "type": "lookup",
+   "question": "Which gas wells are good candidates for velocity tubing?",
+   "answer": "Marginal producing wells with relatively low liquid production and higher reservoir pressure.",
+   "evidence": "Wells that are marginal producers are candidates for velocity tubing."
+  },
+  {
+   "type": "lookup",
+   "question": "What does it cost to implement velocity tubing in a gas well?",
+   "answer": "$7,000 to $64,000 per well, covering workover rig time, downhole tools, tubing connections and labor.",
+   "evidence": "The cost for implementing velocity tubing can range from $7,000 to $64,000 per well."
+  },
+  {
+   "type": "lookup",
+   "question": "How much does velocity tubing increase gas well production?",
+   "answer": "Between 9,125 and 18,250 Mcf/well per year (258 and 517 Mcm/well per year), per Natural Gas STAR partners.",
+   "evidence": "velocity tubing increases production between 9,125 and 18,250 Mcf/well per year (258 and 517 Mcm/well per year)"
+  }
+ ],
+ "TGD7-Liquids-unloading-13": [
+  {
+   "type": "definition",
+   "question": "What are the main components of a plunger lift system?",
+   "answer": "A lubricator and holding component, a bumper spring at the bottom of the well, and the plunger.",
+   "evidence": "A plunger lift system comprises a lubricator and holding component, a bumper spring at the bottom of the well, and the plunger."
+  },
+  {
+   "type": "why",
+   "question": "Is a plunger lift always a methane mitigation technology?",
+   "answer": "No. Frequent venting can produce higher net emissions than less frequent manual unloading; plunger lifts count as mitigation only when optimized for minimal venting.",
+   "evidence": "Plunger systems are not always a mitigation technology, since plunger systems can be vented frequently enough to produce higher net emissions than from less frequent manual unloading."
+  },
+  {
+   "type": "lookup",
+   "question": "How much gas must a well produce to suit a plunger lift?",
+   "answer": "400 scf (11 scm) of gas per barrel of fluid per 1,000 feet (305 meters) of well depth.",
+   "evidence": "wells must produce 400 scf (11 scm) of gas per barrel of fluid per 1,000 feet (305"
+  },
+  {
+   "type": "lookup",
+   "question": "What shut-in wellhead pressure is needed for a plunger lift?",
+   "answer": "At least 1.5 times the sales line pressure.",
+   "evidence": "The shut-in wellhead pressure also needs to be at least 1.5 times the sales line pressure."
+  },
+  {
+   "type": "comparison",
+   "question": "Which wells are good candidates for plunger lifts?",
+   "answer": "Mature wells where fluid removal is needed to maintain production, and wells with scale or paraffin build-up.",
+   "evidence": "Wells that have scale or paraffin build-up also are candidates for plunger lifts."
+  }
+ ],
+ "TGD7-Liquids-unloading-14": [
+  {
+   "type": "quantification",
+   "question": "How much gas could a plunger lift save versus monthly well blowdowns?",
+   "answer": "At 2,000 scf (57 scm) per hour, one 1-hour blowdown per month, about 24 Mscf (0.7 Mscm) per year, minus plunger venting.",
+   "evidence": "A well blowdown is estimated to emit 2,000 scf (57 scm) per hour. With a blowdown occurring once every month, the potential reduction is 24 Mscf (0.7 Mscm) per year, assuming 1 hour per blowdown."
+  },
+  {
+   "type": "lookup",
+   "question": "What does a plunger lift cost to install and maintain?",
+   "answer": "$1,900 to $7,800 to implement, with a maintenance cost of $1,300 per year.",
+   "evidence": "the cost for implementing a plunger lift is estimated to be $1,900 to $7,800 with a maintenance cost of $1,300 per year"
+  },
+  {
+   "type": "lookup",
+   "question": "How much did production rise after plunger lifts in Midland Farm Field, Texas?",
+   "answer": "Production increased by 91 Mcf/day (2.6 Mcm/day) 30 days after installation, across 14 sites.",
+   "evidence": "according to Natural Gas STAR partner company data from 14 sites in Midland Farm Field, Texas, production increased by 91 Mcf/day (2.6 Mcm/day) 30 days after implementing the plunger lift"
+  },
+  {
+   "type": "comparison",
+   "question": "What cost advantages does a plunger lift have over a beam lift?",
+   "answer": "No well treatment costs, reduced electricity costs, and reduced workover costs; payback can be under two months.",
+   "evidence": "The plunger lift has no well treatment costs, has reduced electricity costs, and has reduced workover costs compared to a beam lift."
+  },
+  {
+   "type": "lookup",
+   "question": "What equipment is installed for a plunger lift?",
+   "answer": "A lubricator, a plunger catcher and bumper, and the plunger.",
+   "evidence": "Plunger catcher and bumper"
+  }
+ ],
+ "TGD7-Liquids-unloading-15": [
+  {
+   "type": "mitigation",
+   "question": "How can venting from existing plunger lifts be reduced?",
+   "answer": "By using timers or controllers that optimize unloading frequency so events are minimized while the well keeps producing.",
+   "evidence": "Partners can modify the plunger operation by using timers or other controllers that optimize the liquids unloading frequency."
+  },
+  {
+   "type": "comparison",
+   "question": "How do timer-based and pressure-based plunger lift cycle optimization differ?",
+   "answer": "A timer cycles based on estimated time for liquids to fill the well; a pressure controller triggers at a set pressure near where the well would shut in.",
+   "evidence": "the liquids unloading cycle would occur at a set pressure level (near the pressure point in which the well would shut in due to liquid burden)"
+  },
+  {
+   "type": "quantification",
+   "question": "How is liquids unloading frequency set for plunger lift cycle optimization?",
+   "answer": "On a well-by-well basis.",
+   "evidence": "The frequency of liquids unloading cycling would need to be established on a well by well basis."
+  },
+  {
+   "type": "definition",
+   "question": "How does simple cycle optimization relate to smart plunger lift technology?",
+   "answer": "It is essentially a subset of, or predecessor to, smart well technology.",
+   "evidence": "This is essentially a subset or rather predecessor to applying “smart technology” outlined below."
+  },
+  {
+   "type": "why",
+   "question": "What is the goal of a timer or pressure controller on a plunger lift well?",
+   "answer": "To minimize liquids unloading events while keeping the well producing.",
+   "evidence": "engage the plunger lift (and liquids unloading events) such that the frequency of events is minimized, but the well is able to produce"
+  }
+ ]
+}

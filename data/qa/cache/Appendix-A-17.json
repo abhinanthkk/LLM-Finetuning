@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "type": "quantification",
+    "question": "What is the maximum leak rate measurement capacity of a High volume sampler?",
+    "answer": "A High volume sampler utilizes a battery-operated fan with an adjustable flow rate to measure leaks up to a maximum capacity of 14 m3 per hour (480 ft3per hour).",
+    "evidence": "The High volume sampler uses battery-operated, adjustable flow rate fan to draw in the air and hydrocarbon emission at a maximum leak rate measurement capacity of 14 m3 per hour (480 ft3per hour)."
+  },
+  {
+    "type": "why",
+    "question": "Why is a High volume sampler equipped with a grounding wire?",
+    "answer": "The grounding wire on a High volume sampler is included to dissipate any static charge that might accumulate while air moves through the instrument and its sample collection line.",
+    "evidence": "The High volume sampler is intrinsically safe and is equipped with a grounding wire to dissipate any static charge that may accumulate as air passes through the sample collection line and instrument."
+  },
+  {
+    "type": "mitigation",
+    "question": "How can an operator prevent excessive dilution from causing false zero readings when operating a High volume sampler?",
+    "answer": "To prevent excessive dilution that drops hydrocarbon levels below detection limits, operators must manually adjust the sampling rate to keep the concentration within the hydrocarbon detector's sensing range.",
+    "evidence": "Consequently, the sampling rate should be adjusted manually to ensure that the hydrocarbon concentration is within the sensing range of the hydrocarbon detector."
+  },
+  {
+    "type": "lookup",
+    "question": "What battery type is used in a High volume sampler and how long does it run?",
+    "answer": "The High volume sampler operates on an intrinsically safe NiMH rechargeable battery pack that has a runtime of approximately 4.5 hours.",
+    "evidence": "This device uses an intrinsically safe NiMH rechargeable battery pack with a runtime of approximately 4.5 hours."
+  },
+  {
+    "type": "quantification",
+    "question": "What is the reported accuracy of a High volume sampler when calibrated for the gas being measured?",
+    "answer": "When calibrated for the specific gas being measured, the reported accuracy of the High volume sampler is ±10 percent of the calculated leak rate.",
+    "evidence": "The High volume sampler’s reported accuracy is ±10 percent of the calculated leak rate (which corrects for background gas) when calibrated for the gas being measured."
+  }
+]
+```
