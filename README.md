@@ -25,6 +25,12 @@ to answer, not facts it only read as passages. Full results, training curves and
 python -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```
 
+The fine-tuned adapter weights (71 MB) are a release asset, not in git. To use the trained model without retraining:
+
+```bash
+gh release download v2-adapter --repo abhinanthkk/LLM-Finetuning --dir outputs_v2/adapter
+```
+
 Download the 10 OGMP technical guidance PDFs (TGD1 to TGD9 and Appendix A) from the CCAC OGMP page into `OGMP docs/`.
 QA generation with Gemini needs `GEMINI_API_KEY=...` in a `.env` file (git-ignored); the generated pairs are
 already in `data/qa/`, so this step is optional.

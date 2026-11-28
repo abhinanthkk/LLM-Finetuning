@@ -7,3 +7,5 @@ __pycache__/
 .hallmark/
 # source PDFs are third-party documents: download them into "OGMP docs/" (see README)
 OGMP docs/
+# LoRA weights (71 MB) are attached to the GitHub release instead: see README
+outputs_v2/adapter/adapter_model.safetensors
